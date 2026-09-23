@@ -44,7 +44,7 @@ class Launcher(tk.Tk):
         super().__init__()
         self.title('D1 Alpha · Community candidate')
         self.configure(bg='#121412')
-        self.minsize(650, 580)
+        self.minsize(600, 540)
         self.events = queue.Queue()
         self.busy = False
         self.run_root: Path | None = None
@@ -58,14 +58,15 @@ class Launcher(tk.Tk):
         style.theme_use('clam')
         style.configure('.', background='#121412', foreground='#ece9df', font=('Segoe UI', 10))
         style.configure('TCombobox', fieldbackground='#292c28', background='#292c28', foreground='#ece9df')
-        # Clam's readonly state otherwise overrides the dark field with a pale
-        # background while retaining our light text.
         style.map('TCombobox',
                   fieldbackground=[('disabled', '#20231f'), ('readonly', '#292c28')],
                   foreground=[('disabled', '#92958d'), ('readonly', '#ece9df')],
                   selectbackground=[('readonly', '#425c70')],
                   selectforeground=[('readonly', '#ffffff')])
-        style.configure('TButton', padding=9)
+        style.configure('TButton', padding=(14, 10), background='#292e28', borderwidth=0)
+        style.configure('Play.TButton', background='#d5c18f', foreground='#171a15', font=('Segoe UI', 12, 'bold'))
+        style.map('Play.TButton', background=[('disabled', '#292e28'), ('active', '#e6d7b2')],
+                  foreground=[('disabled', '#92958d'), ('active', '#171a15')])
         style.configure('TNotebook.Tab', background='#292c28', foreground='#ece9df', padding=(12, 8))
         style.map('TNotebook.Tab', background=[('selected', '#425c70'), ('active', '#37423b')],
                   foreground=[('selected', '#ffffff'), ('active', '#ffffff')])
@@ -79,14 +80,14 @@ class Launcher(tk.Tk):
         panel = ttk.Frame(self, padding=26)
         panel.pack(fill='both', expand=True)
         ttk.Label(panel, text='D1 ALPHA', style='Heading.TLabel').pack(anchor='w')
-        ttk.Label(panel, text='Community candidate · runtime acceptance pending', style='Muted.TLabel').pack(anchor='w', pady=(0, 16))
-        ttk.Label(panel, text='Choose or create a character in the game, then select a destination in the Director.\nWeapon changes below apply to the selected character on the next launch.', wraplength=580).pack(anchor='w', pady=(0, 18))
-        ttk.Label(panel, text='Saved profile').pack(anchor='w')
+        ttk.Label(panel, text='Community test build', style='Muted.TLabel').pack(anchor='w', pady=(0, 16))
+        ttk.Label(panel, text='Choose your loadout. Pick a destination in the game.', wraplength=580).pack(anchor='w', pady=(0, 18))
+        ttk.Label(panel, text='Save / starter class').pack(anchor='w')
         self.character = ttk.Combobox(panel, values=list(CHARACTERS), state='readonly')
         self.character.current(0)
         self.character.pack(fill='x', pady=(5, 15))
         self.character.bind('<<ComboboxSelected>>', self.change_profile)
-        ttk.Label(panel, text='Character to equip').pack(anchor='w')
+        ttk.Label(panel, text='Character').pack(anchor='w')
         self.equipment_character = ttk.Combobox(panel, values=list(self.roster), state='readonly')
         self.equipment_character.current(0)
         self.equipment_character.pack(fill='x', pady=(5, 15))
@@ -101,33 +102,31 @@ class Launcher(tk.Tk):
             choice.pack(side='left', fill='x', expand=True)
             self.weapons[slot] = choice
         self.allowance = tk.BooleanVar(value=False)
-        self.allowance_button = ttk.Checkbutton(panel, text='Sandbox vendor allowance (test currency)', variable=self.allowance)
-        self.allowance_button.pack(anchor='w', pady=(12, 6))
-        row = ttk.Frame(panel)
-        row.pack(fill='x', pady=8)
-        ttk.Label(row, text='Session limit').pack(side='left')
-        self.minutes = ttk.Combobox(row, state='readonly', width=8, values=['30', '60', '120'])
-        self.minutes.set('30')
-        self.minutes.pack(side='left', padx=12)
-        ttk.Label(row, text='minutes · helpers stop when the game closes', style='Muted.TLabel').pack(side='left')
+        self.minutes = tk.StringVar(value='30')
         actions = ttk.Frame(panel)
-        actions.pack(fill='x', pady=(16, 12))
+        actions.pack(fill='x', pady=(26, 12))
         self.buttons = {}
-        for action, label in (('Check', 'Check setup'), ('Start', 'Play'), ('Stop', 'Stop game')):
-            button = ttk.Button(actions, text=label, command=lambda a=action: self.execute(a))
-            button.pack(side='left', padx=(0, 6))
+        for action, label in (('Start', 'Play'), ('Stop', 'Stop game')):
+            button = ttk.Button(actions, text=label, style='Play.TButton' if action == 'Start' else 'TButton',
+                                command=lambda a=action: self.execute(a))
+            button.pack(side='left', fill='x', expand=action == 'Start', padx=(0, 8))
             self.buttons[action] = button
-        self.status = ttk.Label(panel, text='Loading character inventory…', wraplength=590, style='Muted.TLabel')
-        self.status.pack(anchor='w', pady=8)
-        tools = ttk.Frame(panel)
-        tools.pack(fill='x')
-        self.settings_button = ttk.Button(tools, text='Settings', command=self.open_settings)
-        self.settings_button.pack(side='left', padx=(0, 6))
-        ttk.Button(tools, text='Read me', command=self.open_readme).pack(side='left', padx=(0, 6))
-        ttk.Button(tools, text='Open logs', command=self.open_logs).pack(side='left')
+        self.settings_button = ttk.Button(actions, text='Settings', command=self.open_settings)
+        self.settings_button.pack(side='left')
+        self.status = ttk.Label(panel, text='Loading inventory…', wraplength=540, style='Muted.TLabel')
+        self.status.pack(anchor='w', pady=(6, 14))
+        footer = ttk.Frame(panel)
+        footer.pack(fill='x', side='bottom')
+        help_button = ttk.Menubutton(footer, text='Help')
+        self.help_menu = tk.Menu(help_button, tearoff=False, background='#292e28', foreground='#ece9df')
+        self.help_menu.add_command(label='Check setup', command=lambda: self.execute('Check'))
+        self.help_menu.add_command(label='Read me', command=self.open_readme)
+        self.help_menu.add_command(label='Open logs', command=self.open_logs)
+        help_button.configure(menu=self.help_menu)
+        help_button.pack(side='right')
+        ttk.Label(footer, text='Closing the game stops its server.', style='Muted.TLabel').pack(side='left')
         if not (CANDIDATE / 'game/default.xex').is_file():
-            ttk.Button(tools, text='Install game', command=self.open_setup).pack(side='left', padx=6)
-        ttk.Label(panel, text='Closing this launcher leaves the game running until its session limit.', style='Muted.TLabel', wraplength=590).pack(anchor='w', pady=(12, 0))
+            ttk.Button(panel, text='Install game', command=self.open_setup).pack(anchor='w')
         self.reconnect()
         self.bind('<FocusIn>', self.refresh_session)
         self.after(150, self.poll)
@@ -165,22 +164,21 @@ class Launcher(tk.Tk):
                 if type(minutes) is int and 1 <= minutes <= 120:
                     self.minutes.set(str(minutes))
                 self.allowance.set(receipt.get('sandboxAllowance') is True)
-                self.status.configure(text='Found an existing candidate session. Stop checks its recorded process identities.')
+                self.status.configure(text='A session is running. Stop it to change your loadout.')
                 break
         self.update_controls()
 
     def refresh_session(self, _event=None):
-        # Another launcher or the CLI may have started a session while this
-        # window was in the background. Refresh on focus, not every UI tick.
+        # Pick up sessions started by another launcher.
         if not self.busy and self.run_root is None:
             self.reconnect()
 
     def update_controls(self):
         editable = not self.busy and self.run_root is None
-        for widget in [self.character, self.equipment_character, self.minutes, *self.weapons.values()]:
+        for widget in [self.character, self.equipment_character, *self.weapons.values()]:
             widget.configure(state='readonly' if editable else 'disabled')
-        self.allowance_button.configure(state='normal' if editable else 'disabled')
         installed = (CANDIDATE / 'game/default.xex').is_file()
+        self.help_menu.entryconfigure(0, state='normal' if editable and installed else 'disabled')
         self.settings_button.configure(state='normal' if editable and installed else 'disabled')
         for action, button in self.buttons.items():
             enabled = not self.busy and (self.run_root is not None if action == 'Stop' else editable)
@@ -193,9 +191,7 @@ class Launcher(tk.Tk):
         self.update_controls()
         def work():
             try:
-                # Long-lived game/helpers inherit standard handles. A pipe
-                # makes communicate() wait for those children too, leaving
-                # Start busy and Stop disabled for the entire game session.
+                # Pipes would wait for inherited game handles and leave Stop disabled.
                 with tempfile.TemporaryFile() as output, tempfile.TemporaryFile() as errors:
                     result = subprocess.run(arguments, cwd=ROOT, stdout=output, stderr=errors,
                                             creationflags=subprocess.CREATE_NO_WINDOW,
@@ -279,7 +275,7 @@ class Launcher(tk.Tk):
                     self.status.configure(text='Game started. Select a destination in the native Director.')
                 elif operation == 'Stop':
                     self.run_root = None
-                    self.status.configure(text='Session stopped. Ownership results are in the logs.')
+                    self.status.configure(text='Session stopped.')
                     self.load_catalog()
                 else:
                     self.status.configure(text='Setup check passed.' if operation == 'Check' else 'Backend startup passed and helpers stopped. Gameplay is still unverified.')

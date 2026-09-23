@@ -1,26 +1,7 @@
 #Requires -Version 7.0
-param([switch]$CreateShortcuts)
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '../..'))
 $candidate = Join-Path $root 'runtime/candidate-community-r576-20260921'
-if ($CreateShortcuts) {
-    # Distinguish side-by-side installations and never overwrite another shortcut.
-    $id = [Convert]::ToHexString([Security.Cryptography.SHA256]::HashData([Text.Encoding]::UTF8.GetBytes($root))).Substring(0,8)
-    $shell = New-Object -ComObject WScript.Shell
-    foreach ($folder in @([Environment]::GetFolderPath('Desktop'), [Environment]::GetFolderPath('Programs'))) {
-        $path = Join-Path $folder "D1 Alpha ($id).lnk"
-        if (Test-Path -LiteralPath $path) { continue }
-        $shortcut = $shell.CreateShortcut($path)
-        $shortcut.TargetPath = Join-Path $root 'runtimes/python/pythonw.exe'
-        $shortcut.Arguments = '-I "' + (Join-Path $root 'tools/d1a/community-launcher.pyw') + '"'
-        $shortcut.WorkingDirectory = $root
-        $shortcut.Description = 'D1 Alpha community test candidate'
-        $shortcut.IconLocation = (Join-Path $candidate 'xenia.r576-input-audit.exe') + ',0'
-        $shortcut.Save()
-    }
-    'Desktop and Start menu shortcuts are ready.'
-    return
-}
 if ([Runtime.InteropServices.RuntimeInformation]::OSArchitecture -ne 'X64' -or
     [Environment]::OSVersion.Version.Build -lt 19041) {
     throw 'Use Windows 10 (version 2004 or newer) or Windows 11 on an x64 PC.'

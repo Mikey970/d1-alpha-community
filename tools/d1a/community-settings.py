@@ -58,8 +58,7 @@ def save_config(path, original, text, changes):
                 raise ValueError('Resolution scale must be 1, 2 or 3')
         else:
             raise ValueError('Unsupported setting')
-        # Restrict replacements to their exact section; preserve comments and all
-        # unrelated profile, input, network and restoration settings.
+        # Replace only the selected keys, preserving unrelated settings.
         header = re.search(r'(?m)^\[' + re.escape(section) + r'\][^\n]*\n', text)
         if not header:
             raise ValueError(f'Missing configuration section: {section}')
@@ -116,7 +115,6 @@ class Settings(tk.Toplevel):
             for index, (name, label) in enumerate(rows):
                 current = data['HID']['WinKey']['keybind_' + name]
                 options = dict(KEY_CHOICES)
-                # Keep the shipped Shift+D-pad versus unshifted movement behavior.
                 modifier = '^' if name.startswith('dpad_') else '_' if name.startswith('left_thumb_') else ''
                 options = {(('Shift + ' if modifier == '^' else '') + label): modifier + token for label, token in options.items()}
                 options[binding_label(current)] = current
@@ -125,6 +123,16 @@ class Settings(tk.Toplevel):
                 box.set(binding_label(current))
                 box.grid(row=index, column=1, sticky='ew', pady=4)
                 self.bindings[name] = (box, options, current)
+        session = ttk.Frame(tabs, padding=18)
+        tabs.add(session, text='Session')
+        ttk.Label(session, text='Session limit (minutes)').pack(anchor='w', pady=(6, 8))
+        self.minutes = ttk.Combobox(session, state='readonly', width=12, values=['30', '60', '120'])
+        self.minutes.set(parent.minutes.get())
+        self.minutes.pack(anchor='w')
+        ttk.Label(session, text='The game and local server close when the limit is reached.', wraplength=600).pack(anchor='w', pady=12)
+        self.allowance = tk.BooleanVar(value=parent.allowance.get())
+        ttk.Checkbutton(session, text='Test currency for vendors', variable=self.allowance).pack(anchor='w', pady=12)
+        ttk.Label(session, text='Adds a sandbox allowance to the selected save when you play.', wraplength=600).pack(anchor='w')
         self.status = ttk.Label(panel, text='A backup of the configuration is kept when you save.', wraplength=680)
         self.status.pack(anchor='w', pady=12)
         actions = ttk.Frame(panel)
@@ -146,6 +154,8 @@ class Settings(tk.Toplevel):
                 if value != original:
                     changes[('HID.WinKey', 'keybind_' + name)] = value
             save_config(self.path, self.original, self.text, changes)
+            self.master.minutes.set(self.minutes.get())
+            self.master.allowance.set(self.allowance.get())
             self.destroy()
         except (OSError, ValueError, KeyError) as error:
             self.status.configure(text=str(error))

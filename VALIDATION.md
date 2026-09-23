@@ -1,5 +1,18 @@
 # Package checks
 
+Candidate 29 adds the smaller launcher: character and weapons, Play, Stop and
+Settings. Session options moved into Settings; diagnostics moved into Help.
+The UI was inspected, a 60-minute session setting was saved and used by Play,
+and Stop closed all owned game/server processes. The six focused checks and
+bundled-tool preflight pass. Unused shortcut code and redundant comments were removed.
+
+The installer, base-import map, emulator, server and decompressed game patches
+are unchanged from the successful installation below. Candidate 29's 10,670 ZIP
+entries pass CRC and its 10,669 manifest files pass integrity verification.
+
+Candidate 29 ZIP SHA256:
+`feb08d92c755df65b5724415ef81f20716476ffd2a0b18ac6d06f1fe25e88b48`
+
 Candidate 28, 2026-09-22 (local date):
 
 - Package integrity and ZIP CRC passed: 10,669 manifest files, 10,670 ZIP entries.

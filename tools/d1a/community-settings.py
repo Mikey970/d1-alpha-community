@@ -104,7 +104,9 @@ class Settings(tk.Toplevel):
             self.values[(section, key)] = var
         ttk.Label(display, text='Render resolution scale').pack(anchor='w', pady=(18, 5))
         self.scale = ttk.Combobox(display, state='readonly', values=['1 — fastest', '2 — sharper', '3 — demanding'])
-        self.scale.set(str(data['GPU']['draw_resolution_scale_x']))
+        scale = data['GPU']['draw_resolution_scale_x']
+        self.initial_scale = {1: '1 — fastest', 2: '2 — sharper', 3: '3 — demanding'}.get(scale, str(scale))
+        self.scale.set(self.initial_scale)
         self.scale.pack(anchor='w')
         ttk.Label(display, text='1× is the best starting point for a slower PC. Higher scales need more GPU power.\nXbox-compatible controllers work without keyboard setup.', wraplength=620).pack(anchor='w', pady=16)
         self.bindings = {}
@@ -119,7 +121,7 @@ class Settings(tk.Toplevel):
                 options = {(('Shift + ' if modifier == '^' else '') + label): modifier + token for label, token in options.items()}
                 options[binding_label(current)] = current
                 ttk.Label(frame, text=label).grid(row=index, column=0, sticky='w', padx=(0, 20), pady=4)
-                box = ttk.Combobox(frame, values=list(options), state='readonly', width=28)
+                box = ttk.Combobox(frame, values=list(options), state='readonly', width=28, style='Compact.TCombobox', height=12)
                 box.set(binding_label(current))
                 box.grid(row=index, column=1, sticky='ew', pady=4)
                 self.bindings[name] = (box, options, current)
@@ -147,7 +149,7 @@ class Settings(tk.Toplevel):
             changes = {key: value.get() for key, value in self.values.items()}
             scale = int(self.scale.get().split()[0])
             # Preserve a custom asymmetric scale unless explicitly changed.
-            if self.scale.get() != str(tomllib.loads(self.text)['GPU']['draw_resolution_scale_x']):
+            if self.scale.get() != self.initial_scale:
                 changes.update({('GPU', 'draw_resolution_scale_' + axis): scale for axis in ('x', 'y')})
             for name, (box, options, original) in self.bindings.items():
                 value = options[box.get()]

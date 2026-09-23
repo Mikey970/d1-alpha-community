@@ -14,4 +14,4 @@ keyboard: WASD to move, arrows to look, ; to confirm, ' to go back, E to fire, Q
 
 needs Windows 10/11 x64, an AVX-capable CPU, a DirectX 12 GPU and around 25 GB free. setup checks the basics. keep your graphics driver up to date.
 
-still a test build. full activities, dialogue and match completion aren't all verified yet. saves stay in the install folder. extract updates into a new folder and keep the old one until you've backed up your saves.
+still a test build. the fresh candidate 32 install reached character selection but stayed on its loading spinner in the bounded gameplay check. movement and combat were not confirmed in that install. if this happens, use Stop game in the launcher. full activities, dialogue and match completion also remain unverified. saves stay in the install folder; keep your old install when updating.

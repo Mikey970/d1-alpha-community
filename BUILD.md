@@ -10,13 +10,18 @@ does not include the bundled runtime binaries.
 - `source/7zip`: matching extractor source.
 - `patches`: game deltas and input manifests used by setup.
 
-The package builder currently targets the restoration workspace layout documented
-by its `ROOT`, `REL` and `SOURCE` paths. Building a replacement package requires
-the original base download under `game/`, the candidate runtime under `REL`,
-the hash-audited emulator source tree, installed locked backend dependencies,
-the bundled Python and PowerShell directories, and the x64 Visual C++ redist folder.
-Use `--backend-source`, `--python`, `--powershell` and `--vc-runtime` to select them.
-It compiles the backend and verifies every mapped base file before creating deltas.
+The package builder targets the restoration workspace layout documented by its
+`ROOT`, `REL` and `SOURCE` paths. It needs the original base files under `game/`,
+the accepted candidate runtime under `REL`, the audited clean text package,
+the accepted backend source with locked dependencies, the audited emulator source,
+bundled Python and PowerShell, and the x64 Visual C++ runtime. Pass their paths with
+`--text-clean-source`, `--backend-source`, `--python`, `--powershell` and `--vc-runtime`.
+The builder checks that all 235 compiled backend modules match the accepted runtime
+and that the staged text package matches its audit. It copies that audit to
+`source/text-clean.json` and verifies every base file before creating deltas. The
+clean text package was staged from the accepted
+runtime by removing 303 unsupported local fallback descriptions while preserving
+native names and other package content.
 
 Run the focused installer checks with Python 3.13:
 

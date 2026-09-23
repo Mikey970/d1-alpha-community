@@ -11,12 +11,12 @@ import shutil
 import struct
 import subprocess
 import sys
+import tempfile
 import urllib.request
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
 REL = Path('runtime/candidate-community-r576-20260921')
-SOURCE = ROOT / 'runtime/lab/web-tiger-community-r576-20260921'
 
 def sha(path):
     with path.open('rb') as stream:
@@ -29,7 +29,19 @@ def copy(source, destination):
 def tree(source, destination, exclude=()):
     shutil.copytree(source, destination, ignore=shutil.ignore_patterns('__pycache__', '*.pyc', *exclude))
 
-def build(out, pwsh, python, emulator=None, vc_runtime=None):
+def build(out, pwsh, python, backend_source, text_clean_source, emulator=None, vc_runtime=None):
+    source = backend_source.resolve()
+    text_clean_source = text_clean_source.resolve()
+    prior = ROOT / REL
+    text_package_name = '360_investment_globals_0071_0.pkg'
+    clean_check = json.loads((text_clean_source / 'check.json').read_text())
+    clean_manifest = text_clean_source / 'name-manifest.json'
+    clean_package = text_clean_source / text_package_name
+    if (clean_check.get('blankedDescriptions') != 303 or not clean_check.get('roundtripPassed')
+            or clean_check.get('sourceSha256') != sha(prior / 'game/packages' / text_package_name)
+            or clean_check.get('packageSha256') != sha(clean_package)
+            or json.loads(clean_manifest.read_text()).get('packageSha256') != clean_check['packageSha256']):
+        raise ValueError('Clean text package does not match the accepted runtime and its audit.')
     if vc_runtime is None:
         raise ValueError('Supply --vc-runtime with the toolchain x64 Microsoft.VC*.CRT redistributable folder.')
     required_crt = ('msvcp140.dll', 'msvcp140_atomic_wait.dll', 'vcruntime140.dll', 'vcruntime140_1.dll')
@@ -43,7 +55,6 @@ def build(out, pwsh, python, emulator=None, vc_runtime=None):
     out.mkdir(parents=True)
     candidate = out / REL
     candidate.mkdir(parents=True)
-    prior = ROOT / REL
     for name in ('community-setup.py', 'community-launcher.pyw', 'community-settings.py', 'community-preflight.ps1', 'community-runtime.ps1', 'community-process.ps1', 'community-config.ps1',
                  'community-guard.ps1', 'community-node-runner.cjs', 'community-loadout.cjs', 'prepare-director-profile.ps1'):
         copy(ROOT / 'tools/d1a' / name, out / 'tools/d1a' / name)
@@ -57,12 +68,31 @@ def build(out, pwsh, python, emulator=None, vc_runtime=None):
         raise ValueError('Node is required to compile the packaged backend.')
     node = Path(node_path)
     subprocess.run([
-        str(node), str(SOURCE / 'node_modules/typescript/bin/tsc'),
-        '-p', str(SOURCE / 'tsconfig.build.json'),
+        str(node), str(source / 'node_modules/typescript/bin/tsc'),
+        '-p', str(source / 'tsconfig.build.json'),
         '--outDir', str(candidate / 'server-dist'), '--incremental', 'false',
-        '--declaration', 'false', '--sourceMap', 'false',
-    ], cwd=SOURCE, check=True)
-    copy(prior / 'name-overrides/manifest.json', candidate / 'name-overrides/manifest.json')
+    ], cwd=source, check=True)
+    def comparable_files(folder):
+        result = {}
+        for path in folder.rglob('*'):
+            if not path.is_file() or path.name.endswith(('.js.map', '.tsbuildinfo')):
+                continue
+            data = path.read_bytes()
+            if path.suffix == '.json':
+                data = data.replace(str(ROOT).replace('\\', '\\\\').encode(), b'<workspace>')
+            result[path.relative_to(folder)] = hashlib.sha256(data).hexdigest()
+        return result
+
+    expected = comparable_files(prior / 'server-dist')
+    compiled = comparable_files(candidate / 'server-dist')
+    if compiled != expected:
+        raise ValueError('Compiled backend differs from the accepted runtime. Validate and promote the runtime before packaging it.')
+    if sum(path.suffix == '.js' for path in compiled) != 235:
+        raise ValueError('Unexpected compiled backend module count.')
+    for path in (candidate / 'server-dist').rglob('*.js.map'):
+        path.unlink()
+    copy(clean_manifest, candidate / 'name-overrides/manifest.json')
+    copy(text_clean_source / 'check.json', out / 'source/text-clean.json')
     for folder in ('profile', 'content', 'storage/patches'):
         (candidate / folder).mkdir(parents=True, exist_ok=True)
     emulator = (emulator or prior / 'xenia.r576-input-audit.exe').resolve()
@@ -115,27 +145,35 @@ def build(out, pwsh, python, emulator=None, vc_runtime=None):
     config = (prior / 'xenia-canary-netplay.config.toml').read_text()
     config = re.sub(r'(?m)^(logged_profile_slot_[0-3]_xuid\s*=)\s*"[^"]*"', r'\1 ""', config)
     config = re.sub(r'(?m)^(host_(?:input_state|screenshot_request)_file\s*=)\s*"[^"]*"', r'\1 ""', config)
+    config = re.sub(r'(?m)^\[D1 Alpha\](?=\r?$)', '["D1 Alpha"]', config)
+    portable_settings = {'network_guid': '""', 'api_list': '"127.0.0.1:36000/"',
+                         'window_size_x': '1280', 'window_size_y': '720'}
+    for key, value in portable_settings.items():
+        config, count = re.subn(r'(?m)^(' + key + r'\s*=)\s*(?:"[^"]*"|\d+)',
+                                lambda match: match[1] + ' ' + value, config)
+        if count != 1:
+            raise ValueError(f'Missing or duplicate emulator setting: {key}')
     (candidate / 'xenia-canary-netplay.config.toml').write_text(config)
     for name in ('package.json', 'package-lock.json'):
-        copy(SOURCE / name, candidate / name)
-    lock = json.loads((SOURCE / 'package-lock.json').read_text())
+        copy(source / name, candidate / name)
+    lock = json.loads((source / 'package-lock.json').read_text())
     licenses = []
     for name, metadata in lock['packages'].items():
         if not name.startswith('node_modules/') or metadata.get('dev') or metadata.get('link'):
             continue
-        source = SOURCE / name
-        if not source.is_dir():
+        dependency = source / name
+        if not dependency.is_dir():
             if metadata.get('optional'):
                 continue
             raise ValueError(f'Missing locked dependency: {name}')
         target = candidate / name
         if not target.exists():
-            tree(source, target)
+            tree(dependency, target)
         licenses.append({'path': name, 'version': metadata.get('version'), 'license': metadata.get('license'),
                          'integrity': metadata.get('integrity'), 'resolved': metadata.get('resolved')})
     # Generated Prisma files are separate from npm's package graph.
-    if (SOURCE / 'node_modules/.prisma').is_dir():
-        tree(SOURCE / 'node_modules/.prisma', candidate / 'node_modules/.prisma')
+    if (source / 'node_modules/.prisma').is_dir():
+        tree(source / 'node_modules/.prisma', candidate / 'node_modules/.prisma')
     print(f'Copied backend and {len(licenses)} runtime dependencies.', flush=True)
     copy(node, out / 'runtimes/node/node.exe')
     node_version = subprocess.check_output([str(node), '--version'], text=True).strip()
@@ -172,30 +210,45 @@ def build(out, pwsh, python, emulator=None, vc_runtime=None):
         'Backend source and npm lockfile are included; dependency licenses remain in each installed package.\n'
         'Emulator acceptance is limited to the checks recorded in RELEASE-STATUS.md; full gameplay and byte-for-byte reproducibility remain unverified.\n'
         f'Bundled Node: {node_version}; Python: {sys.version.split()[0]}; PowerShell: copied host runtime with LICENSE.txt.\n')
-    tree(SOURCE / 'src', out / 'source/backend/src')
+    tree(source / 'src', out / 'source/backend/src')
     for name in ('package.json', 'package-lock.json', 'tsconfig.json', 'tsconfig.build.json', 'vitest.config.ts'):
-        copy(SOURCE / name, out / 'source/backend' / name)
+        copy(source / name, out / 'source/backend' / name)
     original = ROOT / 'runtime/extracted-destiny-36735'
     game = prior / 'game'
-    paths = [Path('default.xex')] + [p.relative_to(game) for p in sorted((game / 'packages').glob('*')) if p.is_file()]
-    # Copy only named engine assets if supplied by the original installation.
-    paths += [Path(n) for n in ('AvatarAssetPack', 'init.txt', 'nxeart') if (original / n).is_file()]
-    paths += [p.relative_to(original) for p in sorted((original / 'fonts').rglob('*')) if p.is_file()]
+    # Inventory the accepted game, excluding console saves, system updates and the old executable backup.
+    paths = [p.relative_to(game) for p in sorted(game.rglob('*')) if p.is_file()
+             and p.relative_to(game).parts[0] not in ('$SystemUpdate', 'default.original.xex')
+             and not re.fullmatch(r'[0-9A-Fa-f]{16}', p.relative_to(game).parts[0])]
     spec = importlib.util.spec_from_file_location('base_import', ROOT / 'tools/d1a/build-base-import.py')
     base_import = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(base_import)
     # The research extraction may already include edits (notably init.txt).
     # Derive deltas against the actual unchanged download, not that extraction.
-    clean_inputs = ROOT / 'runtime/build-base-original'
+    with tempfile.TemporaryDirectory(prefix='d1a-base-') as temporary:
+        build_game_import(out, original, game, paths, base_import, Path(temporary), clean_package)
+    # Research metadata contains local source paths; strip the author's workspace from the shipped copy.
+    for path in [*candidate.rglob('*.json'), *(out / 'source/backend/src').rglob('*.json')]:
+        text = path.read_text(encoding='utf-8-sig')
+        if str(ROOT).replace(chr(92), chr(92) * 2) in text:
+            text = text.replace(str(ROOT).replace('\\', '\\\\'), '<workspace>')
+            path.write_text(text, encoding='utf-8')
+    copy(ROOT / 'restoration/COMMUNITY-PACKAGE-STATUS.md', out / 'RELEASE-STATUS.md')
+    copy(ROOT / 'restoration/COMMUNITY-README.md', out / 'README.txt')
+    files = [{'path': p.relative_to(out).as_posix(), 'bytes': p.stat().st_size, 'sha256': sha(p)} for p in sorted(out.rglob('*')) if p.is_file()]
+    (out / 'package-manifest.json').write_text(json.dumps({'schema': 1, 'version': 'r576', 'releaseReady': False,
+        'mutableAfterInstall': [(REL / 'xenia-canary-netplay.config.toml').as_posix()], 'files': files}, indent=2))
+    print(f'Built portable folder: {out}; {len(files)} files. Create ZIP only after installation checks.', flush=True)
+
+
+def build_game_import(out, original, game, paths, base_import, clean_inputs, clean_package):
     base_import.build_base_map(ROOT / 'game', [{'path': p.as_posix(), 'sourceSha256': sha(original / p)} for p in paths],
                                out / 'base-import.json', clean_inputs)
     rows = []
     for relative in paths:
-        old, new = original / relative, game / relative
+        old = original / relative
+        new = clean_package if relative == Path('packages/360_investment_globals_0071_0.pkg') else game / relative
         if (clean_inputs / relative).is_file():
             old = clean_inputs / relative
-        if not new.is_file():
-            new = old
         row = {'path': relative.as_posix(), 'sourceSha256': sha(old), 'targetSha256': sha(new), 'targetBytes': new.stat().st_size}
         if row['sourceSha256'] != row['targetSha256']:
             patch_name = f'game-patches/{len(rows)}.delta.gz'
@@ -213,18 +266,6 @@ def build(out, pwsh, python, emulator=None, vc_runtime=None):
             print(f'Game delta: {relative} ({patch_path.stat().st_size} bytes)', flush=True)
         rows.append(row)
     (out / 'game-import.json').write_text(json.dumps({'schema': 1, 'build': '36735.13.12.02.1953.alpha', 'files': rows}, indent=2))
-    # Research metadata contains local source paths; strip the author's workspace from the shipped copy.
-    for path in [*candidate.rglob('*.json'), *(out / 'source/backend/src').rglob('*.json')]:
-        text = path.read_text(encoding='utf-8-sig')
-        if str(ROOT).replace(chr(92), chr(92) * 2) in text:
-            text = text.replace(str(ROOT).replace('\\', '\\\\'), '<workspace>')
-            path.write_text(text, encoding='utf-8')
-    copy(ROOT / 'restoration/COMMUNITY-RELEASE-STATUS.md', out / 'RELEASE-STATUS.md')
-    copy(ROOT / 'restoration/COMMUNITY-README.md', out / 'README.txt')
-    files = [{'path': p.relative_to(out).as_posix(), 'bytes': p.stat().st_size, 'sha256': sha(p)} for p in sorted(out.rglob('*')) if p.is_file()]
-    (out / 'package-manifest.json').write_text(json.dumps({'schema': 1, 'version': 'r576', 'releaseReady': False,
-        'mutableAfterInstall': [(REL / 'xenia-canary-netplay.config.toml').as_posix()], 'files': files}, indent=2))
-    print(f'Built portable folder: {out}; {len(files)} files. Create ZIP only after installation checks.', flush=True)
 
 def archive(out):
     """Archive a verified build without silently refreshing or trusting changed files."""
@@ -268,12 +309,11 @@ if __name__ == '__main__':
     parser.add_argument('--emulator', type=Path, help='Explicit custom emulator candidate; copied and pinned by SHA256 in the packaged launcher.')
     parser.add_argument('--vc-runtime', type=Path, help='x64 Microsoft.VC*.CRT folder from the matching Visual Studio redistributable tree.')
     parser.add_argument('--backend-source', type=Path, help='Explicit backend source tree with its locked dependencies installed.')
+    parser.add_argument('--text-clean-source', type=Path, help='Audited text package that removes unsupported descriptions.')
     args = parser.parse_args()
-    if args.backend_source:
-        SOURCE = args.backend_source.resolve()
     if args.archive_only:
         archive(args.output.resolve())
-    elif args.powershell:
-        build(args.output, args.powershell, args.python, args.emulator, args.vc_runtime)
+    elif args.powershell and args.backend_source and args.text_clean_source:
+        build(args.output, args.powershell, args.python, args.backend_source, args.text_clean_source, args.emulator, args.vc_runtime)
     else:
-        parser.error('--powershell is required when building a new folder')
+        parser.error('--powershell, --backend-source and --text-clean-source are required when building a new folder')

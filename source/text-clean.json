@@ -1,0 +1,9 @@
+{
+  "sourceSha256": "f08f840845cb85ecebff19ba8238c69485437e4dc65a8295b0e0a37b3e4a5cf7",
+  "packageSha256": "2631a18244775305deca743b5eff7aa08f9edd169ecc624a51ae0b039a455f48",
+  "blankedDescriptions": 303,
+  "banks": 14,
+  "untouchedEntriesAndBlocksPreserved": true,
+  "roundtripPassed": true,
+  "runtimeVerified": false
+}

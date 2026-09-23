@@ -77,6 +77,8 @@ def check_machine(report=print):
     result = subprocess.run([str(ROOT / 'runtimes/powershell/pwsh.exe'), '-NoProfile', '-File',
                              str(ROOT / 'tools/d1a/community-preflight.ps1')], capture_output=True,
                             text=True, encoding='utf-8', errors='replace', timeout=90,
+                            env={key: value for key, value in os.environ.items()
+                                 if key.upper() not in ('NODE_OPTIONS', 'NODE_PATH', 'NODE_ENV')},
                             creationflags=subprocess.CREATE_NO_WINDOW)
     if result.returncode:
         raise ValueError(result.stderr.strip() or result.stdout.strip())
@@ -91,9 +93,10 @@ def base_source(source, report, cancel):
     manifest = json.loads(manifest_path.read_text())
     if source.is_file():
         check_cancel(cancel)
-        required = sum(row['bytes'] for row in manifest['sources'])
-        if shutil.disk_usage(ROOT).free < required + 22 * 1024**3:
-            raise ValueError('Free space is too low to unpack the download and install the game. Free at least 25 GB and retry.')
+        game = json.loads((ROOT / 'game-import.json').read_text())
+        required = sum(row['bytes'] for row in manifest['sources']) + sum(row['targetBytes'] for row in game['files']) + 20 * 1024**3
+        if shutil.disk_usage(ROOT).free < required:
+            raise ValueError(f'Free at least {required / 1024**3:.1f} GB on this drive for extraction, installation and runtime caches.')
         stage = ROOT / 'base.importing'
         stage.mkdir(exist_ok=True)
         report('Unpacking the original download with bundled 7-Zip...')
@@ -155,6 +158,8 @@ def _import_game(source, report, cancel):
             write_installation_receipt(len(manifest['files']))
         report('This game is already installed and verified. Profiles are unchanged.')
         return
+    if source is None:
+        raise ValueError('The game is not installed. Run Setup and choose the original base download.')
     source = Path(source).resolve()
     if source == destination.resolve() or not source.exists():
         raise ValueError('Choose the original download or its extracted folder.')
@@ -253,11 +258,16 @@ class Setup(tk.Tk):
         self.launch = ttk.Button(panel, text='Open launcher', state='disabled', command=self.open_launcher)
         self.launch.pack(anchor='e', pady=10)
         self.after(100, self.poll)
+        if (CANDIDATE / 'game').is_dir():
+            self.after(150, lambda: self.install(None))
     def choose(self, folder=False):
         source = (filedialog.askdirectory(title='Choose the full extracted base download', parent=self) if folder else
                   filedialog.askopenfilename(title='Choose the original base download', parent=self, filetypes=[('Game download', '*.rar *.zip *.7z')]))
         if not source:
             return
+        self.install(source)
+
+    def install(self, source):
         self.select.configure(state='disabled')
         self.folder.configure(state='disabled')
         self.progress.start()
@@ -313,9 +323,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--game', type=Path)
     parser.add_argument('--verify-only', action='store_true')
+    parser.add_argument('--check-installed', action='store_true')
     args = parser.parse_args()
     if args.verify_only:
         verify_package()
+    elif args.check_installed:
+        check_machine()
+        import_game(None)
     elif args.game:
         check_machine()
         import_game(args.game)

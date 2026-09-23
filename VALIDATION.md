@@ -1,37 +1,26 @@
-# Package checks
+# Candidate 32 checks
 
-Candidate 29 adds the smaller launcher: character and weapons, Play, Stop and
-Settings. Session options moved into Settings; diagnostics moved into Help.
-The UI was inspected, a 60-minute session setting was saved and used by Play,
-and Stop closed all owned game/server processes. The six focused checks and
-bundled-tool preflight pass. Unused shortcut code and redundant comments were removed.
+The ZIP has 10,906 entries and 10,905 manifest files. CRC, package hashes and the
+148 imported game files passed. The imported game differs from the accepted runtime
+in one text package: 303 unsupported local fallback descriptions were blanked in
+14 banks. Its names, IDs and other decoded text were preserved and each bank passed
+a native package round trip. All 235 compiled backend modules match the accepted
+runtime. ZIP SHA256:
 
-The installer, base-import map, emulator, server and decompressed game patches
-are unchanged from the successful installation below. Candidate 29's 10,670 ZIP
-entries pass CRC and its 10,669 manifest files pass integrity verification.
+`6f5e2753273a6c9e9218b90f22991f5e73d14d7c9880e72c301c47650edf7039`
 
-Candidate 29 ZIP SHA256:
-`feb08d92c755df65b5724415ef81f20716476ffd2a0b18ac6d06f1fe25e88b48`
+Candidate 32 installed from the untouched original RAR into a new folder outside
+the workspace on the development PC. Bundled runtime and machine checks, backend
+smoke, `--check-installed`, Setup reopening and Help → Check setup passed. Changed
+VSync and a D-pad binding remained after rechecking. A local profile account and
+savegame kept their hashes after the post-run check. Seven focused package tests
+passed, including corruption rejection in a disposable fixture.
 
-Candidate 28, 2026-09-22 (local date):
-
-- Package integrity and ZIP CRC passed: 10,669 manifest files, 10,670 ZIP entries.
-- Six focused installer/settings tests passed.
-- Candidate 27 installed all 148 game files from the unchanged original RAR in
-  a new folder outside the workspace, with development tools removed from PATH.
-- Bundled Python/Tk, Node, PowerShell, Visual C++ runtime and Direct3D 12 checks passed.
-- The local server started and shut down cleanly.
-- The installed launcher displayed the inventory, opened settings, saved a configuration
-  backup, launched Xenia to its first-run local-profile screen, and stopped its owned session.
-- The running emulator loaded all four required Visual C++ DLLs from the package folder.
-- Candidate 28 differs only in settings-tab contrast. Its installer, base-import map,
-  runtime binaries and decompressed game patches match the fresh-install test.
-- The resulting game files match Candidate 25; all 235 compiled backend modules
-  match the previously tested main candidate. The experimental cooperative slot change
-  remains outside this release.
-
-This was a clean installation on the development PC, not a second-machine test.
-Full missions, all dialogue, multiplayer and complete match flow are not verified.
-
-Candidate 28 ZIP SHA256:
-`2db2f41d4ceaaaed0da93dc35f4edcb4803513ace6a1b30ed5da483396c72a7f`
+One bounded native run opened Xenia and connected to the local server. The 60-minute
+setting reached the launch receipt. A new local profile displayed the Hunter on the
+character screen, but a spinner persisted and the run did not reach movement or
+combat. Stop removed the exact owned game, API and backend processes. This fresh
+install is therefore **not gameplay-verified**. Earlier selected-destination gameplay
+tests on the accepted runtime do not establish this package's gameplay acceptance.
+Full missions, dialogue, PvP matches, multiplayer, every destination and a second
+PC installation remain unverified.

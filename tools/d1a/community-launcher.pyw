@@ -57,12 +57,22 @@ class Launcher(tk.Tk):
         style = ttk.Style(self)
         style.theme_use('clam')
         style.configure('.', background='#121412', foreground='#ece9df', font=('Segoe UI', 10))
-        style.configure('TCombobox', fieldbackground='#292c28', background='#292c28', foreground='#ece9df')
+        style.configure('TCombobox', fieldbackground='#242824', background='#242824',
+                        foreground='#ece9df', arrowcolor='#d5c18f', padding=(10, 6),
+                        bordercolor='#41483e', lightcolor='#242824', darkcolor='#242824', arrowsize=14)
+        style.configure('Compact.TCombobox', padding=(8, 2))
         style.map('TCombobox',
-                  fieldbackground=[('disabled', '#20231f'), ('readonly', '#292c28')],
+                  fieldbackground=[('disabled', '#20231f'), ('readonly', '#242824')],
                   foreground=[('disabled', '#92958d'), ('readonly', '#ece9df')],
-                  selectbackground=[('readonly', '#425c70')],
-                  selectforeground=[('readonly', '#ffffff')])
+                  bordercolor=[('focus', '#d5c18f'), ('active', '#747b6b')],
+                  arrowcolor=[('disabled', '#71766b'), ('active', '#ece9df')],
+                  selectbackground=[('readonly', '#242824')],
+                  selectforeground=[('readonly', '#ece9df')])
+        for option, value in {'background': '#242824', 'foreground': '#ece9df',
+                              'selectBackground': '#d5c18f', 'selectForeground': '#171a15',
+                              'font': ('Segoe UI', 11), 'borderWidth': 0,
+                              'highlightThickness': 0, 'relief': 'flat'}.items():
+            self.option_add('*TCombobox*Listbox.' + option, value)
         style.configure('TButton', padding=(14, 10), background='#292e28', borderwidth=0)
         style.configure('Play.TButton', background='#d5c18f', foreground='#171a15', font=('Segoe UI', 12, 'bold'))
         style.map('Play.TButton', background=[('disabled', '#292e28'), ('active', '#e6d7b2')],
@@ -169,7 +179,6 @@ class Launcher(tk.Tk):
         self.update_controls()
 
     def refresh_session(self, _event=None):
-        # Pick up sessions started by another launcher.
         if not self.busy and self.run_root is None:
             self.reconnect()
 
@@ -194,6 +203,8 @@ class Launcher(tk.Tk):
                 # Pipes would wait for inherited game handles and leave Stop disabled.
                 with tempfile.TemporaryFile() as output, tempfile.TemporaryFile() as errors:
                     result = subprocess.run(arguments, cwd=ROOT, stdout=output, stderr=errors,
+                                            env={key: value for key, value in os.environ.items()
+                                                 if key.upper() not in ('NODE_OPTIONS', 'NODE_PATH', 'NODE_ENV')},
                                             creationflags=subprocess.CREATE_NO_WINDOW,
                                             timeout=90 if operation == 'catalog' else None)
                     output.seek(0)
@@ -219,9 +230,10 @@ class Launcher(tk.Tk):
             return
         self.catalog.clear()
         for choice in self.weapons.values():
-            choice.configure(values=[KEEP]); choice.set(KEEP)
+            choice.configure(values=[KEEP])
+            choice.set(KEEP)
         if not self.node:
-            self.status.configure(text='Node.js is missing. Install Node.js and reopen this launcher.')
+            self.status.configure(text='Bundled Node is missing. Extract a fresh copy of the package.')
             return
         self.status.configure(text='Reading saved inventory…')
         self.spawn('catalog', [self.node, str(TOOLS / 'community-loadout.cjs'), str(CANDIDATE),
@@ -231,7 +243,7 @@ class Launcher(tk.Tk):
         if self.busy or (action != 'Stop' and self.run_root):
             return
         if not self.shell:
-            self.status.configure(text='PowerShell 7 is missing. Install it and reopen this launcher.')
+            self.status.configure(text='Bundled PowerShell is missing. Extract a fresh copy of the package.')
             return
         args = [self.shell, '-NoProfile', '-File', str(TOOLS / 'community-runtime.ps1'), '-Action', action]
         name = f'r576-{action.lower()}-{datetime.now():%Y%m%d-%H%M%S}-{uuid.uuid4().hex[:6]}'

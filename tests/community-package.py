@@ -75,6 +75,11 @@ class PackageChecks(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Unsafe'):
             builder.archive(self.root)
 
+    def test_setup_rejects_damaged_package_file(self):
+        (self.root / 'update.gz').write_bytes(b'damaged fixture')
+        with self.assertRaisesRegex(ValueError, 'Package is missing or damaged: update.gz'):
+            setup.verify_package(lambda _: None)
+
     def test_settings_preserve_profiles_and_reject_concurrent_changes(self):
         path = self.root / 'config.toml'
         original = '[Display]\nfullscreen = false # comment\n[Profiles]\nxuid = "earned-profile"\n'

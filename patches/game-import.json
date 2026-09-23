@@ -3,10 +3,95 @@
   "build": "36735.13.12.02.1953.alpha",
   "files": [
     {
+      "path": "AvatarAssetPack",
+      "sourceSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
+      "targetSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
+      "targetBytes": 13799424
+    },
+    {
       "path": "default.xex",
       "sourceSha256": "b5be0c71ac025d547c9aa589be84b534187381e5932602e46eff50e9fd3025fc",
       "targetSha256": "b5be0c71ac025d547c9aa589be84b534187381e5932602e46eff50e9fd3025fc",
       "targetBytes": 27348992
+    },
+    {
+      "path": "fonts/ALTERNATEGOTHICCOM-NO3.TTF",
+      "sourceSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
+      "targetSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
+      "targetBytes": 108776
+    },
+    {
+      "path": "fonts/consola.ttf",
+      "sourceSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
+      "targetSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
+      "targetBytes": 358256
+    },
+    {
+      "path": "fonts/FuturaStd-Bold.otf",
+      "sourceSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
+      "targetSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
+      "targetBytes": 26900
+    },
+    {
+      "path": "fonts/FuturaStd-Medium.otf",
+      "sourceSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
+      "targetSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
+      "targetBytes": 25504
+    },
+    {
+      "path": "fonts/NHaasGroteskDSPro-95Blk.otf",
+      "sourceSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
+      "targetSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
+      "targetBytes": 90440
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-55Rg.otf",
+      "sourceSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
+      "targetSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
+      "targetBytes": 95244
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-56It.otf",
+      "sourceSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
+      "targetSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
+      "targetBytes": 101644
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-65Md.otf",
+      "sourceSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
+      "targetSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
+      "targetBytes": 101720
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-66MdIt.otf",
+      "sourceSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
+      "targetSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
+      "targetBytes": 110256
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-75Bd.otf",
+      "sourceSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
+      "targetSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
+      "targetBytes": 100312
+    },
+    {
+      "path": "fonts/TIGER_SYMBOLS.ttf",
+      "sourceSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
+      "targetSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
+      "targetBytes": 37920
+    },
+    {
+      "path": "init.txt",
+      "sourceSha256": "8b45957bd33eaf2e9c77ac03c1ff8adcd490350e5cc223e14447727796f6cb2e",
+      "targetSha256": "b740f3ead2d07aa4ad5eeb23d48f4ac412d142a24c0c633599834ae63dd73073",
+      "targetBytes": 9608,
+      "patch": "game-patches/13.delta.gz"
+    },
+    {
+      "path": "nxeart",
+      "sourceSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
+      "targetSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
+      "targetBytes": 249856
     },
     {
       "path": "packages/360_action_mock_ambient_activit_02d4_0.pkg",
@@ -241,7 +326,7 @@
       "sourceSha256": "ce58be624f305bd4ef87408a463e0bb2014ebe9f0329133e59d1f8a600981d48",
       "targetSha256": "95890fe4ed75736da29fe8996d56468f4d06372bdcf5d220d4dbb2fef0ad61bc",
       "targetBytes": 84099072,
-      "patch": "game-patches/39.delta.gz"
+      "patch": "game-patches/53.delta.gz"
     },
     {
       "path": "packages/360_city_tower_destination_01ef_0.pkg",
@@ -374,7 +459,7 @@
       "sourceSha256": "03575a7fa56c57b1ab96cc1015b8e63ab8eb83f8035954dbac08dcd9d9433d1e",
       "targetSha256": "beeba1d32601246893ec9db840b6c5079835db30041ee90876f58cd5befd142a",
       "targetBytes": 17842176,
-      "patch": "game-patches/61.delta.gz"
+      "patch": "game-patches/75.delta.gz"
     },
     {
       "path": "packages/360_globals_0082_0.pkg",
@@ -495,7 +580,7 @@
       "sourceSha256": "6799161f147a11c083d1c195b2764cd236f1ffe1507eb76e00ec10aefad7463e",
       "targetSha256": "b222d8ccd90319537580fcea29aefbf4d053891f6cfc272effeb9ed5cf36cec6",
       "targetBytes": 6938624,
-      "patch": "game-patches/81.delta.gz"
+      "patch": "game-patches/95.delta.gz"
     },
     {
       "path": "packages/360_investment_assets_0076_0.pkg",
@@ -512,9 +597,9 @@
     {
       "path": "packages/360_investment_globals_0071_0.pkg",
       "sourceSha256": "24c238224c7463dd81abe839b75c6d8b14a6aa53846b9a335152244442d8c652",
-      "targetSha256": "f08f840845cb85ecebff19ba8238c69485437e4dc65a8295b0e0a37b3e4a5cf7",
-      "targetBytes": 30388224,
-      "patch": "game-patches/84.delta.gz"
+      "targetSha256": "2631a18244775305deca743b5eff7aa08f9edd169ecc624a51ae0b039a455f48",
+      "targetBytes": 30658560,
+      "patch": "game-patches/98.delta.gz"
     },
     {
       "path": "packages/360_orbit_016f_0.pkg",
@@ -809,91 +894,6 @@
       "sourceSha256": "e3c490126d80fee2f8fbbae7d9c4cce0c73ef7e35958db36ef89b54632433285",
       "targetSha256": "e3c490126d80fee2f8fbbae7d9c4cce0c73ef7e35958db36ef89b54632433285",
       "targetBytes": 104448
-    },
-    {
-      "path": "AvatarAssetPack",
-      "sourceSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
-      "targetSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
-      "targetBytes": 13799424
-    },
-    {
-      "path": "init.txt",
-      "sourceSha256": "8b45957bd33eaf2e9c77ac03c1ff8adcd490350e5cc223e14447727796f6cb2e",
-      "targetSha256": "b740f3ead2d07aa4ad5eeb23d48f4ac412d142a24c0c633599834ae63dd73073",
-      "targetBytes": 9608,
-      "patch": "game-patches/135.delta.gz"
-    },
-    {
-      "path": "nxeart",
-      "sourceSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
-      "targetSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
-      "targetBytes": 249856
-    },
-    {
-      "path": "fonts/ALTERNATEGOTHICCOM-NO3.TTF",
-      "sourceSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
-      "targetSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
-      "targetBytes": 108776
-    },
-    {
-      "path": "fonts/consola.ttf",
-      "sourceSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
-      "targetSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
-      "targetBytes": 358256
-    },
-    {
-      "path": "fonts/FuturaStd-Bold.otf",
-      "sourceSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
-      "targetSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
-      "targetBytes": 26900
-    },
-    {
-      "path": "fonts/FuturaStd-Medium.otf",
-      "sourceSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
-      "targetSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
-      "targetBytes": 25504
-    },
-    {
-      "path": "fonts/NHaasGroteskDSPro-95Blk.otf",
-      "sourceSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
-      "targetSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
-      "targetBytes": 90440
-    },
-    {
-      "path": "fonts/NHaasGroteskTXPro-55Rg.otf",
-      "sourceSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
-      "targetSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
-      "targetBytes": 95244
-    },
-    {
-      "path": "fonts/NHaasGroteskTXPro-56It.otf",
-      "sourceSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
-      "targetSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
-      "targetBytes": 101644
-    },
-    {
-      "path": "fonts/NHaasGroteskTXPro-65Md.otf",
-      "sourceSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
-      "targetSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
-      "targetBytes": 101720
-    },
-    {
-      "path": "fonts/NHaasGroteskTXPro-66MdIt.otf",
-      "sourceSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
-      "targetSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
-      "targetBytes": 110256
-    },
-    {
-      "path": "fonts/NHaasGroteskTXPro-75Bd.otf",
-      "sourceSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
-      "targetSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
-      "targetBytes": 100312
-    },
-    {
-      "path": "fonts/TIGER_SYMBOLS.ttf",
-      "sourceSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
-      "targetSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
-      "targetBytes": 37920
     }
   ]
 }

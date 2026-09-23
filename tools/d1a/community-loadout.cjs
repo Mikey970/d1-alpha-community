@@ -8,6 +8,7 @@ const candidate = path.resolve(root);
 const legacyProfile = path.join(candidate, 'profile', 'director', character, 'equipment.json');
 for (const key of Object.keys(process.env)) if (key.startsWith('D1A_')) delete process.env[key];
 Object.assign(process.env, {D1A_ISOLATED_RUNTIME:'1',D1A_DIRECTOR_CHARACTER: character, D1A_INVENTORY_PROBE_ITEM:'1', D1A_TALENT_PROBE:'1',
+  D1A_NATIVE_CHARACTERS:'1',D1A_ARMOR_TALENT_PROBE:'1',
   D1A_CHARACTER_LEVEL15:'1',D1A_EQUIPMENT_PROFILE:legacyProfile,D1A_TALENT_STATE_PATH:path.join(path.dirname(legacyProfile),'talent.json'),
   D1A_VENDOR_ECONOMY:'1',D1A_VENDOR_ECONOMY_PROFILE:`${legacyProfile}.vendor.json`});
 if (character.startsWith('e3-')) process.env.D1A_E3_ABILITY_PRESET=character.slice(3);

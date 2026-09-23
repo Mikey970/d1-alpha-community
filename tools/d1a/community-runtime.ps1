@@ -18,6 +18,13 @@ if ($Action -eq 'Stop') {
     Stop-CommunityRun (Resolve-Path -LiteralPath $RunRoot).Path
     return
 }
+# Clean the parent too: profile preparation invokes Node before the servers start.
+foreach ($key in @([Environment]::GetEnvironmentVariables().Keys)) {
+    if ($key -match '^(D1A_|D1_|SIGNON_|DATAMINE_|DEMONWARE_|BAP_|ACTIVITY_HOST_PROXY_)' -or
+        $key -in @('NODE_OPTIONS','NODE_PATH','NODE_ENV','BNET_DATABASE','HOSTNAME')) {
+        [Environment]::SetEnvironmentVariable($key, $null, 'Process')
+    }
+}
 $candidate = (Resolve-Path -LiteralPath $CandidateRoot).Path
 $bundledNode = Join-Path $PSScriptRoot '../../runtimes/node/node.exe'
 $node = if (Test-Path -LiteralPath $bundledNode) { (Resolve-Path -LiteralPath $bundledNode).Path } else { (Get-Command node -CommandType Application -ErrorAction Stop | Select-Object -First 1).Source }
@@ -39,6 +46,11 @@ $ports = @(36000,1020,1021,1011,32000,32001,32004,32005,32008,32009,32556,37000,
 $occupied = @(Get-NetTCPConnection -State Listen -ErrorAction SilentlyContinue | Where-Object LocalPort -In $ports)
 if ($occupied.Count) { throw ('Required ports already occupied: ' + (($occupied | ForEach-Object { "$($_.LocalPort) (PID $($_.OwningProcess))" }) -join ', ')) }
 if ($Action -eq 'Check') {
+    $python = Join-Path $PSScriptRoot '../../runtimes/python/python.exe'
+    if (Test-Path -LiteralPath (Join-Path $PSScriptRoot '../../package-manifest.json')) {
+        & $python -I (Join-Path $PSScriptRoot 'community-setup.py') --check-installed
+        if ($LASTEXITCODE -ne 0) { throw 'Installed package verification failed' }
+    }
     @{readyForLaunch=$true;runtimeVerified=$false;candidate=$candidate;node=$node;freeGiB=[math]::Round($drive.AvailableFreeSpace/1GB,2)} | ConvertTo-Json
     return
 }
@@ -58,13 +70,6 @@ function Start-Owned([string]$Role,[string]$Executable,[string[]]$Arguments,[has
     $info.UseShellExecute=$false; $info.CreateNoWindow=$true
     $info.WindowStyle=if ($Role -eq 'game') { [Diagnostics.ProcessWindowStyle]::Normal } else { [Diagnostics.ProcessWindowStyle]::Hidden }
     foreach ($argument in $Arguments) { $info.ArgumentList.Add($argument) }
-    # Strip inherited lab overrides: every runtime option below is intentional.
-    foreach ($key in @($info.Environment.Keys)) {
-        if ($key -match '^(D1A_|D1_|SIGNON_|DATAMINE_|DEMONWARE_|BAP_|ACTIVITY_HOST_PROXY_)' -or
-            $key -in @('NODE_OPTIONS','NODE_PATH','BNET_DATABASE','HOSTNAME')) {
-            $info.Environment.Remove($key) | Out-Null
-        }
-    }
     foreach ($key in $Environment.Keys) { $info.Environment[$key]=[string]$Environment[$key] }
     $process = [Diagnostics.Process]::Start($info)
     $children.Add($process)

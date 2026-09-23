@@ -1,0 +1,899 @@
+{
+  "schema": 1,
+  "build": "36735.13.12.02.1953.alpha",
+  "files": [
+    {
+      "path": "default.xex",
+      "sourceSha256": "b5be0c71ac025d547c9aa589be84b534187381e5932602e46eff50e9fd3025fc",
+      "targetSha256": "b5be0c71ac025d547c9aa589be84b534187381e5932602e46eff50e9fd3025fc",
+      "targetBytes": 27348992
+    },
+    {
+      "path": "packages/360_action_mock_ambient_activit_02d4_0.pkg",
+      "sourceSha256": "f0f321e59ee12aef691b834887ad9cab1ad2e082872475f25adcc800026e56d8",
+      "targetSha256": "f0f321e59ee12aef691b834887ad9cab1ad2e082872475f25adcc800026e56d8",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_action_mock_destination_02e9_0.pkg",
+      "sourceSha256": "6f86fbc51de612a046a9a625d5b2ea1c2ac08367ccfacba2594d58e50cfc5477",
+      "targetSha256": "6f86fbc51de612a046a9a625d5b2ea1c2ac08367ccfacba2594d58e50cfc5477",
+      "targetBytes": 31102976
+    },
+    {
+      "path": "packages/360_action_mock_destination_0ee9_0.pkg",
+      "sourceSha256": "f6b1dde5893196c59e2fbda9cf8749f58786d8dc752bc1d8b7ee28657e9d5e4a",
+      "targetSha256": "f6b1dde5893196c59e2fbda9cf8749f58786d8dc752bc1d8b7ee28657e9d5e4a",
+      "targetBytes": 24576
+    },
+    {
+      "path": "packages/360_arch_palette_fallen_0029_0.pkg",
+      "sourceSha256": "73322d8ba0151323f8054f245a5f872ede7c3ec1cd740ea6e6e8d3d9ec9cc021",
+      "targetSha256": "73322d8ba0151323f8054f245a5f872ede7c3ec1cd740ea6e6e8d3d9ec9cc021",
+      "targetBytes": 50057216
+    },
+    {
+      "path": "packages/360_arch_palette_fallen_002b_0.pkg",
+      "sourceSha256": "5dbe1eeadaeb5265b359c1bc943a84b675daf366273a00c081d9cd8bef6866f8",
+      "targetSha256": "5dbe1eeadaeb5265b359c1bc943a84b675daf366273a00c081d9cd8bef6866f8",
+      "targetBytes": 1427456
+    },
+    {
+      "path": "packages/360_arch_palette_fallen_0c29_0.pkg",
+      "sourceSha256": "dafb03221a0b6152fb076f5ff000cb6ddb69510b01c7870d82128d0b61748661",
+      "targetSha256": "dafb03221a0b6152fb076f5ff000cb6ddb69510b01c7870d82128d0b61748661",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0034_0.pkg",
+      "sourceSha256": "4eff361d9950d896de7f0d268415647a522b4c999b32a4c6d444d1f3a538bda0",
+      "targetSha256": "4eff361d9950d896de7f0d268415647a522b4c999b32a4c6d444d1f3a538bda0",
+      "targetBytes": 260096
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0035_0.pkg",
+      "sourceSha256": "070d8c1d8222b5892d284f9bde3bd8361d7fe9b03c3b7ee74f2681902bff7939",
+      "targetSha256": "070d8c1d8222b5892d284f9bde3bd8361d7fe9b03c3b7ee74f2681902bff7939",
+      "targetBytes": 11452416
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0037_0.pkg",
+      "sourceSha256": "4f424529a94aa7e5cb9af105fbcd060a091966e1bc2360dab9a6f92902182a30",
+      "targetSha256": "4f424529a94aa7e5cb9af105fbcd060a091966e1bc2360dab9a6f92902182a30",
+      "targetBytes": 2314240
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0038_0.pkg",
+      "sourceSha256": "352cb8fcbc222b1e99162037d2535f0a062edf5e8f193af89ad3988e73d5c916",
+      "targetSha256": "352cb8fcbc222b1e99162037d2535f0a062edf5e8f193af89ad3988e73d5c916",
+      "targetBytes": 31770624
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0039_0.pkg",
+      "sourceSha256": "03710cd75d2293b3e365585c069e16ad898e99c6bacc91d03355b01f1f9e53e6",
+      "targetSha256": "03710cd75d2293b3e365585c069e16ad898e99c6bacc91d03355b01f1f9e53e6",
+      "targetBytes": 9168896
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_c_0c35_0.pkg",
+      "sourceSha256": "8c6978f47dba8aac46c1d0d9f56e5aba7102927cd978dcca0dee2a91a724037d",
+      "targetSha256": "8c6978f47dba8aac46c1d0d9f56e5aba7102927cd978dcca0dee2a91a724037d",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_o_003c_0.pkg",
+      "sourceSha256": "5e13d8bbe444ecac58f0942330002bdef1277c1bd184b2ad233244f4c9d2457f",
+      "targetSha256": "5e13d8bbe444ecac58f0942330002bdef1277c1bd184b2ad233244f4c9d2457f",
+      "targetBytes": 4771840
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_o_003e_0.pkg",
+      "sourceSha256": "c3b149b0c6f59891c05f748f2d49ba80a2fb60a29f127c61fb4482fb50495410",
+      "targetSha256": "c3b149b0c6f59891c05f748f2d49ba80a2fb60a29f127c61fb4482fb50495410",
+      "targetBytes": 948224
+    },
+    {
+      "path": "packages/360_arch_palette_human_colony_o_0c3c_0.pkg",
+      "sourceSha256": "30ae3b4700b9bbd718d927e4ba789d2470aeb7944e20cfeae946fbd5ad39c808",
+      "targetSha256": "30ae3b4700b9bbd718d927e4ba789d2470aeb7944e20cfeae946fbd5ad39c808",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_ci_003f_0.pkg",
+      "sourceSha256": "8cf73a4ea5ce8969d0b15235b5ba30c561667af853ab0881cfb7b1187a5faad3",
+      "targetSha256": "8cf73a4ea5ce8969d0b15235b5ba30c561667af853ab0881cfb7b1187a5faad3",
+      "targetBytes": 25542656
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_ci_0041_0.pkg",
+      "sourceSha256": "c87d1b1998c3296fa5905a83c7bf6460d6ba5de636b99cc9a9974d59824732e7",
+      "targetSha256": "c87d1b1998c3296fa5905a83c7bf6460d6ba5de636b99cc9a9974d59824732e7",
+      "targetBytes": 66000896
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_ci_0c3f_0.pkg",
+      "sourceSha256": "6be2ac93232b39eaf39886ba8e5d615ccff7a513522543da6eef8384ca39a3f0",
+      "targetSha256": "6be2ac93232b39eaf39886ba8e5d615ccff7a513522543da6eef8384ca39a3f0",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_0046_0.pkg",
+      "sourceSha256": "55a6e6582b5dd4289092c860117dea6b1d7fd81c78ff9b05dfbdf5a177b4c203",
+      "targetSha256": "55a6e6582b5dd4289092c860117dea6b1d7fd81c78ff9b05dfbdf5a177b4c203",
+      "targetBytes": 245760
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_0048_0.pkg",
+      "sourceSha256": "1c1ba1cb0eafe2fe101a38a170bb25a2e65339ae3d7cb2c7fab612b7fef5f2d1",
+      "targetSha256": "1c1ba1cb0eafe2fe101a38a170bb25a2e65339ae3d7cb2c7fab612b7fef5f2d1",
+      "targetBytes": 22009856
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_0049_0.pkg",
+      "sourceSha256": "f3dec7c526aebaaf44d16bdf9c2877e24c2ddd40828f5df952e7f7699aae5911",
+      "targetSha256": "f3dec7c526aebaaf44d16bdf9c2877e24c2ddd40828f5df952e7f7699aae5911",
+      "targetBytes": 276480
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_004a_0.pkg",
+      "sourceSha256": "133beedac2732b897847348f6da626fc9d2bbf2f9f27b341234871a070272c4d",
+      "targetSha256": "133beedac2732b897847348f6da626fc9d2bbf2f9f27b341234871a070272c4d",
+      "targetBytes": 2048000
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_004b_0.pkg",
+      "sourceSha256": "5fce1c40170d56de754e2ad50b7800fe469256ea4babf810cfcd6a085dc5faa3",
+      "targetSha256": "5fce1c40170d56de754e2ad50b7800fe469256ea4babf810cfcd6a085dc5faa3",
+      "targetBytes": 18083840
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_004c_0.pkg",
+      "sourceSha256": "bbe0fcbe38d4a48b3db9c08ee09c547f27d35db8cdd5a19bdfedd1eb36964a26",
+      "targetSha256": "bbe0fcbe38d4a48b3db9c08ee09c547f27d35db8cdd5a19bdfedd1eb36964a26",
+      "targetBytes": 6248448
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_in_0c46_0.pkg",
+      "sourceSha256": "726a4d882b815d5fbb05992b0436d654f401b99a77b791b456ac058e8d96037c",
+      "targetSha256": "726a4d882b815d5fbb05992b0436d654f401b99a77b791b456ac058e8d96037c",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_wa_004f_0.pkg",
+      "sourceSha256": "c340fb9b0e344057a453b465a172193a81d42399813f9b869472ee79dce3cc30",
+      "targetSha256": "c340fb9b0e344057a453b465a172193a81d42399813f9b869472ee79dce3cc30",
+      "targetBytes": 1034240
+    },
+    {
+      "path": "packages/360_arch_palette_human_earth_wa_0c4f_0.pkg",
+      "sourceSha256": "c06c8d414ffe0c3a58ead8eac02ff4adeee0c19e2c3b282ff266e5cbd96751f4",
+      "targetSha256": "c06c8d414ffe0c3a58ead8eac02ff4adeee0c19e2c3b282ff266e5cbd96751f4",
+      "targetBytes": 320
+    },
+    {
+      "path": "packages/360_arch_palette_vex_0057_0.pkg",
+      "sourceSha256": "d5afb7f7c72349845c9b81481ecb9c6ad6042eebc0db5cf6485d0152e07db7c6",
+      "targetSha256": "d5afb7f7c72349845c9b81481ecb9c6ad6042eebc0db5cf6485d0152e07db7c6",
+      "targetBytes": 11356160
+    },
+    {
+      "path": "packages/360_arch_palette_vex_0059_0.pkg",
+      "sourceSha256": "b039dc1a9166cdd664317a6d878224dcb31e4fa62c17ad0c68ce1519bf455ee8",
+      "targetSha256": "b039dc1a9166cdd664317a6d878224dcb31e4fa62c17ad0c68ce1519bf455ee8",
+      "targetBytes": 11151360
+    },
+    {
+      "path": "packages/360_arch_palette_vex_0c57_0.pkg",
+      "sourceSha256": "a3edab0f7b5fbcb4fa668f0cd66e94c7fcb24f173b80e786d3587cb9d384fdd9",
+      "targetSha256": "a3edab0f7b5fbcb4fa668f0cd66e94c7fcb24f173b80e786d3587cb9d384fdd9",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_bootstrap_015a_0.pkg",
+      "sourceSha256": "df2fc600bfee2c39bbb9c891f9b590218b8f78bda988b1dea25ee892d7c6950e",
+      "targetSha256": "df2fc600bfee2c39bbb9c891f9b590218b8f78bda988b1dea25ee892d7c6950e",
+      "targetBytes": 81920
+    },
+    {
+      "path": "packages/360_city_tower_00f1_0.pkg",
+      "sourceSha256": "9e2a5526d2aa71c6cf05f603c2cd7602d0de8a828390b9cf4f35abd8501b762c",
+      "targetSha256": "9e2a5526d2aa71c6cf05f603c2cd7602d0de8a828390b9cf4f35abd8501b762c",
+      "targetBytes": 106496
+    },
+    {
+      "path": "packages/360_city_tower_0cf1_0.pkg",
+      "sourceSha256": "96d50e3f6d363b415723ebd44bde46be6e490864a34633a90d555bfb5e217d0c",
+      "targetSha256": "96d50e3f6d363b415723ebd44bde46be6e490864a34633a90d555bfb5e217d0c",
+      "targetBytes": 20480
+    },
+    {
+      "path": "packages/360_city_tower_activities_activ_01c3_0.pkg",
+      "sourceSha256": "2f4009f661cf24687d509e66b7614e4ff6ff7be0e10485cafeb72b204ac7bdd1",
+      "targetSha256": "2f4009f661cf24687d509e66b7614e4ff6ff7be0e10485cafeb72b204ac7bdd1",
+      "targetBytes": 2527232
+    },
+    {
+      "path": "packages/360_city_tower_activities_activ_0dc3_0.pkg",
+      "sourceSha256": "afcaaef5de57f7907243827ea891c0d9c039c087b22aa109870527bcd53d6a8e",
+      "targetSha256": "afcaaef5de57f7907243827ea891c0d9c039c087b22aa109870527bcd53d6a8e",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_city_tower_ambient_activ_01da_en_0.pkg",
+      "sourceSha256": "36eb99d599614a1307cfd2e94f188573f0d264c80eef7fd42e0f64dded75d970",
+      "targetSha256": "36eb99d599614a1307cfd2e94f188573f0d264c80eef7fd42e0f64dded75d970",
+      "targetBytes": 1378304
+    },
+    {
+      "path": "packages/360_city_tower_ambient_activity_01d8_0.pkg",
+      "sourceSha256": "fd7be30144429924fc1a4c69538fbce2398e1a5d769d5c5f72572159531d58ad",
+      "targetSha256": "fd7be30144429924fc1a4c69538fbce2398e1a5d769d5c5f72572159531d58ad",
+      "targetBytes": 32348160
+    },
+    {
+      "path": "packages/360_city_tower_ambient_activity_0dd8_0.pkg",
+      "sourceSha256": "6b093c56acefa960e0656afecba276900d7fd9926c681709442b9318939e4c53",
+      "targetSha256": "6b093c56acefa960e0656afecba276900d7fd9926c681709442b9318939e4c53",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_city_tower_destination_01ed_0.pkg",
+      "sourceSha256": "ce58be624f305bd4ef87408a463e0bb2014ebe9f0329133e59d1f8a600981d48",
+      "targetSha256": "95890fe4ed75736da29fe8996d56468f4d06372bdcf5d220d4dbb2fef0ad61bc",
+      "targetBytes": 84099072,
+      "patch": "game-patches/39.delta.gz"
+    },
+    {
+      "path": "packages/360_city_tower_destination_01ef_0.pkg",
+      "sourceSha256": "6efdf5a83acafeedfb04a581e3f50f7c6d78eaea94fae29695d5c84180605269",
+      "targetSha256": "6efdf5a83acafeedfb04a581e3f50f7c6d78eaea94fae29695d5c84180605269",
+      "targetBytes": 110139392
+    },
+    {
+      "path": "packages/360_city_tower_destination_0ded_0.pkg",
+      "sourceSha256": "90df6923543e14bdfb11553a980d804296fba37ffd4aefcefb1ca256db95180a",
+      "targetSha256": "90df6923543e14bdfb11553a980d804296fba37ffd4aefcefb1ca256db95180a",
+      "targetBytes": 30720
+    },
+    {
+      "path": "packages/360_client_bootstrap_patchable_008c_0.pkg",
+      "sourceSha256": "d178cb42a716cf357fd6a9d4c4901dec6e725a532c4c98d5d0636159f229c8bb",
+      "targetSha256": "d178cb42a716cf357fd6a9d4c4901dec6e725a532c4c98d5d0636159f229c8bb",
+      "targetBytes": 12623872
+    },
+    {
+      "path": "packages/360_client_bootstrap_patchable_0c8c_0.pkg",
+      "sourceSha256": "ef33c8ea0f2a50c16f0bd9986614f018ea46f4d9e6d42dcb7c753d2fe34c7418",
+      "targetSha256": "ef33c8ea0f2a50c16f0bd9986614f018ea46f4d9e6d42dcb7c753d2fe34c7418",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_client_bootstrap_unpatchabl_008e_0.pkg",
+      "sourceSha256": "4c570f1767f0bdcb33b6e6918a322acd88bd05616dc61dfd09ff8b68a5b35c65",
+      "targetSha256": "4c570f1767f0bdcb33b6e6918a322acd88bd05616dc61dfd09ff8b68a5b35c65",
+      "targetBytes": 12623872
+    },
+    {
+      "path": "packages/360_client_bootstrap_unpatchabl_0c8e_0.pkg",
+      "sourceSha256": "ea416040af7f7594e72e0578298d587493815ca4762fecdf9e44f1dc30106fe6",
+      "targetSha256": "ea416040af7f7594e72e0578298d587493815ca4762fecdf9e44f1dc30106fe6",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_client_development_fallback_0090_0.pkg",
+      "sourceSha256": "99712334e6f6825968e27ad9550daee2ea0352ca13a9be3936a88738afba90b7",
+      "targetSha256": "99712334e6f6825968e27ad9550daee2ea0352ca13a9be3936a88738afba90b7",
+      "targetBytes": 1841152
+    },
+    {
+      "path": "packages/360_client_development_fallback_0c90_0.pkg",
+      "sourceSha256": "86dd6cfe50061b252e28fd2923c950160c0c8f25a692742ddbe31bbcbef05eb5",
+      "targetSha256": "86dd6cfe50061b252e28fd2923c950160c0c8f25a692742ddbe31bbcbef05eb5",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_client_startup_globals_0096_0.pkg",
+      "sourceSha256": "b2811189a32f9bbaef1eb29f736fe3ba438199721d5208113c65e6908aeb1491",
+      "targetSha256": "b2811189a32f9bbaef1eb29f736fe3ba438199721d5208113c65e6908aeb1491",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_cosmo_activities_activityon_02bf_0.pkg",
+      "sourceSha256": "37478ecd04313c23e7b114c61390aa6f30a82807a8406fc74ec4f5adfb8e60bf",
+      "targetSha256": "37478ecd04313c23e7b114c61390aa6f30a82807a8406fc74ec4f5adfb8e60bf",
+      "targetBytes": 3074048
+    },
+    {
+      "path": "packages/360_cosmo_activities_activityon_0ebf_0.pkg",
+      "sourceSha256": "fbaa127c317b4322153cefe84d2a5c0f123fa199bd966893ecff4a1842855169",
+      "targetSha256": "fbaa127c317b4322153cefe84d2a5c0f123fa199bd966893ecff4a1842855169",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_default_007e_0.pkg",
+      "sourceSha256": "403267ac93bc6ca432fc7983e27853a8a051dcd24b651b9e97060d369920c8b9",
+      "targetSha256": "403267ac93bc6ca432fc7983e27853a8a051dcd24b651b9e97060d369920c8b9",
+      "targetBytes": 421888
+    },
+    {
+      "path": "packages/360_default_0c7e_0.pkg",
+      "sourceSha256": "d7a664cae0c65df0012568e5d632bd863e472f5128d496a0c4b3e2f2bdab0136",
+      "targetSha256": "d7a664cae0c65df0012568e5d632bd863e472f5128d496a0c4b3e2f2bdab0136",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_gear_player_0068_0.pkg",
+      "sourceSha256": "060819164fc1d052b039384ee07cebcb67916e9fd579ba050ee80504700db695",
+      "targetSha256": "060819164fc1d052b039384ee07cebcb67916e9fd579ba050ee80504700db695",
+      "targetBytes": 4128768
+    },
+    {
+      "path": "packages/360_gear_player_006a_0.pkg",
+      "sourceSha256": "95c5f64aa3243bbea10602f88aa0e8e59e2320b40398ffbfcd5f606639e32b62",
+      "targetSha256": "95c5f64aa3243bbea10602f88aa0e8e59e2320b40398ffbfcd5f606639e32b62",
+      "targetBytes": 32514048
+    },
+    {
+      "path": "packages/360_gear_player_006b_0.pkg",
+      "sourceSha256": "aef08b114f51d112bef1ac9df64c593584e239802b34e1fd6fef8cfef214325c",
+      "targetSha256": "aef08b114f51d112bef1ac9df64c593584e239802b34e1fd6fef8cfef214325c",
+      "targetBytes": 38793216
+    },
+    {
+      "path": "packages/360_gear_player_0c68_0.pkg",
+      "sourceSha256": "4e950164107f5e3b09347d199f0c82fa1e36483cbf19111dd4245bf1e6abc9ad",
+      "targetSha256": "4e950164107f5e3b09347d199f0c82fa1e36483cbf19111dd4245bf1e6abc9ad",
+      "targetBytes": 16384
+    },
+    {
+      "path": "packages/360_gear_ships_006c_0.pkg",
+      "sourceSha256": "df9647536efba6d18e182613354a1923e942e09b0541ce144a9ee0d342e837ae",
+      "targetSha256": "df9647536efba6d18e182613354a1923e942e09b0541ce144a9ee0d342e837ae",
+      "targetBytes": 19802112
+    },
+    {
+      "path": "packages/360_gear_ships_0c6c_0.pkg",
+      "sourceSha256": "725e7f58af676734b39d65012a91398d37835eeefd8103d43879ab76096eef28",
+      "targetSha256": "725e7f58af676734b39d65012a91398d37835eeefd8103d43879ab76096eef28",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_gear_weapons_006e_0.pkg",
+      "sourceSha256": "a1c4ca221b0db5ffea7112506fadd291c7dd1a8cdb120400bcef49aa2195aef6",
+      "targetSha256": "a1c4ca221b0db5ffea7112506fadd291c7dd1a8cdb120400bcef49aa2195aef6",
+      "targetBytes": 61507584
+    },
+    {
+      "path": "packages/360_gear_weapons_0c6e_0.pkg",
+      "sourceSha256": "68a222861fbd374609c444db95a08d86e41c939efa11ebb14fcd23d221c48956",
+      "targetSha256": "68a222861fbd374609c444db95a08d86e41c939efa11ebb14fcd23d221c48956",
+      "targetBytes": 36864
+    },
+    {
+      "path": "packages/360_globals_0080_0.pkg",
+      "sourceSha256": "03575a7fa56c57b1ab96cc1015b8e63ab8eb83f8035954dbac08dcd9d9433d1e",
+      "targetSha256": "beeba1d32601246893ec9db840b6c5079835db30041ee90876f58cd5befd142a",
+      "targetBytes": 17842176,
+      "patch": "game-patches/61.delta.gz"
+    },
+    {
+      "path": "packages/360_globals_0082_0.pkg",
+      "sourceSha256": "db73665bda53ce053b684c8c38114695a6f87320593c92a5b08f605acaf1ea0d",
+      "targetSha256": "db73665bda53ce053b684c8c38114695a6f87320593c92a5b08f605acaf1ea0d",
+      "targetBytes": 19130368
+    },
+    {
+      "path": "packages/360_globals_0083_0.pkg",
+      "sourceSha256": "810c6db437417d1de5fb94ce11e89f52794422552da4d5e341202190ba28cc4e",
+      "targetSha256": "810c6db437417d1de5fb94ce11e89f52794422552da4d5e341202190ba28cc4e",
+      "targetBytes": 114993152
+    },
+    {
+      "path": "packages/360_globals_0084_en_0.pkg",
+      "sourceSha256": "5cf3b99f8950e89645c6fdef3fb1f9aa2da5af029da7140fd59d9986892052be",
+      "targetSha256": "5cf3b99f8950e89645c6fdef3fb1f9aa2da5af029da7140fd59d9986892052be",
+      "targetBytes": 2199552
+    },
+    {
+      "path": "packages/360_globals_0085_0.pkg",
+      "sourceSha256": "89d5ee80ca052b2650c47aadab1f06f9b85bac4b38872e624a802d57ad10ba15",
+      "targetSha256": "89d5ee80ca052b2650c47aadab1f06f9b85bac4b38872e624a802d57ad10ba15",
+      "targetBytes": 19832832
+    },
+    {
+      "path": "packages/360_globals_0c80_0.pkg",
+      "sourceSha256": "86ecd496bb7e6d63954ae5f9e28299ecac542a5b480466ec63fa1b353d28b818",
+      "targetSha256": "86ecd496bb7e6d63954ae5f9e28299ecac542a5b480466ec63fa1b353d28b818",
+      "targetBytes": 139264
+    },
+    {
+      "path": "packages/360_globals_audio_0087_0.pkg",
+      "sourceSha256": "b957c1c384b7d46184c14f4223353897752b4d1a70c8bf6c50bc6bc5e31cc136",
+      "targetSha256": "b957c1c384b7d46184c14f4223353897752b4d1a70c8bf6c50bc6bc5e31cc136",
+      "targetBytes": 24485888
+    },
+    {
+      "path": "packages/360_globals_audio_0088_en_0.pkg",
+      "sourceSha256": "53e2b98ccb48d3fb021d63eebe2ccae9ad196b77678ce34dd875192b970c053c",
+      "targetSha256": "53e2b98ccb48d3fb021d63eebe2ccae9ad196b77678ce34dd875192b970c053c",
+      "targetBytes": 851968
+    },
+    {
+      "path": "packages/360_globals_pvp_008a_0.pkg",
+      "sourceSha256": "8d0f3621c1015f2fd660f655b3d4876500ecdcd80df18953275e1180e8d3bb37",
+      "targetSha256": "8d0f3621c1015f2fd660f655b3d4876500ecdcd80df18953275e1180e8d3bb37",
+      "targetBytes": 1474560
+    },
+    {
+      "path": "packages/360_globals_pvp_0c8a_0.pkg",
+      "sourceSha256": "ad0bb96b2fc156c07f366694c68189b28a1e1c921c1aeba4b37b0042d2de9470",
+      "targetSha256": "ad0bb96b2fc156c07f366694c68189b28a1e1c921c1aeba4b37b0042d2de9470",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_hostonly_action_mock_0145_0.pkg",
+      "sourceSha256": "ba8cb8906255298af3e4fe26a1d621f218ffec9d3191f563206af01bbdfb462b",
+      "targetSha256": "ba8cb8906255298af3e4fe26a1d621f218ffec9d3191f563206af01bbdfb462b",
+      "targetBytes": 73728
+    },
+    {
+      "path": "packages/360_hostonly_action_mock_0d45_0.pkg",
+      "sourceSha256": "4d026165c4d71822236c5eb20b805fc0fc75371e6232464c6816eef99732b7f0",
+      "targetSha256": "4d026165c4d71822236c5eb20b805fc0fc75371e6232464c6816eef99732b7f0",
+      "targetBytes": 22528
+    },
+    {
+      "path": "packages/360_hostonly_pvp_factory_0106_0.pkg",
+      "sourceSha256": "da505c89890cf2f3c5a9df6b612631f06b6f7484917cd7f181efeafe84874f1d",
+      "targetSha256": "da505c89890cf2f3c5a9df6b612631f06b6f7484917cd7f181efeafe84874f1d",
+      "targetBytes": 63488
+    },
+    {
+      "path": "packages/360_hostonly_pvp_factory_0d06_0.pkg",
+      "sourceSha256": "eb36688b750509be0b03b84cdc41e6d0b85f6fa6c52d98a30fe80ae74aa5dcf3",
+      "targetSha256": "eb36688b750509be0b03b84cdc41e6d0b85f6fa6c52d98a30fe80ae74aa5dcf3",
+      "targetBytes": 20480
+    },
+    {
+      "path": "packages/360_hostonly_pvp_greenhouse_011b_0.pkg",
+      "sourceSha256": "f50a9365aa631a7005d68ff0fe6bef964b91fb9da8073c101c648a88a8287a4a",
+      "targetSha256": "f50a9365aa631a7005d68ff0fe6bef964b91fb9da8073c101c648a88a8287a4a",
+      "targetBytes": 61440
+    },
+    {
+      "path": "packages/360_hostonly_pvp_greenhouse_0d1b_0.pkg",
+      "sourceSha256": "dce9146c2976b41a3686a3a8b43bcc32f7eec670814091177fecec6157a677ab",
+      "targetSha256": "dce9146c2976b41a3686a3a8b43bcc32f7eec670814091177fecec6157a677ab",
+      "targetBytes": 20480
+    },
+    {
+      "path": "packages/360_hostonly_pvp_marsbattle_0130_0.pkg",
+      "sourceSha256": "8cfd3cc010bed0ac1d7769c9b8e5e55f5a2330b120ec1722ba58508b03182dc4",
+      "targetSha256": "8cfd3cc010bed0ac1d7769c9b8e5e55f5a2330b120ec1722ba58508b03182dc4",
+      "targetBytes": 61440
+    },
+    {
+      "path": "packages/360_hostonly_pvp_marsbattle_0d30_0.pkg",
+      "sourceSha256": "e3eee4ac149b2129acebfba50cdc11ced2d20d532893b2d3afaa58da1a7d42e0",
+      "targetSha256": "e3eee4ac149b2129acebfba50cdc11ced2d20d532893b2d3afaa58da1a7d42e0",
+      "targetBytes": 20480
+    },
+    {
+      "path": "packages/360_hostonly_venus_00dc_0.pkg",
+      "sourceSha256": "7f941fa3f5303258433c3198af19067d9c7366f50ca751bb5dd5e5c79fe632ab",
+      "targetSha256": "7f941fa3f5303258433c3198af19067d9c7366f50ca751bb5dd5e5c79fe632ab",
+      "targetBytes": 561152
+    },
+    {
+      "path": "packages/360_hostonly_venus_0cdc_0.pkg",
+      "sourceSha256": "c11d1e12ac873cd7d0c1b30a7ce3d072767965cb99a6b42387ff647b218fa6b0",
+      "targetSha256": "c11d1e12ac873cd7d0c1b30a7ce3d072767965cb99a6b42387ff647b218fa6b0",
+      "targetBytes": 100352
+    },
+    {
+      "path": "packages/360_investment_assets_0074_0.pkg",
+      "sourceSha256": "6799161f147a11c083d1c195b2764cd236f1ffe1507eb76e00ec10aefad7463e",
+      "targetSha256": "b222d8ccd90319537580fcea29aefbf4d053891f6cfc272effeb9ed5cf36cec6",
+      "targetBytes": 6938624,
+      "patch": "game-patches/81.delta.gz"
+    },
+    {
+      "path": "packages/360_investment_assets_0076_0.pkg",
+      "sourceSha256": "51e6f84780f7ea5fefc506b3b6c17aeca5a9abe6e6f59054976761f47d4029cd",
+      "targetSha256": "51e6f84780f7ea5fefc506b3b6c17aeca5a9abe6e6f59054976761f47d4029cd",
+      "targetBytes": 19607552
+    },
+    {
+      "path": "packages/360_investment_assets_0c74_0.pkg",
+      "sourceSha256": "e904d758888ae62fe878a2e6a577cef382e2e4b966b683cb6f8cf7b3f736883c",
+      "targetSha256": "e904d758888ae62fe878a2e6a577cef382e2e4b966b683cb6f8cf7b3f736883c",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_investment_globals_0071_0.pkg",
+      "sourceSha256": "24c238224c7463dd81abe839b75c6d8b14a6aa53846b9a335152244442d8c652",
+      "targetSha256": "f08f840845cb85ecebff19ba8238c69485437e4dc65a8295b0e0a37b3e4a5cf7",
+      "targetBytes": 30388224,
+      "patch": "game-patches/84.delta.gz"
+    },
+    {
+      "path": "packages/360_orbit_016f_0.pkg",
+      "sourceSha256": "6db741e363cd651db7262326e8baad4f643f937adef044911cef0ecdbd535f15",
+      "targetSha256": "6db741e363cd651db7262326e8baad4f643f937adef044911cef0ecdbd535f15",
+      "targetBytes": 237858816
+    },
+    {
+      "path": "packages/360_orbit_0d6f_0.pkg",
+      "sourceSha256": "188fad6eaad69d28692ec86dcc8ea9d2d9c91d5f730c1f61cf2867991823073a",
+      "targetSha256": "188fad6eaad69d28692ec86dcc8ea9d2d9c91d5f730c1f61cf2867991823073a",
+      "targetBytes": 16384
+    },
+    {
+      "path": "packages/360_pvp_factory_activities_acti_0202_0.pkg",
+      "sourceSha256": "350e1bb49b2ed9ce583d20e7831e49cfc27b5889225d2ea1d7d6a541b5e012d2",
+      "targetSha256": "350e1bb49b2ed9ce583d20e7831e49cfc27b5889225d2ea1d7d6a541b5e012d2",
+      "targetBytes": 24356864
+    },
+    {
+      "path": "packages/360_pvp_factory_activities_acti_0e02_0.pkg",
+      "sourceSha256": "a2fed82bd36d0a1f587af6cba561e61acb292b9659e47ce48f5b72f873fafdec",
+      "targetSha256": "a2fed82bd36d0a1f587af6cba561e61acb292b9659e47ce48f5b72f873fafdec",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_pvp_factory_ambient_activit_0217_0.pkg",
+      "sourceSha256": "feda09651f80301829d261e20fad443dcf551e438532e654e4e2429e666dcb26",
+      "targetSha256": "feda09651f80301829d261e20fad443dcf551e438532e654e4e2429e666dcb26",
+      "targetBytes": 14336
+    },
+    {
+      "path": "packages/360_pvp_factory_destination_022c_0.pkg",
+      "sourceSha256": "1114df116fb891a8d5ca928298aefca0c654eb748ec4561b92abfc800993eb1d",
+      "targetSha256": "1114df116fb891a8d5ca928298aefca0c654eb748ec4561b92abfc800993eb1d",
+      "targetBytes": 60618752
+    },
+    {
+      "path": "packages/360_pvp_factory_destination_0e2c_0.pkg",
+      "sourceSha256": "315c79bd2bfc0171a8fa53cb4640d4b5eef3f9e336cdb8e763e7ed12033b6831",
+      "targetSha256": "315c79bd2bfc0171a8fa53cb4640d4b5eef3f9e336cdb8e763e7ed12033b6831",
+      "targetBytes": 22528
+    },
+    {
+      "path": "packages/360_pvp_greenhouse_activities_a_0241_0.pkg",
+      "sourceSha256": "05af422d11d0f3f6cbdab0bc958cb954ccf0d6de60734820dca42870eecb37b3",
+      "targetSha256": "05af422d11d0f3f6cbdab0bc958cb954ccf0d6de60734820dca42870eecb37b3",
+      "targetBytes": 25049088
+    },
+    {
+      "path": "packages/360_pvp_greenhouse_activities_a_0e41_0.pkg",
+      "sourceSha256": "b797432daa47b7f74f314813a623e43050fef7b0b904b406131f0ac3770801f7",
+      "targetSha256": "b797432daa47b7f74f314813a623e43050fef7b0b904b406131f0ac3770801f7",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_pvp_greenhouse_ambient_acti_0256_0.pkg",
+      "sourceSha256": "a9b9fd3344028414f91aec69c4c1aa8290812b1f859c6d0c2ee202f30bd448b5",
+      "targetSha256": "a9b9fd3344028414f91aec69c4c1aa8290812b1f859c6d0c2ee202f30bd448b5",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_pvp_greenhouse_destination_026b_0.pkg",
+      "sourceSha256": "5b34de372f1ff98ae1e8628d7e52eb6ce1bed28ae73c8eee330834801521bdba",
+      "targetSha256": "5b34de372f1ff98ae1e8628d7e52eb6ce1bed28ae73c8eee330834801521bdba",
+      "targetBytes": 44500992
+    },
+    {
+      "path": "packages/360_pvp_greenhouse_destination_0e6b_0.pkg",
+      "sourceSha256": "89c37360807dd5ed722d0af9f7abf5ab8aaec41878c66ef7d79b651be842706f",
+      "targetSha256": "89c37360807dd5ed722d0af9f7abf5ab8aaec41878c66ef7d79b651be842706f",
+      "targetBytes": 16384
+    },
+    {
+      "path": "packages/360_pvp_marsbattle_activities_a_0280_0.pkg",
+      "sourceSha256": "dd953e679d5c95e894fdb0e4cc9e3b2cb78be37e8dcb109b7b2281a626e8d1d8",
+      "targetSha256": "dd953e679d5c95e894fdb0e4cc9e3b2cb78be37e8dcb109b7b2281a626e8d1d8",
+      "targetBytes": 42162176
+    },
+    {
+      "path": "packages/360_pvp_marsbattle_activities_a_0e80_0.pkg",
+      "sourceSha256": "d0571d18b03ceb799b85de9a0ef96025cc7a6d2821fb410a666bc3e26be7db66",
+      "targetSha256": "d0571d18b03ceb799b85de9a0ef96025cc7a6d2821fb410a666bc3e26be7db66",
+      "targetBytes": 16384
+    },
+    {
+      "path": "packages/360_pvp_marsbattle_ambient_acti_0295_0.pkg",
+      "sourceSha256": "123a869af970b9cdd6f046f684fbb614cbf7aa4b1d6c18077ed960ff5eab0de6",
+      "targetSha256": "123a869af970b9cdd6f046f684fbb614cbf7aa4b1d6c18077ed960ff5eab0de6",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_pvp_marsbattle_destination_02aa_0.pkg",
+      "sourceSha256": "51185e28bb4922055a485c548c2a647fbe50b296e67f3b6afff48a63929d0bfc",
+      "targetSha256": "51185e28bb4922055a485c548c2a647fbe50b296e67f3b6afff48a63929d0bfc",
+      "targetBytes": 52948992
+    },
+    {
+      "path": "packages/360_pvp_marsbattle_destination_0eaa_0.pkg",
+      "sourceSha256": "99ebe8e61641f363d1d95ac54bdef048705c5e0ce91326679aceb183f9c94810",
+      "targetSha256": "99ebe8e61641f363d1d95ac54bdef048705c5e0ce91326679aceb183f9c94810",
+      "targetBytes": 16384
+    },
+    {
+      "path": "packages/360_race_set_fallen_005a_0.pkg",
+      "sourceSha256": "82c07005ffc4ba00bb269b6a80c6748cfc51d4c38539efdacca1220bc04a41a9",
+      "targetSha256": "82c07005ffc4ba00bb269b6a80c6748cfc51d4c38539efdacca1220bc04a41a9",
+      "targetBytes": 75833344
+    },
+    {
+      "path": "packages/360_race_set_fallen_005c_0.pkg",
+      "sourceSha256": "2c751c9ca14c99703dae7a9cd92d5372785ec70b07a7c153643b87561dce9048",
+      "targetSha256": "2c751c9ca14c99703dae7a9cd92d5372785ec70b07a7c153643b87561dce9048",
+      "targetBytes": 20703232
+    },
+    {
+      "path": "packages/360_race_set_fallen_0c5a_0.pkg",
+      "sourceSha256": "19e1534f8d0ddf0eb1f52b2d037008838d3aabfcc835fa411e37dfc66e2d38d1",
+      "targetSha256": "19e1534f8d0ddf0eb1f52b2d037008838d3aabfcc835fa411e37dfc66e2d38d1",
+      "targetBytes": 32768
+    },
+    {
+      "path": "packages/360_race_set_fotc_0060_0.pkg",
+      "sourceSha256": "a791c2ff0d3ef87a992cb15fc230c48516515590fd9e73d084b13453a93a0923",
+      "targetSha256": "a791c2ff0d3ef87a992cb15fc230c48516515590fd9e73d084b13453a93a0923",
+      "targetBytes": 6268928
+    },
+    {
+      "path": "packages/360_race_set_fotc_0062_en_0.pkg",
+      "sourceSha256": "2a6b823ea17d2d18a992599ad0865c12746a6529ca531c53f40108acb7d903d6",
+      "targetSha256": "2a6b823ea17d2d18a992599ad0865c12746a6529ca531c53f40108acb7d903d6",
+      "targetBytes": 2787328
+    },
+    {
+      "path": "packages/360_race_set_fotc_0c60_0.pkg",
+      "sourceSha256": "163504b88b73ad5ea7b0e905fede43044287d7eecb7021a1f2dd8d73899e4f18",
+      "targetSha256": "163504b88b73ad5ea7b0e905fede43044287d7eecb7021a1f2dd8d73899e4f18",
+      "targetBytes": 12288
+    },
+    {
+      "path": "packages/360_race_set_vex_0066_0.pkg",
+      "sourceSha256": "9e6d6324b0c3561950df5429196d215ffa60392eca8d2ba215ab8c436f61446b",
+      "targetSha256": "9e6d6324b0c3561950df5429196d215ffa60392eca8d2ba215ab8c436f61446b",
+      "targetBytes": 49158144
+    },
+    {
+      "path": "packages/360_race_set_vex_0c66_0.pkg",
+      "sourceSha256": "5e8912eaf1644926f0508376f0e656a0e97e6a7abe38b41c1234e268dea6a57b",
+      "targetSha256": "5e8912eaf1644926f0508376f0e656a0e97e6a7abe38b41c1234e268dea6a57b",
+      "targetBytes": 20480
+    },
+    {
+      "path": "packages/360_ui_bootflow_001e_0.pkg",
+      "sourceSha256": "44a580ad95e4a3c424ac240eaa6db6484476731589e74c55ff70bb6496c000d0",
+      "targetSha256": "44a580ad95e4a3c424ac240eaa6db6484476731589e74c55ff70bb6496c000d0",
+      "targetBytes": 1396736
+    },
+    {
+      "path": "packages/360_ui_cinematics_0020_0.pkg",
+      "sourceSha256": "8258bbdde5afd7ee6c5b4019592e9c7a7e6bffe5169ea1096d91eb31e8137483",
+      "targetSha256": "8258bbdde5afd7ee6c5b4019592e9c7a7e6bffe5169ea1096d91eb31e8137483",
+      "targetBytes": 231424
+    },
+    {
+      "path": "packages/360_ui_cinematics_0c20_0.pkg",
+      "sourceSha256": "071d6c5e484c9133c49f0637ff008300fcd626c1b7238ded9b04869f25250764",
+      "targetSha256": "071d6c5e484c9133c49f0637ff008300fcd626c1b7238ded9b04869f25250764",
+      "targetBytes": 14336
+    },
+    {
+      "path": "packages/360_ui_core_000a_0.pkg",
+      "sourceSha256": "58404316db0a1ebe77d36345437912f1ab690c823371410359b6198891673d0d",
+      "targetSha256": "58404316db0a1ebe77d36345437912f1ab690c823371410359b6198891673d0d",
+      "targetBytes": 51200
+    },
+    {
+      "path": "packages/360_ui_loading_001a_0.pkg",
+      "sourceSha256": "6fafc29cf96c3c4496c2edf73ed9e260d5483d52b669bad27aa38de5f3d5d4cc",
+      "targetSha256": "6fafc29cf96c3c4496c2edf73ed9e260d5483d52b669bad27aa38de5f3d5d4cc",
+      "targetBytes": 18432
+    },
+    {
+      "path": "packages/360_ui_login_000c_0.pkg",
+      "sourceSha256": "dc8e8317af1c2243263fa2a59d58bddf8441b4aee9e725a5d28d3b66992e3768",
+      "targetSha256": "dc8e8317af1c2243263fa2a59d58bddf8441b4aee9e725a5d28d3b66992e3768",
+      "targetBytes": 1042432
+    },
+    {
+      "path": "packages/360_ui_menus_000e_0.pkg",
+      "sourceSha256": "fdfeae90992471237fd590c256ec7e8e7c181a9031759446908c245301a9b17a",
+      "targetSha256": "fdfeae90992471237fd590c256ec7e8e7c181a9031759446908c245301a9b17a",
+      "targetBytes": 49152
+    },
+    {
+      "path": "packages/360_ui_orbit_0012_0.pkg",
+      "sourceSha256": "344432344121656aa570a4e96297bc9895129970a8a02cc6253da3fb0d2d761b",
+      "targetSha256": "344432344121656aa570a4e96297bc9895129970a8a02cc6253da3fb0d2d761b",
+      "targetBytes": 1179648
+    },
+    {
+      "path": "packages/360_ui_pve_0014_0.pkg",
+      "sourceSha256": "a7c7c9bfcc5c87c488d07c8b2a837b3a48b68361acf688f0949b9520b2c4aff4",
+      "targetSha256": "a7c7c9bfcc5c87c488d07c8b2a837b3a48b68361acf688f0949b9520b2c4aff4",
+      "targetBytes": 18432
+    },
+    {
+      "path": "packages/360_ui_pvp_0016_0.pkg",
+      "sourceSha256": "1becbdae7e9df85747ad059462043f102f31a3a55d4b882427303ffad8f26570",
+      "targetSha256": "1becbdae7e9df85747ad059462043f102f31a3a55d4b882427303ffad8f26570",
+      "targetBytes": 18432
+    },
+    {
+      "path": "packages/360_ui_social_0018_0.pkg",
+      "sourceSha256": "6cd9a88b7f2724f5998c878b0280e6db15f970dea702d6506641807fd3adb1ef",
+      "targetSha256": "6cd9a88b7f2724f5998c878b0280e6db15f970dea702d6506641807fd3adb1ef",
+      "targetBytes": 22528
+    },
+    {
+      "path": "packages/360_ui_startup_001c_0.pkg",
+      "sourceSha256": "ced89ed4cfb75e4f17cbe184d2f3fd5ac990dfdf504852126840ac7961f45192",
+      "targetSha256": "ced89ed4cfb75e4f17cbe184d2f3fd5ac990dfdf504852126840ac7961f45192",
+      "targetBytes": 43008
+    },
+    {
+      "path": "packages/360_venus_activities_activit_0186_en_0.pkg",
+      "sourceSha256": "07539705fd2a1b9097d1ea7e1f66b91e7842f6a8c7096dfe33be764ac798527d",
+      "targetSha256": "07539705fd2a1b9097d1ea7e1f66b91e7842f6a8c7096dfe33be764ac798527d",
+      "targetBytes": 1474560
+    },
+    {
+      "path": "packages/360_venus_activities_activityon_0184_0.pkg",
+      "sourceSha256": "ca1b6733f467fbfa1ab38772bd89392dfd608461d2f860f3b93a041f0039a317",
+      "targetSha256": "ca1b6733f467fbfa1ab38772bd89392dfd608461d2f860f3b93a041f0039a317",
+      "targetBytes": 9746432
+    },
+    {
+      "path": "packages/360_venus_activities_activityon_0d84_0.pkg",
+      "sourceSha256": "9f81a31520f2c8d25401e86e8eb8635e9340670638396abc79f46502284a1f2f",
+      "targetSha256": "9f81a31520f2c8d25401e86e8eb8635e9340670638396abc79f46502284a1f2f",
+      "targetBytes": 14336
+    },
+    {
+      "path": "packages/360_venus_ambient_activityon_019b_en_0.pkg",
+      "sourceSha256": "8df29bc06144bafc231bea5c603ad18bdd7ade112f4365b1b49f836b5e82bc86",
+      "targetSha256": "8df29bc06144bafc231bea5c603ad18bdd7ade112f4365b1b49f836b5e82bc86",
+      "targetBytes": 817152
+    },
+    {
+      "path": "packages/360_venus_ambient_activityonly_0199_0.pkg",
+      "sourceSha256": "267265efa958ee55fade9c9dae70c5ef770b385c391c005e1ce6c600343f58a8",
+      "targetSha256": "267265efa958ee55fade9c9dae70c5ef770b385c391c005e1ce6c600343f58a8",
+      "targetBytes": 22222848
+    },
+    {
+      "path": "packages/360_venus_ambient_activityonly_0d99_0.pkg",
+      "sourceSha256": "256d1967a2727fb18a19653a806376e3aabb57cbd419ed02b3d5a6d38009e40a",
+      "targetSha256": "256d1967a2727fb18a19653a806376e3aabb57cbd419ed02b3d5a6d38009e40a",
+      "targetBytes": 10240
+    },
+    {
+      "path": "packages/360_venus_destination_01ae_0.pkg",
+      "sourceSha256": "3267f8d8914a263f6d31beccdc9a65b56d71093c88c3a23f0d3037f3470b281a",
+      "targetSha256": "3267f8d8914a263f6d31beccdc9a65b56d71093c88c3a23f0d3037f3470b281a",
+      "targetBytes": 46731264
+    },
+    {
+      "path": "packages/360_venus_destination_01b0_0.pkg",
+      "sourceSha256": "e5d48b2df264c6545d8be68bc8c9913d98f908fb416b9bd52759d1a09c3f741f",
+      "targetSha256": "e5d48b2df264c6545d8be68bc8c9913d98f908fb416b9bd52759d1a09c3f741f",
+      "targetBytes": 70010880
+    },
+    {
+      "path": "packages/360_venus_destination_01b1_0.pkg",
+      "sourceSha256": "3996efc19cf76fc0fb997d6561a2c6258e5781467a78ebfe7128be31b4b46e4a",
+      "targetSha256": "3996efc19cf76fc0fb997d6561a2c6258e5781467a78ebfe7128be31b4b46e4a",
+      "targetBytes": 37566464
+    },
+    {
+      "path": "packages/360_venus_destination_01b2_0.pkg",
+      "sourceSha256": "904458dcbf49594334872eb1d7a6a3c2ad1c2e8558ac179071f1a6e547c2d442",
+      "targetSha256": "904458dcbf49594334872eb1d7a6a3c2ad1c2e8558ac179071f1a6e547c2d442",
+      "targetBytes": 85352448
+    },
+    {
+      "path": "packages/360_venus_destination_01b3_0.pkg",
+      "sourceSha256": "bcd834a0633a09f6b1d63fe22ef97a66d7a5de7ca719fa2b313417be4a47ee7c",
+      "targetSha256": "bcd834a0633a09f6b1d63fe22ef97a66d7a5de7ca719fa2b313417be4a47ee7c",
+      "targetBytes": 27635712
+    },
+    {
+      "path": "packages/360_venus_destination_0dae_0.pkg",
+      "sourceSha256": "e3c490126d80fee2f8fbbae7d9c4cce0c73ef7e35958db36ef89b54632433285",
+      "targetSha256": "e3c490126d80fee2f8fbbae7d9c4cce0c73ef7e35958db36ef89b54632433285",
+      "targetBytes": 104448
+    },
+    {
+      "path": "AvatarAssetPack",
+      "sourceSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
+      "targetSha256": "7159bf29cb70879b0b71eeb4e197c6b1e272a46d94d84629f1fddf09b737fe6d",
+      "targetBytes": 13799424
+    },
+    {
+      "path": "init.txt",
+      "sourceSha256": "8b45957bd33eaf2e9c77ac03c1ff8adcd490350e5cc223e14447727796f6cb2e",
+      "targetSha256": "b740f3ead2d07aa4ad5eeb23d48f4ac412d142a24c0c633599834ae63dd73073",
+      "targetBytes": 9608,
+      "patch": "game-patches/135.delta.gz"
+    },
+    {
+      "path": "nxeart",
+      "sourceSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
+      "targetSha256": "f5e2b3f0dd5c7cfee29414b9e609b67ee421580c9a9968988b9ce7db66bd147a",
+      "targetBytes": 249856
+    },
+    {
+      "path": "fonts/ALTERNATEGOTHICCOM-NO3.TTF",
+      "sourceSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
+      "targetSha256": "fc70461ba5325e83100d7cc7b956cde777ea6b5dd14443ec728661c43115d517",
+      "targetBytes": 108776
+    },
+    {
+      "path": "fonts/consola.ttf",
+      "sourceSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
+      "targetSha256": "45c14a49e0ba2edc00b72afad9a930cad5c1b9a93323b239a8c308efc5a65e8e",
+      "targetBytes": 358256
+    },
+    {
+      "path": "fonts/FuturaStd-Bold.otf",
+      "sourceSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
+      "targetSha256": "8ecbcedabc9061fb427bf557d67b969379896e06332f0ce3d5fb5a504c0cffc7",
+      "targetBytes": 26900
+    },
+    {
+      "path": "fonts/FuturaStd-Medium.otf",
+      "sourceSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
+      "targetSha256": "bf8ea3f20616b1dbf75b31da1cabc1881d735b33ab00704863282e1293c2c3be",
+      "targetBytes": 25504
+    },
+    {
+      "path": "fonts/NHaasGroteskDSPro-95Blk.otf",
+      "sourceSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
+      "targetSha256": "ecda591c00472a987f5b07fea1f8b58becec0b0bfa8dd49628ac7d211a45fc23",
+      "targetBytes": 90440
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-55Rg.otf",
+      "sourceSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
+      "targetSha256": "4d715b7ca934de402a122f24c0eb8d44a374783a993eee50ee9330fd846bb35c",
+      "targetBytes": 95244
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-56It.otf",
+      "sourceSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
+      "targetSha256": "537be7f5e142128747084a2b55ba7cf4e4b786ea53500fcbc64c632817625f5e",
+      "targetBytes": 101644
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-65Md.otf",
+      "sourceSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
+      "targetSha256": "b78cb631e2e55c498e005c073d4a04a0306fe874d46db021addf1131f3ca98d6",
+      "targetBytes": 101720
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-66MdIt.otf",
+      "sourceSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
+      "targetSha256": "09dc98aaee0b72890555998b2564d78afbb73095883dfef8710b77ecf66b97ef",
+      "targetBytes": 110256
+    },
+    {
+      "path": "fonts/NHaasGroteskTXPro-75Bd.otf",
+      "sourceSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
+      "targetSha256": "cab1da2a052e9a85552479758dfbd4ffc31996261a58b12084bf04242a027913",
+      "targetBytes": 100312
+    },
+    {
+      "path": "fonts/TIGER_SYMBOLS.ttf",
+      "sourceSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
+      "targetSha256": "118c91629c0b8c950906f34c1607c89015f4178593bc4abac07d715d029a5d2d",
+      "targetBytes": 37920
+    }
+  ]
+}

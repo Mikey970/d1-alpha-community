@@ -1,0 +1,91 @@
+{
+  "sourceRun": "r576-native-patrol-20260922-0157",
+  "slice": 21,
+  "pending": [
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 0
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 1
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 2
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 3
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 4
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 5
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 6
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 7
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 8
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 9
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 10
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 11
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 32,
+      "typeIndex": 12
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 35,
+      "typeIndex": 13
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 35,
+      "typeIndex": 14
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 35,
+      "typeIndex": 15
+    },
+    {
+      "bundle": 668825396,
+      "typeId": 29,
+      "typeIndex": 17
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "baseCommit": "356db303f00503dcc636f69e1caec92dac74ac43",
+  "sourceTree": "runtime/lab/xenia-community-r576-clean-combat-20260922",
+  "sourceOrigin": "Snapshot of dirty xenia-feature-xhttp; original checkout unchanged",
+  "emitterOrigin": "Preserved r526 source-observer; retains accepted audio device-slot repair",
+  "emitterBeforeSha256": "fa0fc11aeee807012c291ca411d3ebd45d3797b66bd5d9bb6f8661612040fa9e",
+  "emitterAfterSha256": "b9fa7087b2366be2d79274edde3db4ce42eb8a0e201fc4f1b175d09ad8808d69",
+  "removed": [
+    "forced Thorn equip",
+    "infinite ammunition",
+    "bottomless clip",
+    "unused one-shot guard"
+  ],
+  "runtimeAccepted": false,
+  "limitation": "Current binary passed native roster creation/reload, Tower/Nexus entry and movement, Combat Test entry, saved Scout firing 12 to 11 rounds and reload to 12, and Greenhouse native playlist spawn/movement/fire/reload/weapon switching with corrected team16. Full missions, dialogue, held-trigger combat, other PvP maps, multiplayer and round lifecycle remain open.",
+  "buildPassed": true,
+  "exeSha256": "ea17e45e74321dc2bf4bb8402b1595f497363bdea1f95000dcf9f9ac65469be3",
+  "exeBytes": 18756608,
+  "compiledForcedCommandStrings": {
+    "investment_character_equip_item thorn": false,
+    "cheat_infinite_ammo 1": false,
+    "cheat_bottomless_clip 1": false
+  },
+  "originDirtyPatchSha256": "78397e82f4134a20beb5b3f5a77d76425c5fa03b36c87002668be1d7ec16af6f",
+  "baselineExeSha256": "c896efc85fafe8d55983051b73b463c0e3c769977fd637b97fe37d54fa9f1bd8",
+  "baselineRuntimeChecks": {
+    "nativeCombatTestLaunch": true,
+    "combatGuardianAndSavedScout": true,
+    "combatShotMagazine": [
+      12,
+      11
+    ],
+    "combatReloadMagazine": [
+      11,
+      12
+    ],
+    "combatMovement": true,
+    "nativeChapter2Launch": true,
+    "chapter2GuardianAndSavedScout": true,
+    "chapter2Movement": true,
+    "chapter2FiringAccepted": false,
+    "chapter2AmmoObserved": 12,
+    "audioRepairStillExecutes": true,
+    "forcedCommandLogCount": 0,
+    "fullDialogueAccepted": false
+  },
+  "auditFixes": [
+    "Buffered keyboard taps preserve the keydown modifier from the queued UI event.",
+    "Saved TOML quotes each category path component, preserving nested HID.WinKey.",
+    "Reject empty modifier tokens, multicharacter decimal tokens, malformed/overflow/trailing-junk hex and key codes above255.",
+    "Opt-in bounded input trace defaults off; controller state is unchanged by tracing."
+  ],
+  "sourceFilesSha256": {
+    "src/xenia/cpu/backend/x64/x64_emitter.cc": "b9fa7087b2366be2d79274edde3db4ce42eb8a0e201fc4f1b175d09ad8808d69",
+    "src/xenia/hid/winkey/winkey_input_driver.cc": "0f615fd7155143dbffd2f9e8a5ee76d5c493282d718fa0f9862c4608bb2733a7",
+    "src/xenia/hid/winkey/winkey_input_driver.h": "74a55d37805280b68695272c3bb8069abdcf4114e7b113cba186aa05de104141",
+    "src/xenia/config.cc": "c9699e315185070c86353c124091628f18b31b1ebec8194d83ac76608f86d501",
+    "CMakeLists.txt": "06b3fdd5e09ad34026ad739e3e3a51109418cd35b55e1863fa50a151a4b7ccb1",
+    "version.h.in": "5f4f48be76143bf3b6161bf89a59867cee4047248b9fd722b214f75b99112fab"
+  },
+  "candidate15RuntimeChecks": {
+    "nativeOrbit": true,
+    "shiftWNoResidualAnalogMovement": true,
+    "ordinaryWDDestinationCursorMovement": true,
+    "nativeChapter2Launch": true,
+    "chapter2GuardianAndSavedScout": true,
+    "nativeWeaponSwitch12To30": true,
+    "alternateWeaponFireAccepted": false,
+    "alternateWeaponAmmoBeforeAfter": [
+      30,
+      30
+    ],
+    "nativeCharacterMenuLevel": 15,
+    "savedConfigParses": true,
+    "nestedWinKeySettingsPreserved": true,
+    "keyPulsePolls": 4,
+    "fullDialogueAccepted": false,
+    "savedConfigReloadToOrbit": true
+  },
+  "candidate15ExeSha256": "583b270900d15eb8dfe1719c092a225b065241dea5560b4ebaf4d59c6bd94d72",
+  "runtimeChecks": {
+    "run": "r576-strict-bindings-20260922",
+    "nativeOrbit": true,
+    "nativeActivityMap": true,
+    "validConfirmOpenedOwnershipCard": true,
+    "malformedBindingsRejected": [
+      "_",
+      "^",
+      "12",
+      "0x",
+      "0xZZ",
+      "0x100",
+      "0x10000",
+      "0xBAjunk"
+    ],
+    "traceDisabled": true,
+    "normalExit": true,
+    "note": "UI checks observed through Sky. Full gameplay was not repeated on this parser-only follow-up build."
+  },
+  "diagnosticBaselineChecks": {
+    "exeSha256": "0e8e0c061779041c90ebddf7592a4df9512f0b56b646c4cefd8bb3313fc68d65",
+    "chapter2ScoutShots": [
+      12,
+      11,
+      10
+    ],
+    "chapter2Reload": [
+      11,
+      12
+    ],
+    "secondarySwitch": true,
+    "secondaryFireAccepted": false,
+    "evidence": "runtime/analysis-community-r576-20260921/WEAPON-INPUT-AUDIT.md"
+  },
+  "candidate22RuntimeChecks": {
+    "run": "r576-start-20260922-154137-f512b9",
+    "nativeCombatTestLaunch": true,
+    "character": "0000000200000004",
+    "savedScoutMagazine": [
+      12,
+      11,
+      12
+    ],
+    "movement": true,
+    "fullObjectivesAccepted": false,
+    "evidence": "COMBAT-RELEASE-REPAIR.md"
+  }
+}

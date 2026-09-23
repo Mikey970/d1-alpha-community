@@ -1,0 +1,396 @@
+{
+  "scope": "E3 ability projection only; weapon/armor/dye conversion pending",
+  "mapping": "Explicit namespace aliases; every target name hash verified against native inventory table101. Runtime equivalence and effects require tests.",
+  "presets": [
+    {
+      "index": 18,
+      "name": "E3 PLAYER 1 - The Player",
+      "class": 3,
+      "abilities": [
+        {
+          "name": "flare_thermal",
+          "inventoryName": "ability_flare_thermal",
+          "index": 31,
+          "modifiers": []
+        },
+        {
+          "name": "nova_bomb_super",
+          "inventoryName": "ability_nova_bomb",
+          "index": 12,
+          "modifiers": [
+            3065135812
+          ]
+        },
+        {
+          "name": "melee_hunter",
+          "inventoryName": "ability_hunter_melee",
+          "index": 9,
+          "modifiers": []
+        },
+        {
+          "name": "glide",
+          "inventoryName": "ability_glide",
+          "index": 7,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_LB",
+          "ability": "flare_thermal",
+          "name": "set_environments_on_fire",
+          "supported_bit": null,
+          "name_hash": "FB2D1E3B"
+        },
+        {
+          "slot": "ability_slot_LB",
+          "ability": "flare_thermal",
+          "name": "e3_solar_flare_mods",
+          "supported_bit": null,
+          "name_hash": "11965B3E"
+        },
+        {
+          "slot": "ability_slot_RB",
+          "ability": "melee_hunter",
+          "name": "e3_mod",
+          "supported_bit": null,
+          "name_hash": "9BF22254"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "E3 PLAYER 1 - The Player (BOOTH)",
+      "class": 3,
+      "abilities": [
+        {
+          "name": "solar_flare",
+          "inventoryName": "ability_solar_flare",
+          "index": 19,
+          "modifiers": [
+            4214038075,
+            295066430
+          ]
+        },
+        {
+          "name": "nova_bomb_super",
+          "inventoryName": "ability_nova_bomb",
+          "index": 12,
+          "modifiers": [
+            3065135812
+          ]
+        },
+        {
+          "name": "melee_hunter",
+          "inventoryName": "ability_hunter_melee",
+          "index": 9,
+          "modifiers": []
+        },
+        {
+          "name": "glide",
+          "inventoryName": "ability_glide",
+          "index": 7,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_RB",
+          "ability": "melee_hunter",
+          "name": "e3_mod",
+          "supported_bit": null,
+          "name_hash": "9BF22254"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "E3 PLAYER 2 - Hunter",
+      "class": 2,
+      "abilities": [
+        {
+          "name": "sixth_grenade",
+          "inventoryName": "ability_sixth_grenade",
+          "index": 18,
+          "modifiers": []
+        },
+        {
+          "name": "golden_gun_super",
+          "inventoryName": "ability_ghost_gun",
+          "index": 6,
+          "modifiers": []
+        },
+        {
+          "name": "melee_hunter",
+          "inventoryName": "ability_hunter_melee",
+          "index": 9,
+          "modifiers": []
+        },
+        {
+          "name": "double_jump",
+          "inventoryName": "ability_double_jump",
+          "index": 3,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_RB",
+          "ability": "melee_hunter",
+          "name": "e3_mod",
+          "supported_bit": null,
+          "name_hash": "9BF22254"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "E3 PLAYER 3 - Titan",
+      "class": 1,
+      "abilities": [
+        {
+          "name": "flux_grenade",
+          "inventoryName": "ability_flux_grenade",
+          "index": 5,
+          "modifiers": []
+        },
+        {
+          "name": "fist_of_havoc_super",
+          "inventoryName": "ability_fist_of_havoc",
+          "index": 4,
+          "modifiers": [
+            2124377881
+          ]
+        },
+        {
+          "name": "melee_guardian",
+          "inventoryName": "ability_titan_melee",
+          "index": 8,
+          "modifiers": [
+            2616336980
+          ]
+        },
+        {
+          "name": "double_jump",
+          "inventoryName": "ability_double_jump",
+          "index": 3,
+          "modifiers": []
+        },
+        {
+          "name": "rush",
+          "inventoryName": "ability_rush",
+          "index": 16,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_hori_movement",
+          "ability": "rush",
+          "name": "enable_shoulder_charge",
+          "supported_bit": null,
+          "name_hash": "1864DB62"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "E3 PLAYER 4 - Warlock",
+      "class": 3,
+      "abilities": [
+        {
+          "name": "pulse_grenade",
+          "inventoryName": "ability_pulse_grenade",
+          "index": 14,
+          "modifiers": []
+        },
+        {
+          "name": "resto_radiance_super",
+          "inventoryName": "ability_radiance",
+          "index": 15,
+          "modifiers": [
+            3717797201
+          ]
+        },
+        {
+          "name": "melee_warlock",
+          "inventoryName": "ability_warlock_melee",
+          "index": 22,
+          "modifiers": [
+            3735330260,
+            2616336980
+          ]
+        },
+        {
+          "name": "glide",
+          "inventoryName": "ability_glide",
+          "index": 7,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": []
+    },
+    {
+      "index": 23,
+      "name": "E3 PLAYER 5 - Warlock",
+      "class": 3,
+      "abilities": [
+        {
+          "name": "solar_flare",
+          "inventoryName": "ability_solar_flare",
+          "index": 19,
+          "modifiers": [
+            4214038075,
+            295066430
+          ]
+        },
+        {
+          "name": "nova_bomb_super",
+          "inventoryName": "ability_nova_bomb",
+          "index": 12,
+          "modifiers": []
+        },
+        {
+          "name": "melee_warlock",
+          "inventoryName": "ability_warlock_melee",
+          "index": 22,
+          "modifiers": [
+            3735330260,
+            2616336980
+          ]
+        },
+        {
+          "name": "glide",
+          "inventoryName": "ability_glide",
+          "index": 7,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": []
+    },
+    {
+      "index": 24,
+      "name": "E3 PLAYER 6 - Titan",
+      "class": 1,
+      "abilities": [
+        {
+          "name": "flux_grenade",
+          "inventoryName": "ability_flux_grenade",
+          "index": 5,
+          "modifiers": []
+        },
+        {
+          "name": "fist_of_havoc_super",
+          "inventoryName": "ability_fist_of_havoc",
+          "index": 4,
+          "modifiers": []
+        },
+        {
+          "name": "melee_guardian",
+          "inventoryName": "ability_titan_melee",
+          "index": 8,
+          "modifiers": [
+            2616336980
+          ]
+        },
+        {
+          "name": "double_jump",
+          "inventoryName": "ability_double_jump",
+          "index": 3,
+          "modifiers": []
+        },
+        {
+          "name": "rush",
+          "inventoryName": "ability_rush",
+          "index": 16,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_hori_movement",
+          "ability": "rush",
+          "name": "enable_shoulder_charge",
+          "supported_bit": null,
+          "name_hash": "1864DB62"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "E3 PLAYER 7 - Hunter",
+      "class": 2,
+      "abilities": [
+        {
+          "name": "pulse_grenade",
+          "inventoryName": "ability_pulse_grenade",
+          "index": 14,
+          "modifiers": []
+        },
+        {
+          "name": "golden_gun_super",
+          "inventoryName": "ability_ghost_gun",
+          "index": 6,
+          "modifiers": []
+        },
+        {
+          "name": "melee_hunter",
+          "inventoryName": "ability_hunter_melee",
+          "index": 9,
+          "modifiers": []
+        },
+        {
+          "name": "double_jump",
+          "inventoryName": "ability_double_jump",
+          "index": 3,
+          "modifiers": []
+        },
+        {
+          "name": "sprint",
+          "inventoryName": "ability_sprint",
+          "index": 20,
+          "modifiers": []
+        }
+      ],
+      "unavailableModifiers": [
+        {
+          "slot": "ability_slot_RB",
+          "ability": "melee_hunter",
+          "name": "e3_mod",
+          "supported_bit": null,
+          "name_hash": "9BF22254"
+        }
+      ]
+    }
+  ]
+}

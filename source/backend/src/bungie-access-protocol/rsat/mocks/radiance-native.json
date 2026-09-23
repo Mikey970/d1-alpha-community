@@ -1,0 +1,193 @@
+{
+  "definition": 441,
+  "grid": 250,
+  "category": 12,
+  "intrinsics": [
+    96,
+    97,
+    98,
+    95
+  ],
+  "nodes": [
+    {
+      "node": 0,
+      "grant": false,
+      "group": "cef1391d",
+      "level": 3,
+      "ability": 7,
+      "slot": 3,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 1632
+    },
+    {
+      "node": 1,
+      "grant": false,
+      "group": "2305c3b4",
+      "level": 2,
+      "ability": 31,
+      "slot": 0,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 1792
+    },
+    {
+      "node": 2,
+      "grant": false,
+      "group": "9c92f19a",
+      "level": 5,
+      "ability": -1,
+      "slot": -1,
+      "modifierAbility": 22,
+      "modifierHash": 2384549357,
+      "perk": -1,
+      "stepOffset": 1952
+    },
+    {
+      "node": 10,
+      "grant": false,
+      "group": "c0224bc5",
+      "level": 7,
+      "ability": -1,
+      "slot": -1,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": 50,
+      "stepOffset": 3232
+    },
+    {
+      "node": 11,
+      "grant": false,
+      "group": "c0224bc5",
+      "level": 7,
+      "ability": -1,
+      "slot": -1,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": 49,
+      "stepOffset": 3392
+    },
+    {
+      "node": 14,
+      "grant": true,
+      "group": "811c9dc5",
+      "level": 0,
+      "ability": 22,
+      "slot": 2,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 3872
+    },
+    {
+      "node": 15,
+      "grant": false,
+      "group": "9c92f19a",
+      "level": 5,
+      "ability": -1,
+      "slot": -1,
+      "modifierAbility": 22,
+      "modifierHash": 2384549357,
+      "perk": -1,
+      "stepOffset": 4032
+    },
+    {
+      "node": 16,
+      "grant": false,
+      "group": "9c92f19a",
+      "level": 5,
+      "ability": -1,
+      "slot": -1,
+      "modifierAbility": 22,
+      "modifierHash": 1758001241,
+      "perk": -1,
+      "stepOffset": 4192
+    },
+    {
+      "node": 17,
+      "grant": true,
+      "group": "811c9dc5",
+      "level": 0,
+      "ability": 20,
+      "slot": 4,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 4352
+    },
+    {
+      "node": 18,
+      "grant": false,
+      "group": "cef1391d",
+      "level": 3,
+      "ability": 2,
+      "slot": 3,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 4512
+    },
+    {
+      "node": 19,
+      "grant": false,
+      "group": "cef1391d",
+      "level": 3,
+      "ability": 7,
+      "slot": 3,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 4672
+    },
+    {
+      "node": 20,
+      "grant": false,
+      "group": "2305c3b4",
+      "level": 2,
+      "ability": 25,
+      "slot": 0,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 4832
+    },
+    {
+      "node": 21,
+      "grant": false,
+      "group": "2305c3b4",
+      "level": 2,
+      "ability": 34,
+      "slot": 0,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 4992
+    },
+    {
+      "node": 22,
+      "grant": true,
+      "group": "811c9dc5",
+      "level": 0,
+      "ability": 23,
+      "slot": 0,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 5152
+    },
+    {
+      "node": 25,
+      "grant": false,
+      "group": "811c9dc5",
+      "level": 4,
+      "ability": 15,
+      "slot": 1,
+      "modifierAbility": -1,
+      "modifierHash": 2166136261,
+      "perk": -1,
+      "stepOffset": 5632
+    }
+  ]
+}

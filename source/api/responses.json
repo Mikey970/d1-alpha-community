@@ -1,0 +1,110 @@
+{
+  "routes": [
+    {
+      "name": "xenia-whoami",
+      "method": "GET",
+      "path": "/whoami",
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": "{\"address\":\"127.0.0.1\"}"
+      }
+    },
+    {
+      "name": "xenia-register-player",
+      "method": "POST",
+      "path": "/players",
+      "response": {
+        "status": 201,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": ""
+      }
+    },
+    {
+      "name": "xenia-find-player",
+      "method": "POST",
+      "path": "/players/find",
+      "response": {
+        "status": 201,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": "{\"xuid\":\"000900002AA614E0\",\"gamertag\":\"guardian\",\"hostAddress\":\"127.0.0.1\",\"machineId\":\"fa007c1e5294b4dd\",\"port\":36000,\"macAddress\":\"7c1e5294b4dd\",\"sessionId\":\"0000000000000000\"}"
+      }
+    },
+    {
+      "name": "xenia-delete-sessions",
+      "method": "DELETE",
+      "path": "/DeleteSessions",
+      "response": {
+        "status": 200,
+        "headers": {},
+        "body": ""
+      }
+    },
+    {
+      "name": "xenia-session-post",
+      "method": "POST",
+      "pathPrefix": "/title/41560907/sessions",
+      "response": {
+        "status": 201,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": "{}"
+      }
+    },
+    {
+      "name": "d1-signon-minimal-success",
+      "method": "GET",
+      "path": "/signon/signon",
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/octet-stream"
+        },
+        "bodyBase64": "CAASVAoQAAAAAAAAAAAAAAAAAAAAABIQAAAAAAAAAAAAAAAAAAAAABoQAAAAAAAAAAAAAAAAAAAAACIRYm5ldC1zaWdub24tdG9rZW4oADD/gIAIOIihAg=="
+      }
+    },
+    {
+      "name": "d1-port-map",
+      "method": "GET",
+      "path": "/title/41560907/ports",
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": "{}"
+      }
+    },
+    {
+      "name": "d1-title-servers",
+      "method": "GET",
+      "path": "/title/41560907/servers",
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+          "body": "[{\"address\":\"127.0.0.1\",\"flags\":0,\"description\":\"ttl,usr,shr,web,dbg,upl,prs,std,bap,dwl\"}]"
+      }
+    },
+    {
+      "name": "d1-xhttp-hosts",
+      "method": "GET",
+      "path": "/title/41560907/hosts",
+      "response": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        },
+        "body": "{\"36735xbox.signon.newmonarchy.org\":\"127.0.0.1\",\"dm-tiger.upload.deadorbit.net\":\"127.0.0.1\",\"dm-partnernet.upload.deadorbit.net\":\"127.0.0.1\"}"
+      }
+    }
+  ]
+}

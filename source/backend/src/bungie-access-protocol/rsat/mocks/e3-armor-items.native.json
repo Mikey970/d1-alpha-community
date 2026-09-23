@@ -1,0 +1,1002 @@
+[
+  {
+    "preset": 18,
+    "slot": 2,
+    "defIndex": 278,
+    "bucket": 8,
+    "artArrangement": 267,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 483,
+    "nativeTag": "808E29A1",
+    "nativeSha256": "f71ce14e9f947be1e318de5f461a37e65f01be696281a79393bda500924daf61",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 18,
+    "slot": 3,
+    "defIndex": 269,
+    "bucket": 9,
+    "artArrangement": 258,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 480,
+    "nativeTag": "808E2998",
+    "nativeSha256": "8720d15155ba1d91aa0e793653f5a7c66577f4c12decc43bd1f6b134fd8d3f57",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 18,
+    "slot": 4,
+    "defIndex": 273,
+    "bucket": 10,
+    "artArrangement": 262,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 481,
+    "nativeTag": "808E299C",
+    "nativeSha256": "c2762b065ab78945e3ca4dd91db711325c3e776c4bbb153f0a19acbcf89d601e",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 18,
+    "slot": 5,
+    "defIndex": 282,
+    "bucket": 11,
+    "artArrangement": 271,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 484,
+    "nativeTag": "808E29A5",
+    "nativeSha256": "a8f8eebfd252cb4b5b2395cd97467c27c22eda5bcedec3707f358a755920d9a4",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 18,
+    "slot": 6,
+    "defIndex": 275,
+    "bucket": 12,
+    "artArrangement": 264,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 482,
+    "nativeTag": "808E299E",
+    "nativeSha256": "407011015752fd2f812b476fd96707385a590c5c8c70826134478c9bdaf5f984",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 19,
+    "slot": 2,
+    "defIndex": 278,
+    "bucket": 8,
+    "artArrangement": 267,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 483,
+    "nativeTag": "808E29A1",
+    "nativeSha256": "f71ce14e9f947be1e318de5f461a37e65f01be696281a79393bda500924daf61",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 19,
+    "slot": 3,
+    "defIndex": 269,
+    "bucket": 9,
+    "artArrangement": 258,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 480,
+    "nativeTag": "808E2998",
+    "nativeSha256": "8720d15155ba1d91aa0e793653f5a7c66577f4c12decc43bd1f6b134fd8d3f57",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 19,
+    "slot": 4,
+    "defIndex": 273,
+    "bucket": 10,
+    "artArrangement": 262,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 481,
+    "nativeTag": "808E299C",
+    "nativeSha256": "c2762b065ab78945e3ca4dd91db711325c3e776c4bbb153f0a19acbcf89d601e",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 19,
+    "slot": 5,
+    "defIndex": 282,
+    "bucket": 11,
+    "artArrangement": 271,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 484,
+    "nativeTag": "808E29A5",
+    "nativeSha256": "a8f8eebfd252cb4b5b2395cd97467c27c22eda5bcedec3707f358a755920d9a4",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 19,
+    "slot": 6,
+    "defIndex": 275,
+    "bucket": 12,
+    "artArrangement": 264,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 482,
+    "nativeTag": "808E299E",
+    "nativeSha256": "407011015752fd2f812b476fd96707385a590c5c8c70826134478c9bdaf5f984",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 20,
+    "slot": 2,
+    "defIndex": 204,
+    "bucket": 8,
+    "artArrangement": 211,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 467,
+    "nativeTag": "808E2957",
+    "nativeSha256": "997d91e9b5bc9f9d923b4f587fc453cf0533400363901a4c1715b717b5e0f6ea",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 20,
+    "slot": 3,
+    "defIndex": 210,
+    "bucket": 9,
+    "artArrangement": 198,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 464,
+    "nativeTag": "808E295D",
+    "nativeSha256": "9c28940562154dacaa16526aa50e12c900da3c33e881203b6ad5856422e889bd",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 20,
+    "slot": 4,
+    "defIndex": 216,
+    "bucket": 10,
+    "artArrangement": 204,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 465,
+    "nativeTag": "808E2963",
+    "nativeSha256": "11125b8234810523417a879b1651011a5259455c24bd1f2b5c3d9ada4fe9ca62",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 20,
+    "slot": 5,
+    "defIndex": 220,
+    "bucket": 11,
+    "artArrangement": 217,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 468,
+    "nativeTag": "808E2967",
+    "nativeSha256": "d94485bd81dd93ef8fa786e4bc4bd7de7c21be448948a70fbd6175ae90d8d004",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 20,
+    "slot": 6,
+    "defIndex": 223,
+    "bucket": 12,
+    "artArrangement": 208,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 466,
+    "nativeTag": "808E296A",
+    "nativeSha256": "6b16bf98dc85ab1e4b83d4b367891d509aab6f502a845d414421d4c2dcb93100",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 21,
+    "slot": 2,
+    "defIndex": 104,
+    "bucket": 8,
+    "artArrangement": 99,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 3,
+    "requirement": 460,
+    "nativeTag": "808E28F3",
+    "nativeSha256": "0bed285a68190e5a743398c7352c9d8aed50a26323c26881249ffc05aba64b6f",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 21,
+    "slot": 3,
+    "defIndex": 91,
+    "bucket": 9,
+    "artArrangement": 86,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 3,
+    "requirement": 457,
+    "nativeTag": "808E28E6",
+    "nativeSha256": "56de7e649ab6460864a74de8354eb4d04657a9672ccbe011782a363b824e76b1",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 21,
+    "slot": 4,
+    "defIndex": 97,
+    "bucket": 10,
+    "artArrangement": 92,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 3,
+    "requirement": 458,
+    "nativeTag": "808E28EC",
+    "nativeSha256": "50890106c6501f6dba0db954461b2bc0af21ce55af5df0b73cdf24ca7d9d7eba",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 21,
+    "slot": 5,
+    "defIndex": 112,
+    "bucket": 11,
+    "artArrangement": 107,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 3,
+    "requirement": 461,
+    "nativeTag": "808E28FB",
+    "nativeSha256": "781c9105dd4db3296a690aeb1811e741f7fe2b63986ddb49ed7eac92d126ea8b",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 21,
+    "slot": 6,
+    "defIndex": 33,
+    "bucket": 12,
+    "artArrangement": 28,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 459,
+    "nativeTag": "808E28AC",
+    "nativeSha256": "fc83463d238a78d6e6aa1bfca9b5dc2e5a67cd8aa3b627e5842484687b6881e2",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 22,
+    "slot": 2,
+    "defIndex": 278,
+    "bucket": 8,
+    "artArrangement": 267,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 483,
+    "nativeTag": "808E29A1",
+    "nativeSha256": "f71ce14e9f947be1e318de5f461a37e65f01be696281a79393bda500924daf61",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 22,
+    "slot": 3,
+    "defIndex": 269,
+    "bucket": 9,
+    "artArrangement": 258,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 480,
+    "nativeTag": "808E2998",
+    "nativeSha256": "8720d15155ba1d91aa0e793653f5a7c66577f4c12decc43bd1f6b134fd8d3f57",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 22,
+    "slot": 4,
+    "defIndex": 273,
+    "bucket": 10,
+    "artArrangement": 262,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 481,
+    "nativeTag": "808E299C",
+    "nativeSha256": "c2762b065ab78945e3ca4dd91db711325c3e776c4bbb153f0a19acbcf89d601e",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 22,
+    "slot": 5,
+    "defIndex": 282,
+    "bucket": 11,
+    "artArrangement": 271,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 484,
+    "nativeTag": "808E29A5",
+    "nativeSha256": "a8f8eebfd252cb4b5b2395cd97467c27c22eda5bcedec3707f358a755920d9a4",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 22,
+    "slot": 6,
+    "defIndex": 275,
+    "bucket": 12,
+    "artArrangement": 264,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 482,
+    "nativeTag": "808E299E",
+    "nativeSha256": "407011015752fd2f812b476fd96707385a590c5c8c70826134478c9bdaf5f984",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 23,
+    "slot": 2,
+    "defIndex": 278,
+    "bucket": 8,
+    "artArrangement": 267,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 483,
+    "nativeTag": "808E29A1",
+    "nativeSha256": "f71ce14e9f947be1e318de5f461a37e65f01be696281a79393bda500924daf61",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 23,
+    "slot": 3,
+    "defIndex": 269,
+    "bucket": 9,
+    "artArrangement": 258,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 480,
+    "nativeTag": "808E2998",
+    "nativeSha256": "8720d15155ba1d91aa0e793653f5a7c66577f4c12decc43bd1f6b134fd8d3f57",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 23,
+    "slot": 4,
+    "defIndex": 273,
+    "bucket": 10,
+    "artArrangement": 262,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 481,
+    "nativeTag": "808E299C",
+    "nativeSha256": "c2762b065ab78945e3ca4dd91db711325c3e776c4bbb153f0a19acbcf89d601e",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 23,
+    "slot": 5,
+    "defIndex": 282,
+    "bucket": 11,
+    "artArrangement": 271,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 484,
+    "nativeTag": "808E29A5",
+    "nativeSha256": "a8f8eebfd252cb4b5b2395cd97467c27c22eda5bcedec3707f358a755920d9a4",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 23,
+    "slot": 6,
+    "defIndex": 275,
+    "bucket": 12,
+    "artArrangement": 264,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "characterClass": 3,
+    "tier": 2,
+    "requirement": 482,
+    "nativeTag": "808E299E",
+    "nativeSha256": "407011015752fd2f812b476fd96707385a590c5c8c70826134478c9bdaf5f984",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 24,
+    "slot": 2,
+    "defIndex": 52,
+    "bucket": 8,
+    "artArrangement": 47,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 460,
+    "nativeTag": "808E28BF",
+    "nativeSha256": "d08273f9c79472e3669499ed908c17b21858f975f345e9383a56cbc4d7756d92",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 24,
+    "slot": 3,
+    "defIndex": 43,
+    "bucket": 9,
+    "artArrangement": 38,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 457,
+    "nativeTag": "808E28B6",
+    "nativeSha256": "8338048c255d1e804f89cf19f73b03188ebaafda00f8b73efcef6e6d5e846290",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 24,
+    "slot": 4,
+    "defIndex": 47,
+    "bucket": 10,
+    "artArrangement": 42,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        7
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 458,
+    "nativeTag": "808E28BA",
+    "nativeSha256": "9b86c290d7e6e50a06d5790d9e598243e4a5a73f8a48eda48d07061c6e42eaeb",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 24,
+    "slot": 5,
+    "defIndex": 56,
+    "bucket": 11,
+    "artArrangement": 51,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 461,
+    "nativeTag": "808E28C3",
+    "nativeSha256": "41fe6a15a6d0b673c461c897aa1f018cbc06d50d56b4e9ed363c1eaf14be0c18",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 24,
+    "slot": 6,
+    "defIndex": 49,
+    "bucket": 12,
+    "artArrangement": 44,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "characterClass": 1,
+    "tier": 2,
+    "requirement": 459,
+    "nativeTag": "808E28BC",
+    "nativeSha256": "42463bb74648830dc61bffcff7e6422c73592a5e458d2f6a7b92e6d54e2d1e13",
+    "identityPolicy": "original matching class/gender gear-bank item",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  },
+  {
+    "preset": 25,
+    "slot": 2,
+    "defIndex": 204,
+    "bucket": 8,
+    "artArrangement": 211,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 467,
+    "nativeTag": "808E2957",
+    "nativeSha256": "997d91e9b5bc9f9d923b4f587fc453cf0533400363901a4c1715b717b5e0f6ea",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 25,
+    "slot": 3,
+    "defIndex": 210,
+    "bucket": 9,
+    "artArrangement": 198,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 464,
+    "nativeTag": "808E295D",
+    "nativeSha256": "9c28940562154dacaa16526aa50e12c900da3c33e881203b6ad5856422e889bd",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 25,
+    "slot": 4,
+    "defIndex": 216,
+    "bucket": 10,
+    "artArrangement": 204,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 465,
+    "nativeTag": "808E2963",
+    "nativeSha256": "11125b8234810523417a879b1651011a5259455c24bd1f2b5c3d9ada4fe9ca62",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 25,
+    "slot": 5,
+    "defIndex": 220,
+    "bucket": 11,
+    "artArrangement": 217,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 468,
+    "nativeTag": "808E2967",
+    "nativeSha256": "d94485bd81dd93ef8fa786e4bc4bd7de7c21be448948a70fbd6175ae90d8d004",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": null
+  },
+  {
+    "preset": 25,
+    "slot": 6,
+    "defIndex": 223,
+    "bucket": 12,
+    "artArrangement": 208,
+    "sandboxPattern": -1,
+    "stats": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "characterClass": 2,
+    "tier": 3,
+    "requirement": 466,
+    "nativeTag": "808E296A",
+    "nativeSha256": "6b16bf98dc85ab1e4b83d4b367891d509aab6f502a845d414421d4c2dcb93100",
+    "identityPolicy": "unchanged Hunter baseline",
+    "classItemPolicy": "class-appropriate default; not assigned by E3 branch"
+  }
+]

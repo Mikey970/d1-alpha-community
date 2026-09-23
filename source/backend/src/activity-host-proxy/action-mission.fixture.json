@@ -1,0 +1,113 @@
+{
+  "activityId": 1,
+  "bundle": 4156393240,
+  "optionsTag": "808E3911",
+  "types": [
+    4,
+    3,
+    4,
+    3,
+    4,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "parameters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "objectives": {
+    "22": {
+      "kind": "travel",
+      "nav": 111,
+      "positionHex": "c43878e2c3bd53b64279803a",
+      "trigger": 62,
+      "object": null,
+      "incidentHash": null
+    },
+    "45": {
+      "kind": "travel",
+      "nav": 95,
+      "positionHex": "c430b898c3afecaa429778f0",
+      "trigger": 63,
+      "object": null,
+      "incidentHash": null
+    },
+    "48": {
+      "kind": "travel",
+      "nav": 101,
+      "positionHex": "c42f4c4ec3f5dc5a428b4946",
+      "trigger": 64,
+      "object": null,
+      "incidentHash": null
+    },
+    "18": {
+      "kind": "interact",
+      "nav": 89,
+      "positionHex": "c42aac38c3b335e34294d192",
+      "trigger": null,
+      "object": 21,
+      "incidentHash": 1647791290
+    },
+    "37": {
+      "kind": "interact",
+      "nav": 77,
+      "positionHex": "c42d8daac3e32b2842849f3a",
+      "trigger": null,
+      "object": 40,
+      "incidentHash": 1647791291
+    },
+    "42": {
+      "kind": "interact",
+      "nav": 86,
+      "positionHex": "c4158c97c3def0e8428fb4c3",
+      "trigger": null,
+      "object": 41,
+      "incidentHash": 1647791288
+    }
+  },
+  "orderedObjectives": [
+    22,
+    18,
+    45,
+    37,
+    48,
+    22,
+    42
+  ],
+  "regularPopulation": 5,
+  "timeBetweenSpawns": 7,
+  "beginSeconds": 5,
+  "incomingSeconds": 2,
+  "interObjectiveSeconds": 1,
+  "remainingEmptySteps": 9,
+  "initialSequence": 23,
+  "initialSequenceEmpty": true,
+  "sources": {
+    "runtime/analysis-action-r549-20260909/platform-host/0_80800b48_t16_s0.bin": "3338acb9a3c6637ac8b8f4822b9aeb0aa101080af82cc87c133e151d6a48ddc6",
+    "runtime/analysis-venus-mission-20260905/investment-native/6417_808018b1_t16_s0.bin": "452c3f1cdbe37978ee658e7b8327237da5a3ff5ce3252a7f40e7bf78a70ed043",
+    "runtime/analysis-action-mock-package-r1/15_808004c5_t16_s0.bin": "d68505ad1c4f502b95fcbe1c1f99e0365060501549d2e05486146e3832d6f508"
+  }
+}

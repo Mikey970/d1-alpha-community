@@ -1,0 +1,3082 @@
+[
+  {
+    "bundle": "44FB7AA2",
+    "squad": 1,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4239_808004c5_t16_s0.bin",
+    "template": "80B08D7A"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 3,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4241_808004c5_t16_s0.bin",
+    "template": "80B08D7B"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 4,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4242_808004c5_t16_s0.bin",
+    "template": "80B08D7C"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 5,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4243_808004c5_t16_s0.bin",
+    "template": "80B08D7D"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 6,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4244_808004c5_t16_s0.bin",
+    "template": "80B08D7E"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 7,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4245_808004c5_t16_s0.bin",
+    "template": "80B08D7F"
+  },
+  {
+    "bundle": "44FB7AA2",
+    "squad": 8,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4246_808004c5_t16_s0.bin",
+    "template": "80B08D80"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 80,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4315_808004c5_t16_s0.bin",
+    "template": "80B08D81"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 82,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4347_808004c5_t16_s0.bin",
+    "template": "80B08D82"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 83,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4348_808004c5_t16_s0.bin",
+    "template": "80B08D83"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 84,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4349_808004c5_t16_s0.bin",
+    "template": "80B08D84"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 85,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4350_808004c5_t16_s0.bin",
+    "template": "80B08D85"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 86,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4351_808004c5_t16_s0.bin",
+    "template": "80B08D86"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 87,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4352_808004c5_t16_s0.bin",
+    "template": "80B08D87"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 88,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4353_808004c5_t16_s0.bin",
+    "template": "80B08D88"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 89,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4354_808004c5_t16_s0.bin",
+    "template": "80B08D89"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 90,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4355_808004c5_t16_s0.bin",
+    "template": "80B08D8A"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 92,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4372_808004c5_t16_s0.bin",
+    "template": "80B08D8B"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 94,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4381_808004c5_t16_s0.bin",
+    "template": "80B08D8C"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 96,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4382_808004c5_t16_s0.bin",
+    "template": "80B08D8D"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 98,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4383_808004c5_t16_s0.bin",
+    "template": "80B08D8E"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 100,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4384_808004c5_t16_s0.bin",
+    "template": "80B08D8F"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 102,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4385_808004c5_t16_s0.bin",
+    "template": "80B08D90"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 104,
+    "owner": 14,
+    "memberCount": 2,
+    "resource": "4386_808004c5_t16_s0.bin",
+    "template": "80B08D91"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 105,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4387_808004c5_t16_s0.bin",
+    "template": "80B08D92"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 106,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4388_808004c5_t16_s0.bin",
+    "template": "80B08D93"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 107,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4389_808004c5_t16_s0.bin",
+    "template": "80B08D94"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 108,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4390_808004c5_t16_s0.bin",
+    "template": "80B08D95"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 109,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4391_808004c5_t16_s0.bin",
+    "template": "80B08D96"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 110,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4392_808004c5_t16_s0.bin",
+    "template": "80B08D97"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 111,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4393_808004c5_t16_s0.bin",
+    "template": "80B08D98"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 128,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4394_808004c5_t16_s0.bin",
+    "template": "80B08D99"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 130,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4400_808004c5_t16_s0.bin",
+    "template": "80B08D9A"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 1,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4402_808004c5_t16_s0.bin",
+    "template": "80B08D9C"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 2,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4403_808004c5_t16_s0.bin",
+    "template": "80B08D9D"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 3,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4404_808004c5_t16_s0.bin",
+    "template": "80B08D9E"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 4,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4405_808004c5_t16_s0.bin",
+    "template": "80B08D9F"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 5,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4406_808004c5_t16_s0.bin",
+    "template": "80B08DA0"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 6,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4407_808004c5_t16_s0.bin",
+    "template": "80B08DA1"
+  },
+  {
+    "bundle": "EE5B8C2A",
+    "squad": 7,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4408_808004c5_t16_s0.bin",
+    "template": "80B08DA2"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 25,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4409_808004c5_t16_s0.bin",
+    "template": "80B08DA3"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 26,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4410_808004c5_t16_s0.bin",
+    "template": "80B08DA4"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 27,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4411_808004c5_t16_s0.bin",
+    "template": "80B08DA5"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 28,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4412_808004c5_t16_s0.bin",
+    "template": "80B08DA6"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 29,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4413_808004c5_t16_s0.bin",
+    "template": "80B08DA7"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 30,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4414_808004c5_t16_s0.bin",
+    "template": "80B08DA8"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 31,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4415_808004c5_t16_s0.bin",
+    "template": "80B08DA9"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 32,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4416_808004c5_t16_s0.bin",
+    "template": "80B08DAA"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 33,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4417_808004c5_t16_s0.bin",
+    "template": "80B08DAB"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 34,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4418_808004c5_t16_s0.bin",
+    "template": "80B08DAC"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 35,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4419_808004c5_t16_s0.bin",
+    "template": "80B08DAD"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 36,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4420_808004c5_t16_s0.bin",
+    "template": "80B08DAE"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 37,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4421_808004c5_t16_s0.bin",
+    "template": "80B08DAF"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 38,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4422_808004c5_t16_s0.bin",
+    "template": "80B08DB0"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 39,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4423_808004c5_t16_s0.bin",
+    "template": "80B08DB1"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 41,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4424_808004c5_t16_s0.bin",
+    "template": "80B08DB2"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 43,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4425_808004c5_t16_s0.bin",
+    "template": "80B08DB3"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 44,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4426_808004c5_t16_s0.bin",
+    "template": "80B08DB4"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 45,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4427_808004c5_t16_s0.bin",
+    "template": "80B08DB5"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 46,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4428_808004c5_t16_s0.bin",
+    "template": "80B08DB6"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 47,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4429_808004c5_t16_s0.bin",
+    "template": "80B08DB7"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 69,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4431_808004c5_t16_s0.bin",
+    "template": "80B08DB8"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 71,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4432_808004c5_t16_s0.bin",
+    "template": "80B08DB9"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 73,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4433_808004c5_t16_s0.bin",
+    "template": "80B08DBA"
+  },
+  {
+    "bundle": "517641F1",
+    "squad": 75,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4434_808004c5_t16_s0.bin",
+    "template": "80B08DBB"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 1,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4435_808004c5_t16_s0.bin",
+    "template": "80B08DBC"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 3,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4436_808004c5_t16_s0.bin",
+    "template": "80B08DBD"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 4,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4437_808004c5_t16_s0.bin",
+    "template": "80B08DBE"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 5,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4438_808004c5_t16_s0.bin",
+    "template": "80B08DBF"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 6,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4439_808004c5_t16_s0.bin",
+    "template": "80B08DC0"
+  },
+  {
+    "bundle": "0A6D9003",
+    "squad": 7,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4440_808004c5_t16_s0.bin",
+    "template": "80B08DC1"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 1,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4485_808004c5_t16_s0.bin",
+    "template": "80B08E04"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 2,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4486_808004c5_t16_s0.bin",
+    "template": "80B08E05"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 3,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4487_808004c5_t16_s0.bin",
+    "template": "80B08E06"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 4,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4488_808004c5_t16_s0.bin",
+    "template": "80B08E07"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 5,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4489_808004c5_t16_s0.bin",
+    "template": "80B08E08"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 6,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4490_808004c5_t16_s0.bin",
+    "template": "80B08E09"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 7,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4491_808004c5_t16_s0.bin",
+    "template": "80B08E0A"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 8,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4492_808004c5_t16_s0.bin",
+    "template": "80B08E0B"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 9,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4493_808004c5_t16_s0.bin",
+    "template": "80B08E0C"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 10,
+    "owner": 5,
+    "memberCount": 2,
+    "resource": "4494_808004c5_t16_s0.bin",
+    "template": "80B08E0D"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 11,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4495_808004c5_t16_s0.bin",
+    "template": "80B08E0E"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 12,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4496_808004c5_t16_s0.bin",
+    "template": "80B08E0F"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 2,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4506_808004c5_t16_s0.bin",
+    "template": "80B08E10"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 3,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4507_808004c5_t16_s0.bin",
+    "template": "80B08E11"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 4,
+    "owner": 7,
+    "memberCount": 3,
+    "resource": "4508_808004c5_t16_s0.bin",
+    "template": "80B08E12"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 5,
+    "owner": 7,
+    "memberCount": 4,
+    "resource": "4509_808004c5_t16_s0.bin",
+    "template": "80B08E13"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 6,
+    "owner": 7,
+    "memberCount": 4,
+    "resource": "4510_808004c5_t16_s0.bin",
+    "template": "80B08E14"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 7,
+    "owner": 7,
+    "memberCount": 4,
+    "resource": "4511_808004c5_t16_s0.bin",
+    "template": "80B08E15"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 8,
+    "owner": 7,
+    "memberCount": 3,
+    "resource": "4512_808004c5_t16_s0.bin",
+    "template": "80B08E16"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 9,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4513_808004c5_t16_s0.bin",
+    "template": "80B08E17"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 10,
+    "owner": 7,
+    "memberCount": 3,
+    "resource": "4514_808004c5_t16_s0.bin",
+    "template": "80B08E18"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 11,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4515_808004c5_t16_s0.bin",
+    "template": "80B08E19"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 12,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4516_808004c5_t16_s0.bin",
+    "template": "80B08E1A"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 13,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4517_808004c5_t16_s0.bin",
+    "template": "80B08E1B"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 14,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4518_808004c5_t16_s0.bin",
+    "template": "80B08E1C"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 15,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4519_808004c5_t16_s0.bin",
+    "template": "80B08E1D"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 16,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4520_808004c5_t16_s0.bin",
+    "template": "80B08E1E"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 17,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4521_808004c5_t16_s0.bin",
+    "template": "80B08E1F"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 18,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4522_808004c5_t16_s0.bin",
+    "template": "80B08E20"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 19,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4523_808004c5_t16_s0.bin",
+    "template": "80B08E21"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 20,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4524_808004c5_t16_s0.bin",
+    "template": "80B08E22"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 1,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4525_808004c5_t16_s0.bin",
+    "template": "80B08E23"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 2,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4526_808004c5_t16_s0.bin",
+    "template": "80B08E24"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 3,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4527_808004c5_t16_s0.bin",
+    "template": "80B08E25"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 4,
+    "owner": 7,
+    "memberCount": 1,
+    "resource": "4528_808004c5_t16_s0.bin",
+    "template": "80B08E26"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 39,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4541_808004c5_t16_s0.bin",
+    "template": "80B08E27"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 41,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4542_808004c5_t16_s0.bin",
+    "template": "80B08E28"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 43,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4543_808004c5_t16_s0.bin",
+    "template": "80B08E29"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 45,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4544_808004c5_t16_s0.bin",
+    "template": "80B08E2A"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 47,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4577_808004c5_t16_s0.bin",
+    "template": "80B08E2B"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 48,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4578_808004c5_t16_s0.bin",
+    "template": "80B08E2C"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 49,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4579_808004c5_t16_s0.bin",
+    "template": "80B08E2D"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 50,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4580_808004c5_t16_s0.bin",
+    "template": "80B08E2E"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 51,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4581_808004c5_t16_s0.bin",
+    "template": "80B08E2F"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 52,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4582_808004c5_t16_s0.bin",
+    "template": "80B08E30"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 53,
+    "owner": 28,
+    "memberCount": 3,
+    "resource": "4583_808004c5_t16_s0.bin",
+    "template": "80B08E31"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 54,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4584_808004c5_t16_s0.bin",
+    "template": "80B08E32"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 55,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4585_808004c5_t16_s0.bin",
+    "template": "80B08E33"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 56,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4586_808004c5_t16_s0.bin",
+    "template": "80B08E34"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 57,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4587_808004c5_t16_s0.bin",
+    "template": "80B08E35"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 58,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4588_808004c5_t16_s0.bin",
+    "template": "80B08E36"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 59,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4589_808004c5_t16_s0.bin",
+    "template": "80B08E37"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 60,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4590_808004c5_t16_s0.bin",
+    "template": "80B08E38"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 61,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4591_808004c5_t16_s0.bin",
+    "template": "80B08E39"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 62,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4592_808004c5_t16_s0.bin",
+    "template": "80B08E3A"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 1,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4593_808004c5_t16_s0.bin",
+    "template": "80B08E3B"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 2,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4594_808004c5_t16_s0.bin",
+    "template": "80B08E3C"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 3,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4595_808004c5_t16_s0.bin",
+    "template": "80B08E3D"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 4,
+    "owner": 28,
+    "memberCount": 1,
+    "resource": "4596_808004c5_t16_s0.bin",
+    "template": "80B08E3E"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 1,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4613_808004c5_t16_s0.bin",
+    "template": "80B08E62"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 2,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4614_808004c5_t16_s0.bin",
+    "template": "80B08E63"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 3,
+    "owner": 0,
+    "memberCount": 2,
+    "resource": "4615_808004c5_t16_s0.bin",
+    "template": "80B08E64"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 4,
+    "owner": 0,
+    "memberCount": 2,
+    "resource": "4616_808004c5_t16_s0.bin",
+    "template": "80B08E65"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 5,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4617_808004c5_t16_s0.bin",
+    "template": "80B08E66"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 6,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4618_808004c5_t16_s0.bin",
+    "template": "80B08E67"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 7,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4619_808004c5_t16_s0.bin",
+    "template": "80B08E68"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 8,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4620_808004c5_t16_s0.bin",
+    "template": "80B08E69"
+  },
+  {
+    "bundle": "9297A442",
+    "squad": 9,
+    "owner": 0,
+    "memberCount": 1,
+    "resource": "4621_808004c5_t16_s0.bin",
+    "template": "80B08E6A"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 1,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4622_808004c5_t16_s0.bin",
+    "template": "80B08E6B"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 2,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4623_808004c5_t16_s0.bin",
+    "template": "80B08E6C"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 3,
+    "owner": 4,
+    "memberCount": 2,
+    "resource": "4624_808004c5_t16_s0.bin",
+    "template": "80B08E6D"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 4,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4625_808004c5_t16_s0.bin",
+    "template": "80B08E6E"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 6,
+    "owner": 4,
+    "memberCount": 2,
+    "resource": "4626_808004c5_t16_s0.bin",
+    "template": "80B08E6F"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 7,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4627_808004c5_t16_s0.bin",
+    "template": "80B08E70"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 9,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4628_808004c5_t16_s0.bin",
+    "template": "80B08E71"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 10,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4629_808004c5_t16_s0.bin",
+    "template": "80B08E72"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 11,
+    "owner": 4,
+    "memberCount": 1,
+    "resource": "4630_808004c5_t16_s0.bin",
+    "template": "80B08E73"
+  },
+  {
+    "bundle": "E7880C24",
+    "squad": 13,
+    "owner": 4,
+    "memberCount": 2,
+    "resource": "4631_808004c5_t16_s0.bin",
+    "template": "80B08E74"
+  },
+  {
+    "bundle": "38EC3EA6",
+    "squad": 27,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4632_808004c5_t16_s0.bin",
+    "template": "80B08E75"
+  },
+  {
+    "bundle": "38EC3EA6",
+    "squad": 29,
+    "owner": 5,
+    "memberCount": 2,
+    "resource": "4633_808004c5_t16_s0.bin",
+    "template": "80B08E76"
+  },
+  {
+    "bundle": "38EC3EA6",
+    "squad": 30,
+    "owner": 5,
+    "memberCount": 2,
+    "resource": "4634_808004c5_t16_s0.bin",
+    "template": "80B08E77"
+  },
+  {
+    "bundle": "38EC3EA6",
+    "squad": 31,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4635_808004c5_t16_s0.bin",
+    "template": "80B08E78"
+  },
+  {
+    "bundle": "38EC3EA6",
+    "squad": 34,
+    "owner": 5,
+    "memberCount": 1,
+    "resource": "4636_808004c5_t16_s0.bin",
+    "template": "80B08E79"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 1,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4637_808004c5_t16_s0.bin",
+    "template": "80B08E7A"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 2,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4638_808004c5_t16_s0.bin",
+    "template": "80B08E7B"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 3,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4639_808004c5_t16_s0.bin",
+    "template": "80B08E7C"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 4,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4640_808004c5_t16_s0.bin",
+    "template": "80B08E7D"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 5,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4641_808004c5_t16_s0.bin",
+    "template": "80B08E7E"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 6,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4642_808004c5_t16_s0.bin",
+    "template": "80B08E7F"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 7,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4643_808004c5_t16_s0.bin",
+    "template": "80B08E80"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 8,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4644_808004c5_t16_s0.bin",
+    "template": "80B08E81"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 9,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4645_808004c5_t16_s0.bin",
+    "template": "80B08E82"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 10,
+    "owner": 6,
+    "memberCount": 2,
+    "resource": "4646_808004c5_t16_s0.bin",
+    "template": "80B08E83"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 11,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4647_808004c5_t16_s0.bin",
+    "template": "80B08E84"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 12,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4648_808004c5_t16_s0.bin",
+    "template": "80B08E85"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 13,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4649_808004c5_t16_s0.bin",
+    "template": "80B08E86"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 14,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4650_808004c5_t16_s0.bin",
+    "template": "80B08E87"
+  },
+  {
+    "bundle": "36756164",
+    "squad": 15,
+    "owner": 6,
+    "memberCount": 1,
+    "resource": "4651_808004c5_t16_s0.bin",
+    "template": "80B08E88"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 33,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4652_808004c5_t16_s0.bin",
+    "template": "80B08E89"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 35,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4653_808004c5_t16_s0.bin",
+    "template": "80B08E8A"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 37,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4654_808004c5_t16_s0.bin",
+    "template": "80B08E8B"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 39,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4655_808004c5_t16_s0.bin",
+    "template": "80B08E8C"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 40,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4656_808004c5_t16_s0.bin",
+    "template": "80B08E8D"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 42,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4657_808004c5_t16_s0.bin",
+    "template": "80B08E8E"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 44,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4658_808004c5_t16_s0.bin",
+    "template": "80B08E8F"
+  },
+  {
+    "bundle": "022112BB",
+    "squad": 45,
+    "owner": 7,
+    "memberCount": 2,
+    "resource": "4659_808004c5_t16_s0.bin",
+    "template": "80B08E90"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 25,
+    "owner": 8,
+    "memberCount": 3,
+    "resource": "4660_808004c5_t16_s0.bin",
+    "template": "80B08E91"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 26,
+    "owner": 8,
+    "memberCount": 2,
+    "resource": "4661_808004c5_t16_s0.bin",
+    "template": "80B08E92"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 27,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4662_808004c5_t16_s0.bin",
+    "template": "80B08E93"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 30,
+    "owner": 8,
+    "memberCount": 3,
+    "resource": "4663_808004c5_t16_s0.bin",
+    "template": "80B08E94"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 32,
+    "owner": 8,
+    "memberCount": 3,
+    "resource": "4664_808004c5_t16_s0.bin",
+    "template": "80B08E95"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 35,
+    "owner": 8,
+    "memberCount": 2,
+    "resource": "4665_808004c5_t16_s0.bin",
+    "template": "80B08E96"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 36,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4666_808004c5_t16_s0.bin",
+    "template": "80B08E97"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 38,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4667_808004c5_t16_s0.bin",
+    "template": "80B08E98"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 39,
+    "owner": 8,
+    "memberCount": 2,
+    "resource": "4668_808004c5_t16_s0.bin",
+    "template": "80B08E99"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 40,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4669_808004c5_t16_s0.bin",
+    "template": "80B08E9A"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 42,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4670_808004c5_t16_s0.bin",
+    "template": "80B08E9B"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 43,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4671_808004c5_t16_s0.bin",
+    "template": "80B08E9C"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 45,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4672_808004c5_t16_s0.bin",
+    "template": "80B08E9D"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 46,
+    "owner": 8,
+    "memberCount": 2,
+    "resource": "4673_808004c5_t16_s0.bin",
+    "template": "80B08E9E"
+  },
+  {
+    "bundle": "B257C7AA",
+    "squad": 47,
+    "owner": 8,
+    "memberCount": 1,
+    "resource": "4674_808004c5_t16_s0.bin",
+    "template": "80B08E9F"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 1,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4675_808004c5_t16_s0.bin",
+    "template": "80B08EA0"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 2,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4676_808004c5_t16_s0.bin",
+    "template": "80B08EA1"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 3,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4677_808004c5_t16_s0.bin",
+    "template": "80B08EA2"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 4,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4678_808004c5_t16_s0.bin",
+    "template": "80B08EA3"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 5,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4679_808004c5_t16_s0.bin",
+    "template": "80B08EA4"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 6,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4680_808004c5_t16_s0.bin",
+    "template": "80B08EA5"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 7,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4681_808004c5_t16_s0.bin",
+    "template": "80B08EA6"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 8,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4682_808004c5_t16_s0.bin",
+    "template": "80B08EA7"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 9,
+    "owner": 9,
+    "memberCount": 3,
+    "resource": "4683_808004c5_t16_s0.bin",
+    "template": "80B08EA8"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 11,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4684_808004c5_t16_s0.bin",
+    "template": "80B08EA9"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 13,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4685_808004c5_t16_s0.bin",
+    "template": "80B08EAA"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 15,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4686_808004c5_t16_s0.bin",
+    "template": "80B08EAB"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 16,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4687_808004c5_t16_s0.bin",
+    "template": "80B08EAC"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 60,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4688_808004c5_t16_s0.bin",
+    "template": "80B08EAD"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 62,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4689_808004c5_t16_s0.bin",
+    "template": "80B08EAE"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 65,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4690_808004c5_t16_s0.bin",
+    "template": "80B08EAF"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 68,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4691_808004c5_t16_s0.bin",
+    "template": "80B08EB0"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 71,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4692_808004c5_t16_s0.bin",
+    "template": "80B08EB1"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 74,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4693_808004c5_t16_s0.bin",
+    "template": "80B08EB2"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 77,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4694_808004c5_t16_s0.bin",
+    "template": "80B08EB3"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 80,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4695_808004c5_t16_s0.bin",
+    "template": "80B08EB4"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 83,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4696_808004c5_t16_s0.bin",
+    "template": "80B08EB5"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 86,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4697_808004c5_t16_s0.bin",
+    "template": "80B08EB6"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 89,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4698_808004c5_t16_s0.bin",
+    "template": "80B08EB7"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 91,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4699_808004c5_t16_s0.bin",
+    "template": "80B08EB8"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 93,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4700_808004c5_t16_s0.bin",
+    "template": "80B08EB9"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 95,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4701_808004c5_t16_s0.bin",
+    "template": "80B08EBA"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 98,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4702_808004c5_t16_s0.bin",
+    "template": "80B08EBB"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 100,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4703_808004c5_t16_s0.bin",
+    "template": "80B08EBC"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 102,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4704_808004c5_t16_s0.bin",
+    "template": "80B08EBD"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 104,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4705_808004c5_t16_s0.bin",
+    "template": "80B08EBE"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 107,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4706_808004c5_t16_s0.bin",
+    "template": "80B08EBF"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 109,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4707_808004c5_t16_s0.bin",
+    "template": "80B08EC0"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 111,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4708_808004c5_t16_s0.bin",
+    "template": "80B08EC1"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 113,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4709_808004c5_t16_s0.bin",
+    "template": "80B08EC2"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 116,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4710_808004c5_t16_s0.bin",
+    "template": "80B08EC3"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 118,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4711_808004c5_t16_s0.bin",
+    "template": "80B08EC4"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 120,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4712_808004c5_t16_s0.bin",
+    "template": "80B08EC5"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 122,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4713_808004c5_t16_s0.bin",
+    "template": "80B08EC6"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 125,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4714_808004c5_t16_s0.bin",
+    "template": "80B08EC7"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 127,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4715_808004c5_t16_s0.bin",
+    "template": "80B08EC8"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 129,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4716_808004c5_t16_s0.bin",
+    "template": "80B08EC9"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 131,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4717_808004c5_t16_s0.bin",
+    "template": "80B08ECA"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 134,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4718_808004c5_t16_s0.bin",
+    "template": "80B08ECB"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 136,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4719_808004c5_t16_s0.bin",
+    "template": "80B08ECC"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 138,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4720_808004c5_t16_s0.bin",
+    "template": "80B08ECD"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 140,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4721_808004c5_t16_s0.bin",
+    "template": "80B08ECE"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 143,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4722_808004c5_t16_s0.bin",
+    "template": "80B08ECF"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 145,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4723_808004c5_t16_s0.bin",
+    "template": "80B08ED0"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 147,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4724_808004c5_t16_s0.bin",
+    "template": "80B08ED1"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 149,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4725_808004c5_t16_s0.bin",
+    "template": "80B08ED2"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 152,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4726_808004c5_t16_s0.bin",
+    "template": "80B08ED3"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 154,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4727_808004c5_t16_s0.bin",
+    "template": "80B08ED4"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 156,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4728_808004c5_t16_s0.bin",
+    "template": "80B08ED5"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 158,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4729_808004c5_t16_s0.bin",
+    "template": "80B08ED6"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 174,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4730_808004c5_t16_s0.bin",
+    "template": "80B08ED7"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 176,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4731_808004c5_t16_s0.bin",
+    "template": "80B08ED8"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 179,
+    "owner": 9,
+    "memberCount": 3,
+    "resource": "4732_808004c5_t16_s0.bin",
+    "template": "80B08ED9"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 183,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4733_808004c5_t16_s0.bin",
+    "template": "80B08EDA"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 189,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4734_808004c5_t16_s0.bin",
+    "template": "80B08EDB"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 192,
+    "owner": 9,
+    "memberCount": 3,
+    "resource": "4735_808004c5_t16_s0.bin",
+    "template": "80B08EDC"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 196,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4736_808004c5_t16_s0.bin",
+    "template": "80B08EDD"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 207,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4737_808004c5_t16_s0.bin",
+    "template": "80B08EDE"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 210,
+    "owner": 9,
+    "memberCount": 3,
+    "resource": "4738_808004c5_t16_s0.bin",
+    "template": "80B08EDF"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 214,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4739_808004c5_t16_s0.bin",
+    "template": "80B08EE0"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 227,
+    "owner": 9,
+    "memberCount": 2,
+    "resource": "4740_808004c5_t16_s0.bin",
+    "template": "80B08EE1"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 230,
+    "owner": 9,
+    "memberCount": 3,
+    "resource": "4741_808004c5_t16_s0.bin",
+    "template": "80B08EE2"
+  },
+  {
+    "bundle": "B63AFDA3",
+    "squad": 234,
+    "owner": 9,
+    "memberCount": 1,
+    "resource": "4742_808004c5_t16_s0.bin",
+    "template": "80B08EE3"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 1,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4743_808004c5_t16_s0.bin",
+    "template": "80B08EE4"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 2,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4744_808004c5_t16_s0.bin",
+    "template": "80B08EE5"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 3,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4745_808004c5_t16_s0.bin",
+    "template": "80B08EE6"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 4,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4746_808004c5_t16_s0.bin",
+    "template": "80B08EE7"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 7,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4747_808004c5_t16_s0.bin",
+    "template": "80B08EE8"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 8,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4748_808004c5_t16_s0.bin",
+    "template": "80B08EE9"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 11,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4749_808004c5_t16_s0.bin",
+    "template": "80B08EEA"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 12,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4750_808004c5_t16_s0.bin",
+    "template": "80B08EEB"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 15,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4751_808004c5_t16_s0.bin",
+    "template": "80B08EEC"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 16,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4752_808004c5_t16_s0.bin",
+    "template": "80B08EED"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 19,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4753_808004c5_t16_s0.bin",
+    "template": "80B08EEE"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 20,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4754_808004c5_t16_s0.bin",
+    "template": "80B08EEF"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 24,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4755_808004c5_t16_s0.bin",
+    "template": "80B08EF0"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 26,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4756_808004c5_t16_s0.bin",
+    "template": "80B08EF1"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 28,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4757_808004c5_t16_s0.bin",
+    "template": "80B08EF2"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 30,
+    "owner": 10,
+    "memberCount": 1,
+    "resource": "4758_808004c5_t16_s0.bin",
+    "template": "80B08EF3"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 71,
+    "owner": 10,
+    "memberCount": 2,
+    "resource": "4759_808004c5_t16_s0.bin",
+    "template": "80B08EF4"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 72,
+    "owner": 10,
+    "memberCount": 2,
+    "resource": "4760_808004c5_t16_s0.bin",
+    "template": "80B08EF5"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 73,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4761_808004c5_t16_s0.bin",
+    "template": "80B08EF6"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 74,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4762_808004c5_t16_s0.bin",
+    "template": "80B08EF7"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 75,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4763_808004c5_t16_s0.bin",
+    "template": "80B08EF8"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 76,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4764_808004c5_t16_s0.bin",
+    "template": "80B08EF9"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 77,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4765_808004c5_t16_s0.bin",
+    "template": "80B08EFA"
+  },
+  {
+    "bundle": "B9D50318",
+    "squad": 78,
+    "owner": 10,
+    "memberCount": 3,
+    "resource": "4766_808004c5_t16_s0.bin",
+    "template": "80B08EFB"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 1,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4767_808004c5_t16_s0.bin",
+    "template": "80B08EFC"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 2,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4768_808004c5_t16_s0.bin",
+    "template": "80B08EFD"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 3,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4769_808004c5_t16_s0.bin",
+    "template": "80B08EFE"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 4,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4770_808004c5_t16_s0.bin",
+    "template": "80B08EFF"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 5,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4771_808004c5_t16_s0.bin",
+    "template": "80B08F00"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 6,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4772_808004c5_t16_s0.bin",
+    "template": "80B08F01"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 7,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4773_808004c5_t16_s0.bin",
+    "template": "80B08F02"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 8,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4774_808004c5_t16_s0.bin",
+    "template": "80B08F03"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 9,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4775_808004c5_t16_s0.bin",
+    "template": "80B08F04"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 10,
+    "owner": 12,
+    "memberCount": 2,
+    "resource": "4776_808004c5_t16_s0.bin",
+    "template": "80B08F05"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 11,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4777_808004c5_t16_s0.bin",
+    "template": "80B08F06"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 12,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4778_808004c5_t16_s0.bin",
+    "template": "80B08F07"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 13,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4779_808004c5_t16_s0.bin",
+    "template": "80B08F08"
+  },
+  {
+    "bundle": "6C070C58",
+    "squad": 14,
+    "owner": 12,
+    "memberCount": 1,
+    "resource": "4780_808004c5_t16_s0.bin",
+    "template": "80B08F09"
+  },
+  {
+    "bundle": "6231D8AA",
+    "squad": 1,
+    "owner": 13,
+    "memberCount": 2,
+    "resource": "4781_808004c5_t16_s0.bin",
+    "template": "80B08F0A"
+  },
+  {
+    "bundle": "6231D8AA",
+    "squad": 2,
+    "owner": 13,
+    "memberCount": 1,
+    "resource": "4782_808004c5_t16_s0.bin",
+    "template": "80B08F0B"
+  },
+  {
+    "bundle": "6231D8AA",
+    "squad": 3,
+    "owner": 13,
+    "memberCount": 2,
+    "resource": "4783_808004c5_t16_s0.bin",
+    "template": "80B08F0C"
+  },
+  {
+    "bundle": "6231D8AA",
+    "squad": 4,
+    "owner": 13,
+    "memberCount": 2,
+    "resource": "4784_808004c5_t16_s0.bin",
+    "template": "80B08F0D"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 16,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4785_808004c5_t16_s0.bin",
+    "template": "80B08F0E"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 18,
+    "owner": 14,
+    "memberCount": 2,
+    "resource": "4786_808004c5_t16_s0.bin",
+    "template": "80B08F0F"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 20,
+    "owner": 14,
+    "memberCount": 2,
+    "resource": "4787_808004c5_t16_s0.bin",
+    "template": "80B08F10"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 21,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4788_808004c5_t16_s0.bin",
+    "template": "80B08F11"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 22,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4789_808004c5_t16_s0.bin",
+    "template": "80B08F12"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 24,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4790_808004c5_t16_s0.bin",
+    "template": "80B08F13"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 25,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4791_808004c5_t16_s0.bin",
+    "template": "80B08F14"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 27,
+    "owner": 14,
+    "memberCount": 2,
+    "resource": "4792_808004c5_t16_s0.bin",
+    "template": "80B08F15"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 28,
+    "owner": 14,
+    "memberCount": 2,
+    "resource": "4793_808004c5_t16_s0.bin",
+    "template": "80B08F16"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 29,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4794_808004c5_t16_s0.bin",
+    "template": "80B08F17"
+  },
+  {
+    "bundle": "0FDA9035",
+    "squad": 30,
+    "owner": 14,
+    "memberCount": 1,
+    "resource": "4795_808004c5_t16_s0.bin",
+    "template": "80B08F18"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 2,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4796_808004c5_t16_s0.bin",
+    "template": "80B08F19"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 3,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4797_808004c5_t16_s0.bin",
+    "template": "80B08F1A"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 5,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4798_808004c5_t16_s0.bin",
+    "template": "80B08F1B"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 6,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4799_808004c5_t16_s0.bin",
+    "template": "80B08F1C"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 8,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4800_808004c5_t16_s0.bin",
+    "template": "80B08F1D"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 9,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4801_808004c5_t16_s0.bin",
+    "template": "80B08F1E"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 11,
+    "owner": 16,
+    "memberCount": 2,
+    "resource": "4802_808004c5_t16_s0.bin",
+    "template": "80B08F1F"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 13,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4803_808004c5_t16_s0.bin",
+    "template": "80B08F20"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 14,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4804_808004c5_t16_s0.bin",
+    "template": "80B08F21"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 16,
+    "owner": 16,
+    "memberCount": 1,
+    "resource": "4805_808004c5_t16_s0.bin",
+    "template": "80B08F22"
+  },
+  {
+    "bundle": "8CC31436",
+    "squad": 17,
+    "owner": 16,
+    "memberCount": 2,
+    "resource": "4806_808004c5_t16_s0.bin",
+    "template": "80B08F23"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 1,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4807_808004c5_t16_s0.bin",
+    "template": "80B08F24"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 2,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4808_808004c5_t16_s0.bin",
+    "template": "80B08F25"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 3,
+    "owner": 21,
+    "memberCount": 1,
+    "resource": "4809_808004c5_t16_s0.bin",
+    "template": "80B08F26"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 5,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4810_808004c5_t16_s0.bin",
+    "template": "80B08F27"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 6,
+    "owner": 21,
+    "memberCount": 1,
+    "resource": "4811_808004c5_t16_s0.bin",
+    "template": "80B08F28"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 9,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4812_808004c5_t16_s0.bin",
+    "template": "80B08F29"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 10,
+    "owner": 21,
+    "memberCount": 1,
+    "resource": "4813_808004c5_t16_s0.bin",
+    "template": "80B08F2A"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 13,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4814_808004c5_t16_s0.bin",
+    "template": "80B08F2B"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 15,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4815_808004c5_t16_s0.bin",
+    "template": "80B08F2C"
+  },
+  {
+    "bundle": "22859CF8",
+    "squad": 17,
+    "owner": 21,
+    "memberCount": 2,
+    "resource": "4816_808004c5_t16_s0.bin",
+    "template": "80B08F2D"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 18,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4817_808004c5_t16_s0.bin",
+    "template": "80B08F2E"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 21,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4818_808004c5_t16_s0.bin",
+    "template": "80B08F2F"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 23,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4819_808004c5_t16_s0.bin",
+    "template": "80B08F30"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 25,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4820_808004c5_t16_s0.bin",
+    "template": "80B08F31"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 27,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4821_808004c5_t16_s0.bin",
+    "template": "80B08F32"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 29,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4822_808004c5_t16_s0.bin",
+    "template": "80B08F33"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 31,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4823_808004c5_t16_s0.bin",
+    "template": "80B08F34"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 33,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4824_808004c5_t16_s0.bin",
+    "template": "80B08F35"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 34,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4825_808004c5_t16_s0.bin",
+    "template": "80B08F36"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 37,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4826_808004c5_t16_s0.bin",
+    "template": "80B08F37"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 38,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4827_808004c5_t16_s0.bin",
+    "template": "80B08F38"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 41,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4828_808004c5_t16_s0.bin",
+    "template": "80B08F39"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 42,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4829_808004c5_t16_s0.bin",
+    "template": "80B08F3A"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 45,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4830_808004c5_t16_s0.bin",
+    "template": "80B08F3B"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 46,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4831_808004c5_t16_s0.bin",
+    "template": "80B08F3C"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 49,
+    "owner": 23,
+    "memberCount": 2,
+    "resource": "4832_808004c5_t16_s0.bin",
+    "template": "80B08F3D"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 50,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4833_808004c5_t16_s0.bin",
+    "template": "80B08F3E"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 53,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4834_808004c5_t16_s0.bin",
+    "template": "80B08F3F"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 55,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4835_808004c5_t16_s0.bin",
+    "template": "80B08F40"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 57,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4836_808004c5_t16_s0.bin",
+    "template": "80B08F41"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 59,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4837_808004c5_t16_s0.bin",
+    "template": "80B08F42"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 60,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4838_808004c5_t16_s0.bin",
+    "template": "80B08F43"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 61,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4839_808004c5_t16_s0.bin",
+    "template": "80B08F44"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 63,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4840_808004c5_t16_s0.bin",
+    "template": "80B08F45"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 65,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4841_808004c5_t16_s0.bin",
+    "template": "80B08F46"
+  },
+  {
+    "bundle": "29585157",
+    "squad": 67,
+    "owner": 23,
+    "memberCount": 1,
+    "resource": "4842_808004c5_t16_s0.bin",
+    "template": "80B08F47"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 1,
+    "owner": 25,
+    "memberCount": 2,
+    "resource": "4843_808004c5_t16_s0.bin",
+    "template": "80B08F48"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 2,
+    "owner": 25,
+    "memberCount": 2,
+    "resource": "4844_808004c5_t16_s0.bin",
+    "template": "80B08F49"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 3,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4845_808004c5_t16_s0.bin",
+    "template": "80B08F4A"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 4,
+    "owner": 25,
+    "memberCount": 2,
+    "resource": "4846_808004c5_t16_s0.bin",
+    "template": "80B08F4B"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 5,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4847_808004c5_t16_s0.bin",
+    "template": "80B08F4C"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 6,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4848_808004c5_t16_s0.bin",
+    "template": "80B08F4D"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 7,
+    "owner": 25,
+    "memberCount": 2,
+    "resource": "4849_808004c5_t16_s0.bin",
+    "template": "80B08F4E"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 8,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4850_808004c5_t16_s0.bin",
+    "template": "80B08F4F"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 9,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4851_808004c5_t16_s0.bin",
+    "template": "80B08F50"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 10,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4852_808004c5_t16_s0.bin",
+    "template": "80B08F51"
+  },
+  {
+    "bundle": "D91BD9B8",
+    "squad": 11,
+    "owner": 25,
+    "memberCount": 1,
+    "resource": "4853_808004c5_t16_s0.bin",
+    "template": "80B08F52"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 3,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4854_808004c5_t16_s0.bin",
+    "template": "80B08F53"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 4,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4855_808004c5_t16_s0.bin",
+    "template": "80B08F54"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 5,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4856_808004c5_t16_s0.bin",
+    "template": "80B08F55"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 6,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4857_808004c5_t16_s0.bin",
+    "template": "80B08F56"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 7,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4858_808004c5_t16_s0.bin",
+    "template": "80B08F57"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 8,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4859_808004c5_t16_s0.bin",
+    "template": "80B08F58"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 10,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4860_808004c5_t16_s0.bin",
+    "template": "80B08F59"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 11,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4861_808004c5_t16_s0.bin",
+    "template": "80B08F5A"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 13,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4862_808004c5_t16_s0.bin",
+    "template": "80B08F5B"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 15,
+    "owner": 29,
+    "memberCount": 2,
+    "resource": "4863_808004c5_t16_s0.bin",
+    "template": "80B08F5C"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 17,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4864_808004c5_t16_s0.bin",
+    "template": "80B08F5D"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 19,
+    "owner": 29,
+    "memberCount": 2,
+    "resource": "4865_808004c5_t16_s0.bin",
+    "template": "80B08F5E"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 21,
+    "owner": 29,
+    "memberCount": 1,
+    "resource": "4866_808004c5_t16_s0.bin",
+    "template": "80B08F5F"
+  },
+  {
+    "bundle": "726E51DE",
+    "squad": 23,
+    "owner": 29,
+    "memberCount": 2,
+    "resource": "4867_808004c5_t16_s0.bin",
+    "template": "80B08F60"
+  }
+]

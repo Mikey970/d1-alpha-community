@@ -1,0 +1,7 @@
+#ifndef GENERATED_VERSION_H_
+#define GENERATED_VERSION_H_
+#define XE_BUILD_BRANCH "community-r576-clean-combat-dirty"
+#define XE_BUILD_COMMIT "356db303f00503dcc636f69e1caec92dac74ac43"
+#define XE_BUILD_COMMIT_SHORT "356db303f+local"
+#define XE_BUILD_DATE __DATE__
+#endif

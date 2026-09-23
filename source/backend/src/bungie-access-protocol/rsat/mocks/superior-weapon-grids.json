@@ -1,0 +1,122 @@
+{
+  "807": {
+    "grid": 292,
+    "category": 44,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "809": {
+    "grid": 331,
+    "category": 45,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "814": {
+    "grid": 343,
+    "category": 46,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "819": {
+    "grid": 300,
+    "category": 49,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "820": {
+    "grid": 305,
+    "category": 49,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "823": {
+    "grid": 307,
+    "category": 47,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "824": {
+    "grid": 313,
+    "category": 47,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "827": {
+    "grid": 366,
+    "category": 52,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "828": {
+    "grid": 372,
+    "category": 52,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "831": {
+    "grid": 341,
+    "category": 51,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "835": {
+    "grid": 357,
+    "category": 48,
+    "nodeCount": 7,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "836": {
+    "grid": 361,
+    "category": 48,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "839": {
+    "grid": 321,
+    "category": 50,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "840": {
+    "grid": 320,
+    "category": 50,
+    "nodeCount": 7,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  },
+  "843": {
+    "grid": 291,
+    "category": 44,
+    "nodeCount": 6,
+    "initialPoints": 0,
+    "materialVariant": 0,
+    "materialChoices": 5
+  }
+}

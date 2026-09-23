@@ -1,0 +1,503 @@
+{
+  "source": "runtime\\candidate-recovery-r549-action-20260909\\runs\\r549-user-action-20260909-2205\\action-registry-20260909-220829.json",
+  "count": 87,
+  "rows": [
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 10
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 11
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 12
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 13
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 14
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 15
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 16
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 17
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 18
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 19
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 20
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 22
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 23
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 24
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 25
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 26
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 27
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 29
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 30
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 31
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 33
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 34
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 35
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 35,
+      "typeIndex": 36
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 37
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 38
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 39
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 42
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 43
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 44
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 45
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 46
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 47
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 48
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 49
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 50
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 51
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 52
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 53
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 32,
+      "typeIndex": 55
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 56
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 5,
+      "typeIndex": 57
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 33,
+      "typeIndex": 59
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 33,
+      "typeIndex": 60
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 33,
+      "typeIndex": 61
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 33,
+      "typeIndex": 65
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 15,
+      "typeIndex": 0
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 34,
+      "typeIndex": 1
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 17,
+      "typeIndex": 2
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 16,
+      "typeIndex": 3
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 9,
+      "typeIndex": 4
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 5
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 6
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 7
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 8
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 9
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 10
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 11
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 12
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 13
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 14
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 15
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 16
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 17
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 18
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 19
+    },
+    {
+      "bundle": "4786C0E0",
+      "typeId": 12,
+      "typeIndex": 20
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 3,
+      "typeIndex": 0
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 1,
+      "typeIndex": 1
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 1,
+      "typeIndex": 2
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 1,
+      "typeIndex": 3
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 1,
+      "typeIndex": 4
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 1,
+      "typeIndex": 5
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 6
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 7
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 8
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 9
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 21
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 28
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 32
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 40
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 41
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 54
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 4,
+      "typeIndex": 58
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 29,
+      "typeIndex": 62
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 29,
+      "typeIndex": 63
+    },
+    {
+      "bundle": "F7BD8718",
+      "typeId": 29,
+      "typeIndex": 64
+    }
+  ],
+  "initialPending": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    49,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    68,
+    84,
+    85,
+    86
+  ]
+}

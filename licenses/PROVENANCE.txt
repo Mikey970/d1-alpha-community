@@ -1,0 +1,8 @@
+Xenia custom binary: xenia.r576-input-audit.exe; SHA256 ea17e45e74321dc2bf4bb8402b1595f497363bdea1f95000dcf9f9ac65469be3
+Upstream: https://github.com/craftycodie/xenia-canary
+Backend upstream: https://github.com/Blam-Network/web-tiger
+Backend package metadata: private=true, license=UNLICENSED. Public redistribution permission is not established.
+This archive is a local testing candidate, not a cleared public release.
+Backend source and npm lockfile are included; dependency licenses remain in each installed package.
+Emulator acceptance is limited to the checks recorded in RELEASE-STATUS.md; full gameplay and byte-for-byte reproducibility remain unverified.
+Bundled Node: v22.17.0; Python: 3.13.1; PowerShell: copied host runtime with LICENSE.txt.

@@ -1,0 +1,722 @@
+[
+  {
+    "preset": 18,
+    "soid": "00000003000013d7",
+    "defIndex": 983,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 708,
+    "sandboxPattern": 9,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    "donorDefinition": 814
+  },
+  {
+    "preset": 18,
+    "soid": "00000003000013d8",
+    "defIndex": 984,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 709,
+    "sandboxPattern": 11,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 820
+  },
+  {
+    "preset": 19,
+    "soid": "00000003000013d9",
+    "defIndex": 985,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 708,
+    "sandboxPattern": 6,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    "donorDefinition": 813
+  },
+  {
+    "preset": 19,
+    "soid": "00000003000013da",
+    "defIndex": 986,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 709,
+    "sandboxPattern": 11,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 820
+  },
+  {
+    "preset": 20,
+    "soid": "00000003000013db",
+    "defIndex": 987,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 707,
+    "sandboxPattern": 5,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 809
+  },
+  {
+    "preset": 20,
+    "soid": "00000003000013dc",
+    "defIndex": 988,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 710,
+    "sandboxPattern": 10,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 835
+  },
+  {
+    "preset": 20,
+    "soid": "00000003000013dd",
+    "defIndex": 989,
+    "slot": 9,
+    "bucket": 5,
+    "artArrangement": 707,
+    "sandboxPattern": 2,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    "donorDefinition": 808
+  },
+  {
+    "preset": 21,
+    "soid": "00000003000013de",
+    "defIndex": 990,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 711,
+    "sandboxPattern": 4,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 810
+  },
+  {
+    "preset": 21,
+    "soid": "00000003000013df",
+    "defIndex": 991,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 712,
+    "sandboxPattern": 14,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 840
+  },
+  {
+    "preset": 21,
+    "soid": "00000003000013e0",
+    "defIndex": 992,
+    "slot": 9,
+    "bucket": 5,
+    "artArrangement": 713,
+    "sandboxPattern": 13,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        9,
+        4
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 828
+  },
+  {
+    "preset": 22,
+    "soid": "00000003000013e1",
+    "defIndex": 993,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 714,
+    "sandboxPattern": 4,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 810
+  },
+  {
+    "preset": 22,
+    "soid": "00000003000013e2",
+    "defIndex": 994,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 715,
+    "sandboxPattern": 14,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 840
+  },
+  {
+    "preset": 23,
+    "soid": "00000003000013e3",
+    "defIndex": 995,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 716,
+    "sandboxPattern": 10,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        0
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 835
+  },
+  {
+    "preset": 23,
+    "soid": "00000003000013e4",
+    "defIndex": 996,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 717,
+    "sandboxPattern": 2,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    "donorDefinition": 808
+  },
+  {
+    "preset": 24,
+    "soid": "00000003000013e5",
+    "defIndex": 997,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 717,
+    "sandboxPattern": 5,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        9,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 809
+  },
+  {
+    "preset": 24,
+    "soid": "00000003000013e6",
+    "defIndex": 998,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 718,
+    "sandboxPattern": 11,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 820
+  },
+  {
+    "preset": 25,
+    "soid": "00000003000013e7",
+    "defIndex": 999,
+    "slot": 7,
+    "bucket": 3,
+    "artArrangement": 719,
+    "sandboxPattern": 4,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        10,
+        4
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "donorDefinition": 810
+  },
+  {
+    "preset": 25,
+    "soid": "00000003000013e8",
+    "defIndex": 1000,
+    "slot": 8,
+    "bucket": 4,
+    "artArrangement": 720,
+    "sandboxPattern": 11,
+    "stats": [
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        9,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    "donorDefinition": 820
+  }
+]

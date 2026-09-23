@@ -1,0 +1,630 @@
+[
+  {
+    "preset": 18,
+    "definition": 1001,
+    "grid": 401,
+    "itemTag": "808E3E41",
+    "uiTag": "808E3E49",
+    "hash": "E3AB89A6",
+    "donorDefinition": 442,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "flare_thermal",
+        "slot": 0,
+        "ability": 31,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 432
+      },
+      {
+        "node": 1,
+        "name": "nova_bomb_super",
+        "slot": 1,
+        "ability": 12,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 592
+      },
+      {
+        "node": 2,
+        "name": "nova_bomb_super_modifier_b6b242c4",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 12,
+        "modifierHash": 3065135812,
+        "nodeOffset": 168,
+        "stepOffset": 752
+      },
+      {
+        "node": 3,
+        "name": "melee_hunter",
+        "slot": 2,
+        "ability": 9,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 912
+      },
+      {
+        "node": 4,
+        "name": "glide",
+        "slot": 3,
+        "ability": 7,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 288,
+        "stepOffset": 1072
+      },
+      {
+        "node": 5,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 348,
+        "stepOffset": 1232
+      }
+    ]
+  },
+  {
+    "preset": 19,
+    "definition": 1002,
+    "grid": 402,
+    "itemTag": "808E3E42",
+    "uiTag": "808E3E4A",
+    "hash": "E3AB89A7",
+    "donorDefinition": 442,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "solar_flare",
+        "slot": 0,
+        "ability": 19,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 560
+      },
+      {
+        "node": 1,
+        "name": "solar_flare_modifier_fb2d1e3b",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 19,
+        "modifierHash": 4214038075,
+        "nodeOffset": 108,
+        "stepOffset": 720
+      },
+      {
+        "node": 2,
+        "name": "solar_flare_modifier_11965b3e",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 19,
+        "modifierHash": 295066430,
+        "nodeOffset": 168,
+        "stepOffset": 880
+      },
+      {
+        "node": 3,
+        "name": "nova_bomb_super",
+        "slot": 1,
+        "ability": 12,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 1040
+      },
+      {
+        "node": 4,
+        "name": "nova_bomb_super_modifier_b6b242c4",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 12,
+        "modifierHash": 3065135812,
+        "nodeOffset": 288,
+        "stepOffset": 1200
+      },
+      {
+        "node": 5,
+        "name": "melee_hunter",
+        "slot": 2,
+        "ability": 9,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 348,
+        "stepOffset": 1360
+      },
+      {
+        "node": 6,
+        "name": "glide",
+        "slot": 3,
+        "ability": 7,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 408,
+        "stepOffset": 1520
+      },
+      {
+        "node": 7,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 468,
+        "stepOffset": 1680
+      }
+    ]
+  },
+  {
+    "preset": 20,
+    "definition": 1003,
+    "grid": 403,
+    "itemTag": "808E3E43",
+    "uiTag": "808E3E4B",
+    "hash": "E2AB883B",
+    "donorDefinition": 438,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "sixth_grenade",
+        "slot": 0,
+        "ability": 18,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 368
+      },
+      {
+        "node": 1,
+        "name": "golden_gun_super",
+        "slot": 1,
+        "ability": 6,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 528
+      },
+      {
+        "node": 2,
+        "name": "melee_hunter",
+        "slot": 2,
+        "ability": 9,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 168,
+        "stepOffset": 688
+      },
+      {
+        "node": 3,
+        "name": "double_jump",
+        "slot": 3,
+        "ability": 3,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 848
+      },
+      {
+        "node": 4,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 288,
+        "stepOffset": 1008
+      }
+    ]
+  },
+  {
+    "preset": 21,
+    "definition": 1004,
+    "grid": 404,
+    "itemTag": "808E3E44",
+    "uiTag": "808E3E4C",
+    "hash": "E2AB883A",
+    "donorDefinition": 434,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "flux_grenade",
+        "slot": 0,
+        "ability": 5,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 496
+      },
+      {
+        "node": 1,
+        "name": "fist_of_havoc_super",
+        "slot": 1,
+        "ability": 4,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 656
+      },
+      {
+        "node": 2,
+        "name": "fist_of_havoc_super_modifier_7e9f6f19",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 4,
+        "modifierHash": 2124377881,
+        "nodeOffset": 168,
+        "stepOffset": 816
+      },
+      {
+        "node": 3,
+        "name": "melee_guardian",
+        "slot": 2,
+        "ability": 8,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 976
+      },
+      {
+        "node": 4,
+        "name": "melee_guardian_modifier_9bf22254",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 8,
+        "modifierHash": 2616336980,
+        "nodeOffset": 288,
+        "stepOffset": 1136
+      },
+      {
+        "node": 5,
+        "name": "double_jump",
+        "slot": 3,
+        "ability": 3,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 348,
+        "stepOffset": 1296
+      },
+      {
+        "node": 6,
+        "name": "rush",
+        "slot": 4,
+        "ability": 16,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 408,
+        "stepOffset": 1456
+      }
+    ]
+  },
+  {
+    "preset": 22,
+    "definition": 1005,
+    "grid": 405,
+    "itemTag": "808E3E45",
+    "uiTag": "808E3E4D",
+    "hash": "E2AB8839",
+    "donorDefinition": 441,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "pulse_grenade",
+        "slot": 0,
+        "ability": 14,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 560
+      },
+      {
+        "node": 1,
+        "name": "resto_radiance_super",
+        "slot": 1,
+        "ability": 15,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 720
+      },
+      {
+        "node": 2,
+        "name": "resto_radiance_super_modifier_dd991551",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 15,
+        "modifierHash": 3717797201,
+        "nodeOffset": 168,
+        "stepOffset": 880
+      },
+      {
+        "node": 3,
+        "name": "melee_warlock",
+        "slot": 2,
+        "ability": 22,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 1040
+      },
+      {
+        "node": 4,
+        "name": "melee_warlock_modifier_dea49dd4",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 22,
+        "modifierHash": 3735330260,
+        "nodeOffset": 288,
+        "stepOffset": 1200
+      },
+      {
+        "node": 5,
+        "name": "melee_warlock_modifier_9bf22254",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 22,
+        "modifierHash": 2616336980,
+        "nodeOffset": 348,
+        "stepOffset": 1360
+      },
+      {
+        "node": 6,
+        "name": "glide",
+        "slot": 3,
+        "ability": 7,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 408,
+        "stepOffset": 1520
+      },
+      {
+        "node": 7,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 468,
+        "stepOffset": 1680
+      }
+    ]
+  },
+  {
+    "preset": 23,
+    "definition": 1006,
+    "grid": 406,
+    "itemTag": "808E3E46",
+    "uiTag": "808E3E4E",
+    "hash": "E2AB8838",
+    "donorDefinition": 442,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "solar_flare",
+        "slot": 0,
+        "ability": 19,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 608
+      },
+      {
+        "node": 1,
+        "name": "solar_flare_modifier_fb2d1e3b",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 19,
+        "modifierHash": 4214038075,
+        "nodeOffset": 108,
+        "stepOffset": 768
+      },
+      {
+        "node": 2,
+        "name": "solar_flare_modifier_11965b3e",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 19,
+        "modifierHash": 295066430,
+        "nodeOffset": 168,
+        "stepOffset": 928
+      },
+      {
+        "node": 3,
+        "name": "nova_bomb_super",
+        "slot": 1,
+        "ability": 12,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 1088
+      },
+      {
+        "node": 4,
+        "name": "melee_warlock",
+        "slot": 2,
+        "ability": 22,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 288,
+        "stepOffset": 1248
+      },
+      {
+        "node": 5,
+        "name": "melee_warlock_modifier_dea49dd4",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 22,
+        "modifierHash": 3735330260,
+        "nodeOffset": 348,
+        "stepOffset": 1408
+      },
+      {
+        "node": 6,
+        "name": "melee_warlock_modifier_9bf22254",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 22,
+        "modifierHash": 2616336980,
+        "nodeOffset": 408,
+        "stepOffset": 1568
+      },
+      {
+        "node": 7,
+        "name": "glide",
+        "slot": 3,
+        "ability": 7,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 468,
+        "stepOffset": 1728
+      },
+      {
+        "node": 8,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 528,
+        "stepOffset": 1888
+      }
+    ]
+  },
+  {
+    "preset": 24,
+    "definition": 1007,
+    "grid": 407,
+    "itemTag": "808E3E47",
+    "uiTag": "808E3E4F",
+    "hash": "E2AB883F",
+    "donorDefinition": 434,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "flux_grenade",
+        "slot": 0,
+        "ability": 5,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 432
+      },
+      {
+        "node": 1,
+        "name": "fist_of_havoc_super",
+        "slot": 1,
+        "ability": 4,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 592
+      },
+      {
+        "node": 2,
+        "name": "melee_guardian",
+        "slot": 2,
+        "ability": 8,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 168,
+        "stepOffset": 752
+      },
+      {
+        "node": 3,
+        "name": "melee_guardian_modifier_9bf22254",
+        "slot": -1,
+        "ability": -1,
+        "modifierAbility": 8,
+        "modifierHash": 2616336980,
+        "nodeOffset": 228,
+        "stepOffset": 912
+      },
+      {
+        "node": 4,
+        "name": "double_jump",
+        "slot": 3,
+        "ability": 3,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 288,
+        "stepOffset": 1072
+      },
+      {
+        "node": 5,
+        "name": "rush",
+        "slot": 4,
+        "ability": 16,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 348,
+        "stepOffset": 1232
+      }
+    ]
+  },
+  {
+    "preset": 25,
+    "definition": 1008,
+    "grid": 408,
+    "itemTag": "808E3E48",
+    "uiTag": "808E3E50",
+    "hash": "E2AB883E",
+    "donorDefinition": 438,
+    "nodes": [
+      {
+        "node": 0,
+        "name": "pulse_grenade",
+        "slot": 0,
+        "ability": 14,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 48,
+        "stepOffset": 368
+      },
+      {
+        "node": 1,
+        "name": "golden_gun_super",
+        "slot": 1,
+        "ability": 6,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 108,
+        "stepOffset": 528
+      },
+      {
+        "node": 2,
+        "name": "melee_hunter",
+        "slot": 2,
+        "ability": 9,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 168,
+        "stepOffset": 688
+      },
+      {
+        "node": 3,
+        "name": "double_jump",
+        "slot": 3,
+        "ability": 3,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 228,
+        "stepOffset": 848
+      },
+      {
+        "node": 4,
+        "name": "sprint",
+        "slot": 4,
+        "ability": 20,
+        "modifierAbility": -1,
+        "modifierHash": 2166136261,
+        "nodeOffset": 288,
+        "stepOffset": 1008
+      }
+    ]
+  }
+]

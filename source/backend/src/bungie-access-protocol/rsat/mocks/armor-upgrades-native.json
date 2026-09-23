@@ -1,0 +1,2852 @@
+{
+  "items": {
+    "91": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "92": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "93": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "97": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "98": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "101": {
+      "grid": 72,
+      "intrinsics": []
+    },
+    "104": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "105": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "106": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "110": {
+      "grid": 78,
+      "intrinsics": []
+    },
+    "515": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "516": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "517": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "521": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "522": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "525": {
+      "grid": 72,
+      "intrinsics": []
+    },
+    "527": {
+      "grid": 72,
+      "intrinsics": []
+    },
+    "528": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "529": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "530": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "534": {
+      "grid": 78,
+      "intrinsics": []
+    },
+    "536": {
+      "grid": 78,
+      "intrinsics": []
+    },
+    "537": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "538": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "539": {
+      "grid": 66,
+      "intrinsics": []
+    },
+    "543": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "544": {
+      "grid": 69,
+      "intrinsics": []
+    },
+    "547": {
+      "grid": 72,
+      "intrinsics": []
+    },
+    "549": {
+      "grid": 72,
+      "intrinsics": []
+    },
+    "550": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "551": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "552": {
+      "grid": 75,
+      "intrinsics": []
+    },
+    "556": {
+      "grid": 78,
+      "intrinsics": []
+    },
+    "558": {
+      "grid": 78,
+      "intrinsics": []
+    }
+  },
+  "grids": {
+    "66": {
+      "grid": 66,
+      "category": 1,
+      "initialPoints": 0,
+      "nodeCount": 10,
+      "nodes": [
+        {
+          "node": 0,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 672,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 768,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 864,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 1,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 1088,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 1184,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 1280,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 1376,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 4
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 1472,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 5
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 1568,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 6
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 1664,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 7
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 1760,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 8
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 1856,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 9
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 2,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "FBEDA3FE",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2272,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FAAC13C6",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 3,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2432,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF3",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2528,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF2",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2624,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF1",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 4,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "661EF6CF",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2752,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0B9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 5,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "FBEDA3FE",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2912,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "B8CE8D64",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 6,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "FBEDA3FE",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3072,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "1BDD3173",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 7,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "661EF6CF",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3232,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BB",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 8,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3392,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 23,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 3488,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 28,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 3584,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 30,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 3680,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 24,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 9,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "661EF6CF",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3808,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        }
+      ]
+    },
+    "69": {
+      "grid": 69,
+      "category": 1,
+      "initialPoints": 0,
+      "nodeCount": 13,
+      "nodes": [
+        {
+          "node": 0,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 848,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 944,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 1040,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 1136,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 4
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 1232,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 5
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 1328,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 6
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 1424,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 7
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 1520,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 8
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 1616,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 9
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 1,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "024E6DAD",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2032,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF2",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 2,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2192,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F8",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2288,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2384,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9FA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 3,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "024E6DAD",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2512,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF1",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 4,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "6068F2B8",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2672,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "D2704D70",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 5,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2832,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2928,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 3024,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 1,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 6,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "024E6DAD",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3248,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF3",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 7,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "6068F2B8",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3408,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "203D1B82",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 8,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "6068F2B8",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3568,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "B8DB97E9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 9,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3728,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 3824,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 6,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 3920,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 8,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 4016,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 2,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 4112,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 4,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 4208,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 7,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 10,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4336,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 27,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 11,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4528,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 26,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 12,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4720,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 25,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        }
+      ]
+    },
+    "72": {
+      "grid": 72,
+      "category": 1,
+      "initialPoints": 0,
+      "nodeCount": 11,
+      "nodes": [
+        {
+          "node": 0,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 736,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 832,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 928,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 1024,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 4
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 1120,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 5
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 1216,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 6
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 1312,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 7
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 1408,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 8
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 1504,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 9
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 1,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 1920,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF3",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2016,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF2",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2112,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "804EDDF1",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 2208,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F8",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 2304,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 2400,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9FA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 2496,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BB",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 2592,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 2688,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0B9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 2,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "B7743718",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2816,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 43,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 3,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BBB45DD3",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2976,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 38,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 4,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3136,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 3232,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 3328,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 5,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "B7743718",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3552,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 41,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 6,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BBB45DD3",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3712,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 40,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 7,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BBB45DD3",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3872,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 35,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 8,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4032,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 27,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 9,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4224,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 26,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 10,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 4416,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 3,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 25,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        }
+      ]
+    },
+    "75": {
+      "grid": 75,
+      "category": 1,
+      "initialPoints": 0,
+      "nodeCount": 10,
+      "nodes": [
+        {
+          "node": 0,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 672,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 768,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 864,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 960,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 4
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 1056,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 5
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 1152,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 6
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 1248,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 7
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 1344,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 8
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 1440,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 9
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 1,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "EA5D342E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 1856,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 2,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2016,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2112,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2208,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 3,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 3,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2432,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 19,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2528,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 21,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2624,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 17,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 2720,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 15,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 4,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BA6FE21B",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2848,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "0D424C9B",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 5,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "EA5D342E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3008,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9F8",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 6,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BA6FE21B",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3168,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "49B86585",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 7,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "BA6FE21B",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3328,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "EA63E78E",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 8,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "EA5D342E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3488,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "FA20B9FA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 9,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3648,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BB",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 3744,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0BA",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 3840,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "7FEDF0B9",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        }
+      ]
+    },
+    "78": {
+      "grid": 78,
+      "category": 1,
+      "initialPoints": 0,
+      "nodeCount": 9,
+      "nodes": [
+        {
+          "node": 0,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 608,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 704,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 800,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 896,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 4
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 992,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 5
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 5,
+              "offset": 1088,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 6
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 6,
+              "offset": 1184,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 7
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 7,
+              "offset": 1280,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 8
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 8,
+              "offset": 1376,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 0,
+                  "value": 9
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 1,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "ECBAF67A",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 1792,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "77A92CCD",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 2,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 1952,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 2,
+                  "value": 1
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2048,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 2,
+                  "value": 2
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2144,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 2,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 3,
+          "autoGrant": true,
+          "randomized": true,
+          "group": "811C9DC5",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2368,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 9,
+              "supportedPurchase": false
+            },
+            {
+              "step": 1,
+              "offset": 2464,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 12,
+              "supportedPurchase": false
+            },
+            {
+              "step": 2,
+              "offset": 2560,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 10,
+              "supportedPurchase": false
+            },
+            {
+              "step": 3,
+              "offset": 2656,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 4,
+              "supportedPurchase": false
+            },
+            {
+              "step": 4,
+              "offset": 2752,
+              "pointCost": 0,
+              "swapPointCost": 0,
+              "requiredLevel": 0,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": 7,
+              "supportedPurchase": false
+            }
+          ]
+        },
+        {
+          "node": 4,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "ECBAF67A",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 2880,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "77A92CCE",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 5,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "ECBAF67A",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3040,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 1,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [],
+              "modifierHash": "77A92CCC",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 6,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3200,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 27,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 7,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3392,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 26,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        },
+        {
+          "node": 8,
+          "autoGrant": false,
+          "randomized": false,
+          "group": "E854FA8E",
+          "prerequisites": [],
+          "steps": [
+            {
+              "step": 0,
+              "offset": 3584,
+              "pointCost": 1,
+              "swapPointCost": 0,
+              "requiredLevel": 2,
+              "conditionCount": 0,
+              "directCostCount": 0,
+              "statModifiers": [
+                {
+                  "index": 25,
+                  "value": 3
+                }
+              ],
+              "modifierHash": "811C9DC5",
+              "modifierAbility": -1,
+              "perkIndex": -1,
+              "supportedPurchase": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

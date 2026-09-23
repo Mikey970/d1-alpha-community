@@ -1,0 +1,4483 @@
+title_name = "Destiny (Dec 3, 2013 prototype)"
+title_id = "41560907"
+hash = "D2279773EB15697D"
+
+[[patch]]
+name = "Bypass internal pre-release password gate"
+desc = "Allows the supplied unlocked 36735 executable to continue after its keyboard prompt."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x825E112C
+value = 0x60000000
+
+[[patch.be32]]
+address = 0x825E106C
+value = 0x480000D4
+
+[[patch]]
+name = "Expose sign-on failure state"
+desc = "Suppresses only the 36735 sign-on response failure assert so later protocol behavior can be observed."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82881818
+value = 0x60000000
+
+[[patch]]
+name = "Accept local BAP server hello"
+desc = "Uses the prototype's built-in unencrypted secure-channel mode and lets the local server advance past the obsolete secure-hello verifier."
+author = "Local reverse-engineering trace"
+is_enabled = false
+
+[[patch.be32]]
+address = 0x830ECC68
+value = 0x60000000
+
+[[patch.be8]]
+address = 0x83EAE1BC
+value = 0x01
+
+[[patch]]
+name = "Accept local Demonware lobby connection"
+desc = "Treats the fully received local BAP authentication exchange as connected after the obsolete closed-source verifier rejects it."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x829413FC
+value = 0x3BC00002
+
+[[patch]]
+name = "Assign controller zero during prototype bootflow"
+desc = "Selects emulator controller slot zero when the 36735 bootflow waits indefinitely for its obsolete assignment signal."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A4E43C
+value = 0x60000000
+
+[[patch]]
+name = "Complete prototype controller-selection gate"
+desc = "Completes only boot state three after controller slot zero is assigned, bypassing the obsolete profile-selection mask that never clears under emulation."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A4CAF4
+value = 0x38600001
+
+[[patch]]
+name = "Trace BAP consumer failure arguments"
+desc = "Records the fatal consumer callback arguments in message scratch fields so the local Xenia state trace can identify the rejecting layer."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x830EDEDC
+value = 0x933F1300
+
+[[patch.be32]]
+address = 0x830EDEE0
+value = 0x931F11B4
+
+[[patch.be32]]
+address = 0x830EDEE4
+value = 0x92FF130C
+
+[[patch.be32]]
+address = 0x830EDEE8
+value = 0x4800002C
+
+[[patch]]
+name = "Enable simulation-update response call site"
+desc = "Keeps the 36735 process-server-push parser active after its build-specific optional decoder hook returns false, without changing the shared hook used by unrelated game systems."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x83147814
+value = 0x39600001
+
+[[patch]]
+name = "Tolerate unavailable schema reflection for process push metadata"
+desc = "Uses the function's existing non-reflection fallback when the prototype receives process-push metadata whose optional schema tag is unavailable, instead of tripping a release-internal assertion."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82992388
+value = 0x480001A4
+
+[[patch]]
+name = "Accept local investment connection"
+desc = "Treats the authenticated secondary BAP channel as complete at the investment-signin call site after the prototype's obsolete completion predicate returns false."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A40784
+value = 0x39600001
+
+[[patch]]
+name = "Keep local investment service online"
+desc = "Suppresses the disconnected result from only investment service slot one after the authenticated local secondary BAP channel has completed."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A3CBE4
+value = 0x39600000
+
+[[patch]]
+name = "Keep investment boot service slot 9 online"
+desc = "Ignores the obsolete investment singleton timeout flag at the exact boot-service slot that otherwise schedules error.no_investment_connection after local BAP investment sign-in has completed."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A3AE14
+value = 0x39600001
+
+[[patch]]
+name = "Report local Ethernet link available"
+desc = "Treats the emulator-backed network manager as linked at the prototype bootflow call site while Xenia is configured for Xbox Live networking."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A3AA84
+value = 0x39600001
+
+[[patch]]
+name = "Apply local Alpha ownership to the offer proof-of-ownership requirement"
+desc = "Both investment:offer paths test the selected offer's proof key with 0x82B32068, which compares it against the locally registered type-5 Alpha record found by 0x82B31940. Under emulation there is no marketplace package layer to merge that entitlement, so the comparison fails and the activity UI reopens the PROOF OF OWNERSHIP card instead of taking its direct-invoke path. Replacing the truncation of the result at both sites with a literal 1 reports the requirement as satisfied. Pairs with the server's 0x16 purchased-offers response, which reports owned-content index 0."
+author = "Local reverse-engineering trace"
+is_enabled = true
+
+
+
+[[patch.be32]]
+address = 0x837CAC08
+value = 0x39600001
+
+[[patch]]
+name = "Preserve native Activity Map destination"
+desc = "Use the Activity Map object selected activity at +0xDE in its Alpha ownership callback. The separate Director callback uses its own +0x70 selection layout."
+author = "Local Venus recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82ED95AC
+value = 0x48A55255
+
+[[patch.be32]]
+address = 0x82FED0CC
+value = 0x48942221
+
+[[patch.be32]]
+address = 0x8392E800
+value = 0x7C0802A6
+
+[[patch.be32]]
+address = 0x8392E804
+value = 0x9421FF80
+
+[[patch.be32]]
+address = 0x8392E808
+value = 0x90010070
+
+[[patch.be32]]
+address = 0x8392E80C
+value = 0x90610050
+
+[[patch.be32]]
+address = 0x8392E810
+value = 0x4BE9C279
+
+[[patch.be32]]
+address = 0x8392E814
+value = 0x3D60E000
+
+[[patch.be32]]
+address = 0x8392E818
+value = 0x616B0001
+
+[[patch.be32]]
+address = 0x8392E81C
+value = 0x7F035840
+
+[[patch.be32]]
+address = 0x8392E820
+value = 0x409A0038
+
+[[patch.be32]]
+address = 0x8392E824
+value = 0xA17E00DE
+
+[[patch.be32]]
+address = 0x8392E828
+value = 0xB1610060
+
+[[patch.be32]]
+address = 0x8392E82C
+value = 0x3960FFFF
+
+[[patch.be32]]
+address = 0x8392E830
+value = 0x99610062
+
+[[patch.be32]]
+address = 0x8392E834
+value = 0x38610060
+
+[[patch.be32]]
+address = 0x8392E838
+value = 0x4B021111
+
+[[patch.be32]]
+address = 0x8392E83C
+value = 0x546B063E
+
+[[patch.be32]]
+address = 0x8392E840
+value = 0x2B0B0000
+
+[[patch.be32]]
+address = 0x8392E844
+value = 0x419A001C
+
+[[patch.be32]]
+address = 0x8392E848
+value = 0x38600000
+
+[[patch.be32]]
+address = 0x8392E84C
+value = 0x38800003
+
+[[patch.be32]]
+address = 0x8392E850
+value = 0x4B023249
+
+[[patch.be32]]
+address = 0x8392E854
+value = 0x4800004C
+
+[[patch.be32]]
+address = 0x8392E858
+value = 0x80610050
+
+[[patch.be32]]
+address = 0x8392E85C
+value = 0x4BE9C6F5
+
+[[patch.be32]]
+address = 0x8392E860
+value = 0x38600001
+
+[[patch.be32]]
+address = 0x8392E864
+value = 0x80010070
+
+[[patch.be32]]
+address = 0x8392E868
+value = 0x38210080
+
+[[patch.be32]]
+address = 0x8392E86C
+value = 0x7C0803A6
+
+[[patch.be32]]
+address = 0x8392E870
+value = 0x4E800020
+
+[[patch.be32]]
+address = 0x8392E8A0
+value = 0x546B063E
+
+[[patch.be32]]
+address = 0x8392E8A4
+value = 0x2B0B0000
+
+[[patch.be32]]
+address = 0x8392E8A8
+value = 0x419AFFB8
+
+[[patch.be32]]
+address = 0x8392E8AC
+value = 0x38600000
+
+[[patch.be32]]
+address = 0x8392E8B0
+value = 0x4B02E499
+
+[[patch.be32]]
+address = 0x8392E8B4
+value = 0x39600000
+
+[[patch.be32]]
+address = 0x8392E8B8
+value = 0xB1630808
+
+[[patch.be32]]
+address = 0x8392E8BC
+value = 0x4BFFFFA4
+
+[[patch]]
+name = "Route local Alpha PoO confirm to the Tower offer bridge"
+desc = "Keep the direct-XEX Alpha offer on the selected-offer branch so the local Tower Director bridge handles the unavailable Marketplace handoff."
+author = "Local Tower recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x837CAB98
+value = 0x39600000
+
+[[patch]]
+name = "Own Venus Chapter 2 in the Director gate"
+desc = "Treat shipped activity index 2 (venus_chapter_2) as owned inside the Director's original can-start predicate."
+author = "Local Venus recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x837045A0
+value = 0x4822AE5C
+
+[[patch.be32]]
+address = 0x8392E880
+value = 0x2C040002
+
+[[patch.be32]]
+address = 0x8392E884
+value = 0x4082000C
+
+[[patch.be32]]
+address = 0x8392E888
+value = 0x38600001
+
+[[patch.be32]]
+address = 0x8392E88C
+value = 0x4E800020
+
+[[patch.be32]]
+address = 0x8392E890
+value = 0x7D8802A6
+
+[[patch.be32]]
+address = 0x8392E894
+value = 0x4BDD5D10
+
+[[patch]]
+name = "Publish native Venus permission for the local peer"
+desc = "Publish activity index 2 through the title's native local-peer permission bitset builder."
+author = "Local Venus recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x83704860
+value = 0x4822ABA8
+
+[[patch.be32]]
+address = 0x8392E8C0
+value = 0x2F040002
+
+[[patch.be32]]
+address = 0x8392E8C4
+value = 0x409A000C
+
+[[patch.be32]]
+address = 0x8392E8C8
+value = 0x38600001
+
+[[patch.be32]]
+address = 0x8392E8CC
+value = 0x4E800020
+
+[[patch.be32]]
+address = 0x8392E8D0
+value = 0x7D8802A6
+
+[[patch.be32]]
+address = 0x8392E8D4
+value = 0x4BDD5F90
+
+[[patch]]
+name = "Honor native Venus permission in the state-19 peer validator"
+desc = "Supply the published local permission bit when state 19 validates activity index 2."
+author = "Local Venus recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82B2DB38
+value = 0x48E018DC
+
+[[patch.be32]]
+address = 0x8392E900
+value = 0x2F1C0002
+
+[[patch.be32]]
+address = 0x8392E904
+value = 0x409A000C
+
+[[patch.be32]]
+address = 0x8392E908
+value = 0x7D054378
+
+[[patch.be32]]
+address = 0x8392E90C
+value = 0x4B1FF230
+
+[[patch.be32]]
+address = 0x8392E910
+value = 0x7D053038
+
+[[patch.be32]]
+address = 0x8392E914
+value = 0x4B1FF228
+
+[[patch]]
+name = "Use the native solo path for the Tower activity"
+desc = "Keep Tower activity index 0 on the title's existing matchmaking-not-necessary branch so it emits native event 29 for the local guardian."
+author = "Local Tower recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82A5A858
+value = 0x60000000
+
+[[patch]]
+name = "Use native private-region path for isolated Venus run"
+desc = "Keep the validated Venus initial slice on the title's native private-region path by skipping only the assignment that marks the transition public; native lifecycle and ownership logic remain unchanged."
+author = "Local Venus recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8293AEB0
+value = 0x48000008
+
+[[patch]]
+name = "Correct Ghost fallback in vehicle equipment assembly"
+desc = "Only the vehicle-specific inventory assembly output at82D6DED0: Ghost80900426 becomes authored Sparrow809003FB before equipment publication. Other patterns and the summon function remain native. Resource loading and ride behavior require runtime verification."
+author = "Local inventory catalog and native call-site audit"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82D6DED0
+value = 0x48BC0A70
+
+[[patch.be32]]
+address = 0x8392E940
+value = 0x3D408090
+
+[[patch.be32]]
+address = 0x8392E944
+value = 0x614A0426
+
+[[patch.be32]]
+address = 0x8392E948
+value = 0x7F0B5040
+
+[[patch.be32]]
+address = 0x8392E94C
+value = 0x409A000C
+
+[[patch.be32]]
+address = 0x8392E950
+value = 0x3D608090
+
+[[patch.be32]]
+address = 0x8392E954
+value = 0x616B03FB
+
+[[patch.be32]]
+address = 0x8392E958
+value = 0x91780000
+
+[[patch.be32]]
+address = 0x8392E95C
+value = 0x4B43F578
+
+[[patch]]
+name = "Retain authored Sparrow and its declared components in native gear batch"
+desc = "Request the39 direct components, the evidenced missing attachment resource809012FF, and root809003FB, using native category1 and paired release. Retains r387 effect8090452E. r389 cliff descent asserted836BE7E0 with resource809003FA in the saved argument at7044D890. Component80900BAD references it atE74; packaged root0080/1018 declares components809046FE/80900B9A/8090002C. Add exact root and missing80900B9A to paired load/release."
+author = "Local native dependency trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82AAE0CC
+value = 0x48E80A34
+
+[[patch.be32]]
+address = 0x8392EB00
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB04
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB08
+value = 0x60840B9B
+
+[[patch.be32]]
+address = 0x8392EB0C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB10
+value = 0x4B231779
+
+[[patch.be32]]
+address = 0x8392EB14
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB18
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB1C
+value = 0x60840B9C
+
+[[patch.be32]]
+address = 0x8392EB20
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB24
+value = 0x4B231765
+
+[[patch.be32]]
+address = 0x8392EB28
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB2C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB30
+value = 0x60840B9D
+
+[[patch.be32]]
+address = 0x8392EB34
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB38
+value = 0x4B231751
+
+[[patch.be32]]
+address = 0x8392EB3C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB40
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB44
+value = 0x60840B9E
+
+[[patch.be32]]
+address = 0x8392EB48
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB4C
+value = 0x4B23173D
+
+[[patch.be32]]
+address = 0x8392EB50
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB54
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB58
+value = 0x60840B9F
+
+[[patch.be32]]
+address = 0x8392EB5C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB60
+value = 0x4B231729
+
+[[patch.be32]]
+address = 0x8392EB64
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB68
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB6C
+value = 0x60840BA0
+
+[[patch.be32]]
+address = 0x8392EB70
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB74
+value = 0x4B231715
+
+[[patch.be32]]
+address = 0x8392EB78
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB7C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB80
+value = 0x60840BA1
+
+[[patch.be32]]
+address = 0x8392EB84
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB88
+value = 0x4B231701
+
+[[patch.be32]]
+address = 0x8392EB8C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EB90
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EB94
+value = 0x60840BA2
+
+[[patch.be32]]
+address = 0x8392EB98
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EB9C
+value = 0x4B2316ED
+
+[[patch.be32]]
+address = 0x8392EBA0
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EBA4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EBA8
+value = 0x60840BA3
+
+[[patch.be32]]
+address = 0x8392EBAC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EBB0
+value = 0x4B2316D9
+
+[[patch.be32]]
+address = 0x8392EBB4
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EBB8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EBBC
+value = 0x60840BA4
+
+[[patch.be32]]
+address = 0x8392EBC0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EBC4
+value = 0x4B2316C5
+
+[[patch.be32]]
+address = 0x8392EBC8
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EBCC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EBD0
+value = 0x60840BA5
+
+[[patch.be32]]
+address = 0x8392EBD4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EBD8
+value = 0x4B2316B1
+
+[[patch.be32]]
+address = 0x8392EBDC
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EBE0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EBE4
+value = 0x60840BA6
+
+[[patch.be32]]
+address = 0x8392EBE8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EBEC
+value = 0x4B23169D
+
+[[patch.be32]]
+address = 0x8392EBF0
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EBF4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EBF8
+value = 0x60840BA7
+
+[[patch.be32]]
+address = 0x8392EBFC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC00
+value = 0x4B231689
+
+[[patch.be32]]
+address = 0x8392EC04
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC08
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC0C
+value = 0x60840BA8
+
+[[patch.be32]]
+address = 0x8392EC10
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC14
+value = 0x4B231675
+
+[[patch.be32]]
+address = 0x8392EC18
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC1C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC20
+value = 0x60840BA9
+
+[[patch.be32]]
+address = 0x8392EC24
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC28
+value = 0x4B231661
+
+[[patch.be32]]
+address = 0x8392EC2C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC30
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC34
+value = 0x60840BAA
+
+[[patch.be32]]
+address = 0x8392EC38
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC3C
+value = 0x4B23164D
+
+[[patch.be32]]
+address = 0x8392EC40
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC44
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC48
+value = 0x60840BAB
+
+[[patch.be32]]
+address = 0x8392EC4C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC50
+value = 0x4B231639
+
+[[patch.be32]]
+address = 0x8392EC54
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC58
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC5C
+value = 0x60840BAC
+
+[[patch.be32]]
+address = 0x8392EC60
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC64
+value = 0x4B231625
+
+[[patch.be32]]
+address = 0x8392EC68
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC6C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC70
+value = 0x60840BAD
+
+[[patch.be32]]
+address = 0x8392EC74
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC78
+value = 0x4B231611
+
+[[patch.be32]]
+address = 0x8392EC7C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC80
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC84
+value = 0x60840BAE
+
+[[patch.be32]]
+address = 0x8392EC88
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EC8C
+value = 0x4B2315FD
+
+[[patch.be32]]
+address = 0x8392EC90
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EC94
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EC98
+value = 0x60840BAF
+
+[[patch.be32]]
+address = 0x8392EC9C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ECA0
+value = 0x4B2315E9
+
+[[patch.be32]]
+address = 0x8392ECA4
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ECA8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ECAC
+value = 0x60840BB0
+
+[[patch.be32]]
+address = 0x8392ECB0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ECB4
+value = 0x4B2315D5
+
+[[patch.be32]]
+address = 0x8392ECB8
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ECBC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ECC0
+value = 0x60840BB1
+
+[[patch.be32]]
+address = 0x8392ECC4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ECC8
+value = 0x4B2315C1
+
+[[patch.be32]]
+address = 0x8392ECCC
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ECD0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ECD4
+value = 0x60840BB2
+
+[[patch.be32]]
+address = 0x8392ECD8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ECDC
+value = 0x4B2315AD
+
+[[patch.be32]]
+address = 0x8392ECE0
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ECE4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ECE8
+value = 0x60840BB3
+
+[[patch.be32]]
+address = 0x8392ECEC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ECF0
+value = 0x4B231599
+
+[[patch.be32]]
+address = 0x8392ECF4
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ECF8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ECFC
+value = 0x608446FE
+
+[[patch.be32]]
+address = 0x8392ED00
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED04
+value = 0x4B231585
+
+[[patch.be32]]
+address = 0x8392ED08
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED0C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED10
+value = 0x60840BB4
+
+[[patch.be32]]
+address = 0x8392ED14
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED18
+value = 0x4B231571
+
+[[patch.be32]]
+address = 0x8392ED1C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED20
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED24
+value = 0x60840BB5
+
+[[patch.be32]]
+address = 0x8392ED28
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED2C
+value = 0x4B23155D
+
+[[patch.be32]]
+address = 0x8392ED30
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED34
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED38
+value = 0x60840BB6
+
+[[patch.be32]]
+address = 0x8392ED3C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED40
+value = 0x4B231549
+
+[[patch.be32]]
+address = 0x8392ED44
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED48
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED4C
+value = 0x60840BB7
+
+[[patch.be32]]
+address = 0x8392ED50
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED54
+value = 0x4B231535
+
+[[patch.be32]]
+address = 0x8392ED58
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED5C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED60
+value = 0x60840BB8
+
+[[patch.be32]]
+address = 0x8392ED64
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED68
+value = 0x4B231521
+
+[[patch.be32]]
+address = 0x8392ED6C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED70
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED74
+value = 0x60840BB9
+
+[[patch.be32]]
+address = 0x8392ED78
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED7C
+value = 0x4B23150D
+
+[[patch.be32]]
+address = 0x8392ED80
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED84
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED88
+value = 0x60840BBA
+
+[[patch.be32]]
+address = 0x8392ED8C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392ED90
+value = 0x4B2314F9
+
+[[patch.be32]]
+address = 0x8392ED94
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392ED98
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392ED9C
+value = 0x60840BBB
+
+[[patch.be32]]
+address = 0x8392EDA0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EDA4
+value = 0x4B2314E5
+
+[[patch.be32]]
+address = 0x8392EDA8
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EDAC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EDB0
+value = 0x60840BBC
+
+[[patch.be32]]
+address = 0x8392EDB4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EDB8
+value = 0x4B2314D1
+
+[[patch.be32]]
+address = 0x8392EDBC
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EDC0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EDC4
+value = 0x60840BBD
+
+[[patch.be32]]
+address = 0x8392EDC8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EDCC
+value = 0x4B2314BD
+
+[[patch.be32]]
+address = 0x8392EDD0
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EDD4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EDD8
+value = 0x6084002C
+
+[[patch.be32]]
+address = 0x8392EDDC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EDE0
+value = 0x4B2314A9
+
+[[patch.be32]]
+address = 0x8392EDE4
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EDE8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EDEC
+value = 0x60840BBE
+
+[[patch.be32]]
+address = 0x8392EDF0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EDF4
+value = 0x4B231495
+
+[[patch.be32]]
+address = 0x8392EDF8
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EDFC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE00
+value = 0x60840BBF
+
+[[patch.be32]]
+address = 0x8392EE04
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE08
+value = 0x4B231481
+
+[[patch.be32]]
+address = 0x8392EE0C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE10
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE14
+value = 0x608412FF
+
+[[patch.be32]]
+address = 0x8392EE18
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE1C
+value = 0x4B23146D
+
+[[patch.be32]]
+address = 0x8392EE20
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE24
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE28
+value = 0x608450E5
+
+[[patch.be32]]
+address = 0x8392EE2C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE30
+value = 0x4B231459
+
+[[patch.be32]]
+address = 0x8392EE34
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE38
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE3C
+value = 0x6084452E
+
+[[patch.be32]]
+address = 0x8392EE40
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE44
+value = 0x4B231445
+
+[[patch.be32]]
+address = 0x8392EE48
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE4C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE50
+value = 0x60840B9A
+
+[[patch.be32]]
+address = 0x8392EE54
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE58
+value = 0x4B231431
+
+[[patch.be32]]
+address = 0x8392EE5C
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE60
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE64
+value = 0x608403FA
+
+[[patch.be32]]
+address = 0x8392EE68
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE6C
+value = 0x4B23141D
+
+[[patch.be32]]
+address = 0x8392EE70
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE74
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EE78
+value = 0x608403FB
+
+[[patch.be32]]
+address = 0x8392EE7C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EE80
+value = 0x4B231409
+
+[[patch.be32]]
+address = 0x8392EE84
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392EE88
+value = 0x48000978
+
+[[patch.be32]]
+address = 0x82AADD0C
+value = 0x48E811F4
+
+[[patch.be32]]
+address = 0x8392EF00
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF04
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF08
+value = 0x60840B9B
+
+[[patch.be32]]
+address = 0x8392EF0C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF10
+value = 0x4B231541
+
+[[patch.be32]]
+address = 0x8392EF14
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF18
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF1C
+value = 0x60840B9C
+
+[[patch.be32]]
+address = 0x8392EF20
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF24
+value = 0x4B23152D
+
+[[patch.be32]]
+address = 0x8392EF28
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF2C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF30
+value = 0x60840B9D
+
+[[patch.be32]]
+address = 0x8392EF34
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF38
+value = 0x4B231519
+
+[[patch.be32]]
+address = 0x8392EF3C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF40
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF44
+value = 0x60840B9E
+
+[[patch.be32]]
+address = 0x8392EF48
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF4C
+value = 0x4B231505
+
+[[patch.be32]]
+address = 0x8392EF50
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF54
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF58
+value = 0x60840B9F
+
+[[patch.be32]]
+address = 0x8392EF5C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF60
+value = 0x4B2314F1
+
+[[patch.be32]]
+address = 0x8392EF64
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF68
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF6C
+value = 0x60840BA0
+
+[[patch.be32]]
+address = 0x8392EF70
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF74
+value = 0x4B2314DD
+
+[[patch.be32]]
+address = 0x8392EF78
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF7C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF80
+value = 0x60840BA1
+
+[[patch.be32]]
+address = 0x8392EF84
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF88
+value = 0x4B2314C9
+
+[[patch.be32]]
+address = 0x8392EF8C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EF90
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EF94
+value = 0x60840BA2
+
+[[patch.be32]]
+address = 0x8392EF98
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EF9C
+value = 0x4B2314B5
+
+[[patch.be32]]
+address = 0x8392EFA0
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EFA4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EFA8
+value = 0x60840BA3
+
+[[patch.be32]]
+address = 0x8392EFAC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EFB0
+value = 0x4B2314A1
+
+[[patch.be32]]
+address = 0x8392EFB4
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EFB8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EFBC
+value = 0x60840BA4
+
+[[patch.be32]]
+address = 0x8392EFC0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EFC4
+value = 0x4B23148D
+
+[[patch.be32]]
+address = 0x8392EFC8
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EFCC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EFD0
+value = 0x60840BA5
+
+[[patch.be32]]
+address = 0x8392EFD4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EFD8
+value = 0x4B231479
+
+[[patch.be32]]
+address = 0x8392EFDC
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EFE0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EFE4
+value = 0x60840BA6
+
+[[patch.be32]]
+address = 0x8392EFE8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392EFEC
+value = 0x4B231465
+
+[[patch.be32]]
+address = 0x8392EFF0
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392EFF4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392EFF8
+value = 0x60840BA7
+
+[[patch.be32]]
+address = 0x8392EFFC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F000
+value = 0x4B231451
+
+[[patch.be32]]
+address = 0x8392F004
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F008
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F00C
+value = 0x60840BA8
+
+[[patch.be32]]
+address = 0x8392F010
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F014
+value = 0x4B23143D
+
+[[patch.be32]]
+address = 0x8392F018
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F01C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F020
+value = 0x60840BA9
+
+[[patch.be32]]
+address = 0x8392F024
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F028
+value = 0x4B231429
+
+[[patch.be32]]
+address = 0x8392F02C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F030
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F034
+value = 0x60840BAA
+
+[[patch.be32]]
+address = 0x8392F038
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F03C
+value = 0x4B231415
+
+[[patch.be32]]
+address = 0x8392F040
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F044
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F048
+value = 0x60840BAB
+
+[[patch.be32]]
+address = 0x8392F04C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F050
+value = 0x4B231401
+
+[[patch.be32]]
+address = 0x8392F054
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F058
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F05C
+value = 0x60840BAC
+
+[[patch.be32]]
+address = 0x8392F060
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F064
+value = 0x4B2313ED
+
+[[patch.be32]]
+address = 0x8392F068
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F06C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F070
+value = 0x60840BAD
+
+[[patch.be32]]
+address = 0x8392F074
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F078
+value = 0x4B2313D9
+
+[[patch.be32]]
+address = 0x8392F07C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F080
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F084
+value = 0x60840BAE
+
+[[patch.be32]]
+address = 0x8392F088
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F08C
+value = 0x4B2313C5
+
+[[patch.be32]]
+address = 0x8392F090
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F094
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F098
+value = 0x60840BAF
+
+[[patch.be32]]
+address = 0x8392F09C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F0A0
+value = 0x4B2313B1
+
+[[patch.be32]]
+address = 0x8392F0A4
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F0A8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F0AC
+value = 0x60840BB0
+
+[[patch.be32]]
+address = 0x8392F0B0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F0B4
+value = 0x4B23139D
+
+[[patch.be32]]
+address = 0x8392F0B8
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F0BC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F0C0
+value = 0x60840BB1
+
+[[patch.be32]]
+address = 0x8392F0C4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F0C8
+value = 0x4B231389
+
+[[patch.be32]]
+address = 0x8392F0CC
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F0D0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F0D4
+value = 0x60840BB2
+
+[[patch.be32]]
+address = 0x8392F0D8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F0DC
+value = 0x4B231375
+
+[[patch.be32]]
+address = 0x8392F0E0
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F0E4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F0E8
+value = 0x60840BB3
+
+[[patch.be32]]
+address = 0x8392F0EC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F0F0
+value = 0x4B231361
+
+[[patch.be32]]
+address = 0x8392F0F4
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F0F8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F0FC
+value = 0x608446FE
+
+[[patch.be32]]
+address = 0x8392F100
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F104
+value = 0x4B23134D
+
+[[patch.be32]]
+address = 0x8392F108
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F10C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F110
+value = 0x60840BB4
+
+[[patch.be32]]
+address = 0x8392F114
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F118
+value = 0x4B231339
+
+[[patch.be32]]
+address = 0x8392F11C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F120
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F124
+value = 0x60840BB5
+
+[[patch.be32]]
+address = 0x8392F128
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F12C
+value = 0x4B231325
+
+[[patch.be32]]
+address = 0x8392F130
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F134
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F138
+value = 0x60840BB6
+
+[[patch.be32]]
+address = 0x8392F13C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F140
+value = 0x4B231311
+
+[[patch.be32]]
+address = 0x8392F144
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F148
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F14C
+value = 0x60840BB7
+
+[[patch.be32]]
+address = 0x8392F150
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F154
+value = 0x4B2312FD
+
+[[patch.be32]]
+address = 0x8392F158
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F15C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F160
+value = 0x60840BB8
+
+[[patch.be32]]
+address = 0x8392F164
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F168
+value = 0x4B2312E9
+
+[[patch.be32]]
+address = 0x8392F16C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F170
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F174
+value = 0x60840BB9
+
+[[patch.be32]]
+address = 0x8392F178
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F17C
+value = 0x4B2312D5
+
+[[patch.be32]]
+address = 0x8392F180
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F184
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F188
+value = 0x60840BBA
+
+[[patch.be32]]
+address = 0x8392F18C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F190
+value = 0x4B2312C1
+
+[[patch.be32]]
+address = 0x8392F194
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F198
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F19C
+value = 0x60840BBB
+
+[[patch.be32]]
+address = 0x8392F1A0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F1A4
+value = 0x4B2312AD
+
+[[patch.be32]]
+address = 0x8392F1A8
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F1AC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F1B0
+value = 0x60840BBC
+
+[[patch.be32]]
+address = 0x8392F1B4
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F1B8
+value = 0x4B231299
+
+[[patch.be32]]
+address = 0x8392F1BC
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F1C0
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F1C4
+value = 0x60840BBD
+
+[[patch.be32]]
+address = 0x8392F1C8
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F1CC
+value = 0x4B231285
+
+[[patch.be32]]
+address = 0x8392F1D0
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F1D4
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F1D8
+value = 0x6084002C
+
+[[patch.be32]]
+address = 0x8392F1DC
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F1E0
+value = 0x4B231271
+
+[[patch.be32]]
+address = 0x8392F1E4
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F1E8
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F1EC
+value = 0x60840BBE
+
+[[patch.be32]]
+address = 0x8392F1F0
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F1F4
+value = 0x4B23125D
+
+[[patch.be32]]
+address = 0x8392F1F8
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F1FC
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F200
+value = 0x60840BBF
+
+[[patch.be32]]
+address = 0x8392F204
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F208
+value = 0x4B231249
+
+[[patch.be32]]
+address = 0x8392F20C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F210
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F214
+value = 0x608412FF
+
+[[patch.be32]]
+address = 0x8392F218
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F21C
+value = 0x4B231235
+
+[[patch.be32]]
+address = 0x8392F220
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F224
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F228
+value = 0x608450E5
+
+[[patch.be32]]
+address = 0x8392F22C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F230
+value = 0x4B231221
+
+[[patch.be32]]
+address = 0x8392F234
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F238
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F23C
+value = 0x6084452E
+
+[[patch.be32]]
+address = 0x8392F240
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F244
+value = 0x4B23120D
+
+[[patch.be32]]
+address = 0x8392F248
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F24C
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F250
+value = 0x60840B9A
+
+[[patch.be32]]
+address = 0x8392F254
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F258
+value = 0x4B2311F9
+
+[[patch.be32]]
+address = 0x8392F25C
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F260
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F264
+value = 0x608403FA
+
+[[patch.be32]]
+address = 0x8392F268
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F26C
+value = 0x4B2311E5
+
+[[patch.be32]]
+address = 0x8392F270
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F274
+value = 0x3C808090
+
+[[patch.be32]]
+address = 0x8392F278
+value = 0x608403FB
+
+[[patch.be32]]
+address = 0x8392F27C
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F280
+value = 0x4B2311D1
+
+[[patch.be32]]
+address = 0x8392F284
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392F288
+value = 0x48000978
+
+
+[[patch]]
+name = "r443 handle unavailable performance upload service"
+desc = "Guard only the observed post-activity submitPerformance call when matchmaking is null; preserve the native empty-task failure path and non-null upload. Runtime verification deferred by user."
+author = "Local r442 crash and native caller analysis"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x830D0320
+value = 0x4885EF71
+
+[[patch.be32]]
+address = 0x8392F290
+value = 0x2C040000
+
+[[patch.be32]]
+address = 0x8392F294
+value = 0x40820010
+
+[[patch.be32]]
+address = 0x8392F298
+value = 0x39600000
+
+[[patch.be32]]
+address = 0x8392F29C
+value = 0x91630000
+
+[[patch.be32]]
+address = 0x8392F2A0
+value = 0x4E800020
+
+[[patch.be32]]
+address = 0x8392F2A4
+value = 0x4BB2EC54
+
+[[patch]]
+name = "r468 rebind exact oversized bank from external sentinel pool"
+desc = "Keep the external one-byte Sound Banks pool intact. Only when the bank-buffer request is exactly 0xA0080 bytes and its resource is prebound to pool 3, rebind that resource non-owningly to the already-live 6 MiB Wwise memory-manager pool; preserve every other request and the native fallback when that pool is absent."
+author = "Local r461 exact result-52 observer"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8336C24C
+value = 0x485C305C
+[[patch.be32]]
+address = 0x8336C278
+value = 0x419A0048
+
+[[patch.be32]]
+address = 0x8392F2A8
+value = 0x807F0014
+
+[[patch.be32]]
+address = 0x8392F2AC
+value = 0x2F030003
+
+[[patch.be32]]
+address = 0x8392F2B0
+value = 0x409A0038
+
+[[patch.be32]]
+address = 0x8392F2B4
+value = 0x3D60000A
+
+[[patch.be32]]
+address = 0x8392F2B8
+value = 0x616B0080
+
+[[patch.be32]]
+address = 0x8392F2BC
+value = 0x7F1E5840
+
+[[patch.be32]]
+address = 0x8392F2C0
+value = 0x409A0028
+
+[[patch.be32]]
+address = 0x8392F2C4
+value = 0x3D6083A0
+
+[[patch.be32]]
+address = 0x8392F2C8
+value = 0x806B8EC8
+
+[[patch.be32]]
+address = 0x8392F2CC
+value = 0x2F03FFFF
+
+[[patch.be32]]
+address = 0x8392F2D0
+value = 0x419A0014
+
+[[patch.be32]]
+address = 0x8392F2D4
+value = 0x907F0014
+
+[[patch.be32]]
+address = 0x8392F2D8
+value = 0x39600000
+
+[[patch.be32]]
+address = 0x8392F2DC
+value = 0x997F0018
+
+[[patch.be32]]
+address = 0x8392F2E0
+value = 0x4BA3CF70
+
+[[patch.be32]]
+address = 0x8392F2E4
+value = 0x38600003
+
+[[patch.be32]]
+address = 0x8392F2E8
+value = 0x4BA3CF68
+[[patch.be32]]
+address = 0x82C22840
+value = 0x3FC00060
+
+
+
+[[patch]]
+name = "r553 retain native SMG gameplay and feedback family"
+desc = "Paired native batch iterator preserves LR, SP, r30 and r31; loads the exact SMG feedback metadata and its referenced globals0082/0083 assets."
+author = "Native resource trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F800
+value = 0x7D8802A6
+
+[[patch.be32]]
+address = 0x8392F804
+value = 0x9421FF60
+
+[[patch.be32]]
+address = 0x8392F808
+value = 0xF9810090
+
+[[patch.be32]]
+address = 0x8392F80C
+value = 0xFBC10080
+
+[[patch.be32]]
+address = 0x8392F810
+value = 0xFBE10088
+
+[[patch.be32]]
+address = 0x8392F814
+value = 0x3FC08392
+
+[[patch.be32]]
+address = 0x8392F818
+value = 0x63DEF860
+
+[[patch.be32]]
+address = 0x8392F81C
+value = 0x3BE000AF
+
+[[patch.be32]]
+address = 0x8392F820
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392F824
+value = 0x809E0000
+
+[[patch.be32]]
+address = 0x8392F828
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392F82C
+value = 0x4B230A5D
+
+[[patch.be32]]
+address = 0x8392F830
+value = 0x3BDE0004
+
+[[patch.be32]]
+address = 0x8392F834
+value = 0x3BFFFFFF
+
+[[patch.be32]]
+address = 0x8392F838
+value = 0x2C1F0000
+
+[[patch.be32]]
+address = 0x8392F83C
+value = 0x4082FFE4
+
+[[patch.be32]]
+address = 0x8392F840
+value = 0xEBE10088
+
+[[patch.be32]]
+address = 0x8392F844
+value = 0xEBC10080
+
+[[patch.be32]]
+address = 0x8392F848
+value = 0xE9810090
+
+[[patch.be32]]
+address = 0x8392F84C
+value = 0x7D8803A6
+
+[[patch.be32]]
+address = 0x8392F850
+value = 0x382100A0
+
+[[patch.be32]]
+address = 0x8392F854
+value = 0x7F83E378
+
+[[patch.be32]]
+address = 0x8392F858
+value = 0x4B17E878
+
+[[patch.be32]]
+address = 0x8392F85C
+value = 0x60000000
+
+[[patch.be32]]
+address = 0x8392F860
+value = 0x809004A8
+
+[[patch.be32]]
+address = 0x8392F864
+value = 0x809004A9
+
+[[patch.be32]]
+address = 0x8392F868
+value = 0x809004EB
+
+[[patch.be32]]
+address = 0x8392F86C
+value = 0x809004EC
+
+[[patch.be32]]
+address = 0x8392F870
+value = 0x809004F4
+
+[[patch.be32]]
+address = 0x8392F874
+value = 0x809004F5
+
+[[patch.be32]]
+address = 0x8392F878
+value = 0x809004FC
+
+[[patch.be32]]
+address = 0x8392F87C
+value = 0x809004FD
+
+[[patch.be32]]
+address = 0x8392F880
+value = 0x80900CC5
+
+[[patch.be32]]
+address = 0x8392F884
+value = 0x80900CC6
+
+[[patch.be32]]
+address = 0x8392F888
+value = 0x80900CC7
+
+[[patch.be32]]
+address = 0x8392F88C
+value = 0x809006B1
+
+[[patch.be32]]
+address = 0x8392F890
+value = 0x80900CC8
+
+[[patch.be32]]
+address = 0x8392F894
+value = 0x80900528
+
+[[patch.be32]]
+address = 0x8392F898
+value = 0x80900CC9
+
+[[patch.be32]]
+address = 0x8392F89C
+value = 0x80900CCA
+
+[[patch.be32]]
+address = 0x8392F8A0
+value = 0x809006B3
+
+[[patch.be32]]
+address = 0x8392F8A4
+value = 0x80900922
+
+[[patch.be32]]
+address = 0x8392F8A8
+value = 0x809006B4
+
+[[patch.be32]]
+address = 0x8392F8AC
+value = 0x809006B5
+
+[[patch.be32]]
+address = 0x8392F8B0
+value = 0x809006B6
+
+[[patch.be32]]
+address = 0x8392F8B4
+value = 0x80900CCB
+
+[[patch.be32]]
+address = 0x8392F8B8
+value = 0x809006B8
+
+[[patch.be32]]
+address = 0x8392F8BC
+value = 0x80900CA2
+
+[[patch.be32]]
+address = 0x8392F8C0
+value = 0x80900BDB
+
+[[patch.be32]]
+address = 0x8392F8C4
+value = 0x809046FE
+
+[[patch.be32]]
+address = 0x8392F8C8
+value = 0x809006B9
+
+[[patch.be32]]
+address = 0x8392F8CC
+value = 0x80900CCC
+
+[[patch.be32]]
+address = 0x8392F8D0
+value = 0x80900CCD
+
+[[patch.be32]]
+address = 0x8392F8D4
+value = 0x8090002C
+
+[[patch.be32]]
+address = 0x8392F8D8
+value = 0x80900CCE
+
+[[patch.be32]]
+address = 0x8392F8DC
+value = 0x80900463
+
+[[patch.be32]]
+address = 0x8392F8E0
+value = 0x80904664
+
+[[patch.be32]]
+address = 0x8392F8E4
+value = 0x80900CC2
+
+[[patch.be32]]
+address = 0x8392F8E8
+value = 0x80900CC3
+
+[[patch.be32]]
+address = 0x8392F8EC
+value = 0x80900CC4
+
+[[patch.be32]]
+address = 0x8392F8F0
+value = 0x80900462
+
+[[patch.be32]]
+address = 0x8392F8F4
+value = 0x80900CBF
+
+[[patch.be32]]
+address = 0x8392F8F8
+value = 0x80900461
+
+[[patch.be32]]
+address = 0x8392F8FC
+value = 0x8090136B
+
+[[patch.be32]]
+address = 0x8392F900
+value = 0x80904665
+
+[[patch.be32]]
+address = 0x8392F904
+value = 0x80904666
+
+[[patch.be32]]
+address = 0x8392F908
+value = 0x8090483D
+
+[[patch.be32]]
+address = 0x8392F90C
+value = 0x809045FA
+
+[[patch.be32]]
+address = 0x8392F910
+value = 0x80904658
+
+[[patch.be32]]
+address = 0x8392F914
+value = 0x80904659
+
+[[patch.be32]]
+address = 0x8392F918
+value = 0x8090465A
+
+[[patch.be32]]
+address = 0x8392F91C
+value = 0x8090465B
+
+[[patch.be32]]
+address = 0x8392F920
+value = 0x8090465C
+
+[[patch.be32]]
+address = 0x8392F924
+value = 0x8090465D
+
+[[patch.be32]]
+address = 0x8392F928
+value = 0x8090465E
+
+[[patch.be32]]
+address = 0x8392F92C
+value = 0x8090465F
+
+[[patch.be32]]
+address = 0x8392F930
+value = 0x80904660
+
+[[patch.be32]]
+address = 0x8392F934
+value = 0x80904661
+
+[[patch.be32]]
+address = 0x8392F938
+value = 0x80904662
+
+[[patch.be32]]
+address = 0x8392F93C
+value = 0x8090483E
+
+[[patch.be32]]
+address = 0x8392F940
+value = 0x80904667
+
+[[patch.be32]]
+address = 0x8392F944
+value = 0x8090483F
+
+[[patch.be32]]
+address = 0x8392F948
+value = 0x80904663
+
+[[patch.be32]]
+address = 0x8392F94C
+value = 0x80905CEB
+
+[[patch.be32]]
+address = 0x8392F950
+value = 0x80906FF1
+
+[[patch.be32]]
+address = 0x8392F954
+value = 0x80905CAC
+
+[[patch.be32]]
+address = 0x8392F958
+value = 0x80905CAD
+
+[[patch.be32]]
+address = 0x8392F95C
+value = 0x80905CAE
+
+[[patch.be32]]
+address = 0x8392F960
+value = 0x809051E2
+
+[[patch.be32]]
+address = 0x8392F964
+value = 0x809076E5
+
+[[patch.be32]]
+address = 0x8392F968
+value = 0x809051EF
+
+[[patch.be32]]
+address = 0x8392F96C
+value = 0x809051E3
+
+[[patch.be32]]
+address = 0x8392F970
+value = 0x809076EB
+
+[[patch.be32]]
+address = 0x8392F974
+value = 0x809051E4
+
+[[patch.be32]]
+address = 0x8392F978
+value = 0x809076E6
+
+[[patch.be32]]
+address = 0x8392F97C
+value = 0x809051E5
+
+[[patch.be32]]
+address = 0x8392F980
+value = 0x809076E7
+
+[[patch.be32]]
+address = 0x8392F984
+value = 0x809051E6
+
+[[patch.be32]]
+address = 0x8392F988
+value = 0x809051E7
+
+[[patch.be32]]
+address = 0x8392F98C
+value = 0x809076E9
+
+[[patch.be32]]
+address = 0x8392F990
+value = 0x809051E8
+
+[[patch.be32]]
+address = 0x8392F994
+value = 0x809076EA
+
+[[patch.be32]]
+address = 0x8392F998
+value = 0x809051E9
+
+[[patch.be32]]
+address = 0x8392F99C
+value = 0x809051EA
+
+[[patch.be32]]
+address = 0x8392F9A0
+value = 0x809076EC
+
+[[patch.be32]]
+address = 0x8392F9A4
+value = 0x809051EB
+
+[[patch.be32]]
+address = 0x8392F9A8
+value = 0x809076ED
+
+[[patch.be32]]
+address = 0x8392F9AC
+value = 0x809051EC
+
+[[patch.be32]]
+address = 0x8392F9B0
+value = 0x809076EE
+
+[[patch.be32]]
+address = 0x8392F9B4
+value = 0x809051ED
+
+[[patch.be32]]
+address = 0x8392F9B8
+value = 0x80906FF2
+
+[[patch.be32]]
+address = 0x8392F9BC
+value = 0x809051F0
+
+[[patch.be32]]
+address = 0x8392F9C0
+value = 0x80906FF3
+
+[[patch.be32]]
+address = 0x8392F9C4
+value = 0x809051EE
+
+[[patch.be32]]
+address = 0x8392F9C8
+value = 0x809076EF
+
+[[patch.be32]]
+address = 0x8392F9CC
+value = 0x8090782A
+
+[[patch.be32]]
+address = 0x8392F9D0
+value = 0x8090782B
+
+[[patch.be32]]
+address = 0x8392F9D4
+value = 0x8090782C
+
+[[patch.be32]]
+address = 0x8392F9D8
+value = 0x8090782D
+
+[[patch.be32]]
+address = 0x8392F9DC
+value = 0x8090782E
+
+[[patch.be32]]
+address = 0x8392F9E0
+value = 0x8090782F
+
+[[patch.be32]]
+address = 0x8392F9E4
+value = 0x80907830
+
+[[patch.be32]]
+address = 0x8392F9E8
+value = 0x80907831
+
+[[patch.be32]]
+address = 0x8392F9EC
+value = 0x80907832
+
+[[patch.be32]]
+address = 0x8392F9F0
+value = 0x80907833
+
+[[patch.be32]]
+address = 0x8392F9F4
+value = 0x80907834
+
+[[patch.be32]]
+address = 0x8392F9F8
+value = 0x80907835
+
+[[patch.be32]]
+address = 0x8392F9FC
+value = 0x80907836
+
+[[patch.be32]]
+address = 0x8392FA00
+value = 0x80907837
+
+[[patch.be32]]
+address = 0x8392FA04
+value = 0x80907838
+
+[[patch.be32]]
+address = 0x8392FA08
+value = 0x80907839
+
+[[patch.be32]]
+address = 0x8392FA0C
+value = 0x8090783A
+
+[[patch.be32]]
+address = 0x8392FA10
+value = 0x8090783B
+
+[[patch.be32]]
+address = 0x8392FA14
+value = 0x8090783C
+
+[[patch.be32]]
+address = 0x8392FA18
+value = 0x8090783D
+
+[[patch.be32]]
+address = 0x8392FA1C
+value = 0x80907900
+
+[[patch.be32]]
+address = 0x8392FA20
+value = 0x809076E8
+
+[[patch.be32]]
+address = 0x8392FA24
+value = 0x80905CEA
+
+[[patch.be32]]
+address = 0x8392FA28
+value = 0x8090783E
+
+[[patch.be32]]
+address = 0x8392FA2C
+value = 0x8090783F
+
+[[patch.be32]]
+address = 0x8392FA30
+value = 0x809076F0
+
+[[patch.be32]]
+address = 0x8392FA34
+value = 0x80907840
+
+[[patch.be32]]
+address = 0x8392FA38
+value = 0x80907841
+
+[[patch.be32]]
+address = 0x8392FA3C
+value = 0x80907842
+
+[[patch.be32]]
+address = 0x8392FA40
+value = 0x80907843
+
+[[patch.be32]]
+address = 0x8392FA44
+value = 0x80907844
+
+[[patch.be32]]
+address = 0x8392FA48
+value = 0x80907845
+
+[[patch.be32]]
+address = 0x8392FA4C
+value = 0x80907846
+
+[[patch.be32]]
+address = 0x8392FA50
+value = 0x80907847
+
+[[patch.be32]]
+address = 0x8392FA54
+value = 0x80907848
+
+[[patch.be32]]
+address = 0x8392FA58
+value = 0x80907849
+
+[[patch.be32]]
+address = 0x8392FA5C
+value = 0x8090784A
+
+[[patch.be32]]
+address = 0x8392FA60
+value = 0x8090784B
+
+[[patch.be32]]
+address = 0x8392FA64
+value = 0x8090784C
+
+[[patch.be32]]
+address = 0x8392FA68
+value = 0x8090784D
+
+[[patch.be32]]
+address = 0x8392FA6C
+value = 0x8090784E
+
+[[patch.be32]]
+address = 0x8392FA70
+value = 0x8090784F
+
+[[patch.be32]]
+address = 0x8392FA74
+value = 0x80907850
+
+[[patch.be32]]
+address = 0x8392FA78
+value = 0x80907851
+
+[[patch.be32]]
+address = 0x8392FA7C
+value = 0x80907852
+
+[[patch.be32]]
+address = 0x8392FA80
+value = 0x80907853
+
+[[patch.be32]]
+address = 0x8392FA84
+value = 0x80907854
+
+[[patch.be32]]
+address = 0x8392FA88
+value = 0x80907855
+
+[[patch.be32]]
+address = 0x8392FA8C
+value = 0x80907856
+
+[[patch.be32]]
+address = 0x8392FA90
+value = 0x80907857
+
+[[patch.be32]]
+address = 0x8392FA94
+value = 0x80907858
+
+[[patch.be32]]
+address = 0x8392FA98
+value = 0x80907859
+
+[[patch.be32]]
+address = 0x8392FA9C
+value = 0x8090785A
+
+[[patch.be32]]
+address = 0x8392FAA0
+value = 0x8090785B
+
+[[patch.be32]]
+address = 0x8392FAA4
+value = 0x8090785C
+
+[[patch.be32]]
+address = 0x8392FAA8
+value = 0x8090785D
+
+[[patch.be32]]
+address = 0x8392FAAC
+value = 0x8090785E
+
+[[patch.be32]]
+address = 0x8392FAB0
+value = 0x8090785F
+
+[[patch.be32]]
+address = 0x8392FAB4
+value = 0x80907970
+
+[[patch.be32]]
+address = 0x8392FAB8
+value = 0x80907FBA
+
+[[patch.be32]]
+address = 0x8392FABC
+value = 0x80907FBB
+
+[[patch.be32]]
+address = 0x8392FAC0
+value = 0x80900043
+
+[[patch.be32]]
+address = 0x8392FAC4
+value = 0x809000A3
+
+[[patch.be32]]
+address = 0x8392FAC8
+value = 0x809000B9
+
+[[patch.be32]]
+address = 0x8392FACC
+value = 0x809000BB
+
+[[patch.be32]]
+address = 0x8392FAD0
+value = 0x809000CE
+
+[[patch.be32]]
+address = 0x8392FAD4
+value = 0x809000DA
+
+[[patch.be32]]
+address = 0x8392FAD8
+value = 0x809000E1
+
+[[patch.be32]]
+address = 0x8392FADC
+value = 0x809002D0
+
+[[patch.be32]]
+address = 0x8392FAE0
+value = 0x809002EA
+
+[[patch.be32]]
+address = 0x8392FAE4
+value = 0x80900309
+
+[[patch.be32]]
+address = 0x8392FAE8
+value = 0x8090036C
+
+[[patch.be32]]
+address = 0x8392FAEC
+value = 0x8090044B
+
+[[patch.be32]]
+address = 0x8392FAF0
+value = 0x809010F7
+
+[[patch.be32]]
+address = 0x8392FAF4
+value = 0x80901365
+
+[[patch.be32]]
+address = 0x8392FAF8
+value = 0x80901368
+
+[[patch.be32]]
+address = 0x8392FAFC
+value = 0x80901369
+
+[[patch.be32]]
+address = 0x8392FB00
+value = 0x8090136A
+
+[[patch.be32]]
+address = 0x8392FB04
+value = 0x8090136C
+
+[[patch.be32]]
+address = 0x8392FB08
+value = 0x80905CE8
+
+[[patch.be32]]
+address = 0x8392FB0C
+value = 0x80905CE9
+
+[[patch.be32]]
+address = 0x8392FB10
+value = 0x8090040A
+
+[[patch.be32]]
+address = 0x8392FB14
+value = 0x80900BF9
+
+[[patch.be32]]
+address = 0x8392FB18
+value = 0x80900BFA
+
+[[patch.be32]]
+address = 0x8392FC00
+value = 0x7D8802A6
+
+[[patch.be32]]
+address = 0x8392FC04
+value = 0x9421FF60
+
+[[patch.be32]]
+address = 0x8392FC08
+value = 0xF9810090
+
+[[patch.be32]]
+address = 0x8392FC0C
+value = 0xFBC10080
+
+[[patch.be32]]
+address = 0x8392FC10
+value = 0xFBE10088
+
+[[patch.be32]]
+address = 0x8392FC14
+value = 0x3FC08392
+
+[[patch.be32]]
+address = 0x8392FC18
+value = 0x63DEFC60
+
+[[patch.be32]]
+address = 0x8392FC1C
+value = 0x3BE000AF
+
+[[patch.be32]]
+address = 0x8392FC20
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392FC24
+value = 0x809E0000
+
+[[patch.be32]]
+address = 0x8392FC28
+value = 0x38A00001
+
+[[patch.be32]]
+address = 0x8392FC2C
+value = 0x4B230825
+
+[[patch.be32]]
+address = 0x8392FC30
+value = 0x3BDE0004
+
+[[patch.be32]]
+address = 0x8392FC34
+value = 0x3BFFFFFF
+
+[[patch.be32]]
+address = 0x8392FC38
+value = 0x2C1F0000
+
+[[patch.be32]]
+address = 0x8392FC3C
+value = 0x4082FFE4
+
+[[patch.be32]]
+address = 0x8392FC40
+value = 0xEBE10088
+
+[[patch.be32]]
+address = 0x8392FC44
+value = 0xEBC10080
+
+[[patch.be32]]
+address = 0x8392FC48
+value = 0xE9810090
+
+[[patch.be32]]
+address = 0x8392FC4C
+value = 0x7D8803A6
+
+[[patch.be32]]
+address = 0x8392FC50
+value = 0x382100A0
+
+[[patch.be32]]
+address = 0x8392FC54
+value = 0x7F63DB78
+
+[[patch.be32]]
+address = 0x8392FC58
+value = 0x4B17E0B8
+
+[[patch.be32]]
+address = 0x8392FC5C
+value = 0x60000000
+
+[[patch.be32]]
+address = 0x8392FC60
+value = 0x809004A8
+
+[[patch.be32]]
+address = 0x8392FC64
+value = 0x809004A9
+
+[[patch.be32]]
+address = 0x8392FC68
+value = 0x809004EB
+
+[[patch.be32]]
+address = 0x8392FC6C
+value = 0x809004EC
+
+[[patch.be32]]
+address = 0x8392FC70
+value = 0x809004F4
+
+[[patch.be32]]
+address = 0x8392FC74
+value = 0x809004F5
+
+[[patch.be32]]
+address = 0x8392FC78
+value = 0x809004FC
+
+[[patch.be32]]
+address = 0x8392FC7C
+value = 0x809004FD
+
+[[patch.be32]]
+address = 0x8392FC80
+value = 0x80900CC5
+
+[[patch.be32]]
+address = 0x8392FC84
+value = 0x80900CC6
+
+[[patch.be32]]
+address = 0x8392FC88
+value = 0x80900CC7
+
+[[patch.be32]]
+address = 0x8392FC8C
+value = 0x809006B1
+
+[[patch.be32]]
+address = 0x8392FC90
+value = 0x80900CC8
+
+[[patch.be32]]
+address = 0x8392FC94
+value = 0x80900528
+
+[[patch.be32]]
+address = 0x8392FC98
+value = 0x80900CC9
+
+[[patch.be32]]
+address = 0x8392FC9C
+value = 0x80900CCA
+
+[[patch.be32]]
+address = 0x8392FCA0
+value = 0x809006B3
+
+[[patch.be32]]
+address = 0x8392FCA4
+value = 0x80900922
+
+[[patch.be32]]
+address = 0x8392FCA8
+value = 0x809006B4
+
+[[patch.be32]]
+address = 0x8392FCAC
+value = 0x809006B5
+
+[[patch.be32]]
+address = 0x8392FCB0
+value = 0x809006B6
+
+[[patch.be32]]
+address = 0x8392FCB4
+value = 0x80900CCB
+
+[[patch.be32]]
+address = 0x8392FCB8
+value = 0x809006B8
+
+[[patch.be32]]
+address = 0x8392FCBC
+value = 0x80900CA2
+
+[[patch.be32]]
+address = 0x8392FCC0
+value = 0x80900BDB
+
+[[patch.be32]]
+address = 0x8392FCC4
+value = 0x809046FE
+
+[[patch.be32]]
+address = 0x8392FCC8
+value = 0x809006B9
+
+[[patch.be32]]
+address = 0x8392FCCC
+value = 0x80900CCC
+
+[[patch.be32]]
+address = 0x8392FCD0
+value = 0x80900CCD
+
+[[patch.be32]]
+address = 0x8392FCD4
+value = 0x8090002C
+
+[[patch.be32]]
+address = 0x8392FCD8
+value = 0x80900CCE
+
+[[patch.be32]]
+address = 0x8392FCDC
+value = 0x80900463
+
+[[patch.be32]]
+address = 0x8392FCE0
+value = 0x80904664
+
+[[patch.be32]]
+address = 0x8392FCE4
+value = 0x80900CC2
+
+[[patch.be32]]
+address = 0x8392FCE8
+value = 0x80900CC3
+
+[[patch.be32]]
+address = 0x8392FCEC
+value = 0x80900CC4
+
+[[patch.be32]]
+address = 0x8392FCF0
+value = 0x80900462
+
+[[patch.be32]]
+address = 0x8392FCF4
+value = 0x80900CBF
+
+[[patch.be32]]
+address = 0x8392FCF8
+value = 0x80900461
+
+[[patch.be32]]
+address = 0x8392FCFC
+value = 0x8090136B
+
+[[patch.be32]]
+address = 0x8392FD00
+value = 0x80904665
+
+[[patch.be32]]
+address = 0x8392FD04
+value = 0x80904666
+
+[[patch.be32]]
+address = 0x8392FD08
+value = 0x8090483D
+
+[[patch.be32]]
+address = 0x8392FD0C
+value = 0x809045FA
+
+[[patch.be32]]
+address = 0x8392FD10
+value = 0x80904658
+
+[[patch.be32]]
+address = 0x8392FD14
+value = 0x80904659
+
+[[patch.be32]]
+address = 0x8392FD18
+value = 0x8090465A
+
+[[patch.be32]]
+address = 0x8392FD1C
+value = 0x8090465B
+
+[[patch.be32]]
+address = 0x8392FD20
+value = 0x8090465C
+
+[[patch.be32]]
+address = 0x8392FD24
+value = 0x8090465D
+
+[[patch.be32]]
+address = 0x8392FD28
+value = 0x8090465E
+
+[[patch.be32]]
+address = 0x8392FD2C
+value = 0x8090465F
+
+[[patch.be32]]
+address = 0x8392FD30
+value = 0x80904660
+
+[[patch.be32]]
+address = 0x8392FD34
+value = 0x80904661
+
+[[patch.be32]]
+address = 0x8392FD38
+value = 0x80904662
+
+[[patch.be32]]
+address = 0x8392FD3C
+value = 0x8090483E
+
+[[patch.be32]]
+address = 0x8392FD40
+value = 0x80904667
+
+[[patch.be32]]
+address = 0x8392FD44
+value = 0x8090483F
+
+[[patch.be32]]
+address = 0x8392FD48
+value = 0x80904663
+
+[[patch.be32]]
+address = 0x8392FD4C
+value = 0x80905CEB
+
+[[patch.be32]]
+address = 0x8392FD50
+value = 0x80906FF1
+
+[[patch.be32]]
+address = 0x8392FD54
+value = 0x80905CAC
+
+[[patch.be32]]
+address = 0x8392FD58
+value = 0x80905CAD
+
+[[patch.be32]]
+address = 0x8392FD5C
+value = 0x80905CAE
+
+[[patch.be32]]
+address = 0x8392FD60
+value = 0x809051E2
+
+[[patch.be32]]
+address = 0x8392FD64
+value = 0x809076E5
+
+[[patch.be32]]
+address = 0x8392FD68
+value = 0x809051EF
+
+[[patch.be32]]
+address = 0x8392FD6C
+value = 0x809051E3
+
+[[patch.be32]]
+address = 0x8392FD70
+value = 0x809076EB
+
+[[patch.be32]]
+address = 0x8392FD74
+value = 0x809051E4
+
+[[patch.be32]]
+address = 0x8392FD78
+value = 0x809076E6
+
+[[patch.be32]]
+address = 0x8392FD7C
+value = 0x809051E5
+
+[[patch.be32]]
+address = 0x8392FD80
+value = 0x809076E7
+
+[[patch.be32]]
+address = 0x8392FD84
+value = 0x809051E6
+
+[[patch.be32]]
+address = 0x8392FD88
+value = 0x809051E7
+
+[[patch.be32]]
+address = 0x8392FD8C
+value = 0x809076E9
+
+[[patch.be32]]
+address = 0x8392FD90
+value = 0x809051E8
+
+[[patch.be32]]
+address = 0x8392FD94
+value = 0x809076EA
+
+[[patch.be32]]
+address = 0x8392FD98
+value = 0x809051E9
+
+[[patch.be32]]
+address = 0x8392FD9C
+value = 0x809051EA
+
+[[patch.be32]]
+address = 0x8392FDA0
+value = 0x809076EC
+
+[[patch.be32]]
+address = 0x8392FDA4
+value = 0x809051EB
+
+[[patch.be32]]
+address = 0x8392FDA8
+value = 0x809076ED
+
+[[patch.be32]]
+address = 0x8392FDAC
+value = 0x809051EC
+
+[[patch.be32]]
+address = 0x8392FDB0
+value = 0x809076EE
+
+[[patch.be32]]
+address = 0x8392FDB4
+value = 0x809051ED
+
+[[patch.be32]]
+address = 0x8392FDB8
+value = 0x80906FF2
+
+[[patch.be32]]
+address = 0x8392FDBC
+value = 0x809051F0
+
+[[patch.be32]]
+address = 0x8392FDC0
+value = 0x80906FF3
+
+[[patch.be32]]
+address = 0x8392FDC4
+value = 0x809051EE
+
+[[patch.be32]]
+address = 0x8392FDC8
+value = 0x809076EF
+
+[[patch.be32]]
+address = 0x8392FDCC
+value = 0x8090782A
+
+[[patch.be32]]
+address = 0x8392FDD0
+value = 0x8090782B
+
+[[patch.be32]]
+address = 0x8392FDD4
+value = 0x8090782C
+
+[[patch.be32]]
+address = 0x8392FDD8
+value = 0x8090782D
+
+[[patch.be32]]
+address = 0x8392FDDC
+value = 0x8090782E
+
+[[patch.be32]]
+address = 0x8392FDE0
+value = 0x8090782F
+
+[[patch.be32]]
+address = 0x8392FDE4
+value = 0x80907830
+
+[[patch.be32]]
+address = 0x8392FDE8
+value = 0x80907831
+
+[[patch.be32]]
+address = 0x8392FDEC
+value = 0x80907832
+
+[[patch.be32]]
+address = 0x8392FDF0
+value = 0x80907833
+
+[[patch.be32]]
+address = 0x8392FDF4
+value = 0x80907834
+
+[[patch.be32]]
+address = 0x8392FDF8
+value = 0x80907835
+
+[[patch.be32]]
+address = 0x8392FDFC
+value = 0x80907836
+
+[[patch.be32]]
+address = 0x8392FE00
+value = 0x80907837
+
+[[patch.be32]]
+address = 0x8392FE04
+value = 0x80907838
+
+[[patch.be32]]
+address = 0x8392FE08
+value = 0x80907839
+
+[[patch.be32]]
+address = 0x8392FE0C
+value = 0x8090783A
+
+[[patch.be32]]
+address = 0x8392FE10
+value = 0x8090783B
+
+[[patch.be32]]
+address = 0x8392FE14
+value = 0x8090783C
+
+[[patch.be32]]
+address = 0x8392FE18
+value = 0x8090783D
+
+[[patch.be32]]
+address = 0x8392FE1C
+value = 0x80907900
+
+[[patch.be32]]
+address = 0x8392FE20
+value = 0x809076E8
+
+[[patch.be32]]
+address = 0x8392FE24
+value = 0x80905CEA
+
+[[patch.be32]]
+address = 0x8392FE28
+value = 0x8090783E
+
+[[patch.be32]]
+address = 0x8392FE2C
+value = 0x8090783F
+
+[[patch.be32]]
+address = 0x8392FE30
+value = 0x809076F0
+
+[[patch.be32]]
+address = 0x8392FE34
+value = 0x80907840
+
+[[patch.be32]]
+address = 0x8392FE38
+value = 0x80907841
+
+[[patch.be32]]
+address = 0x8392FE3C
+value = 0x80907842
+
+[[patch.be32]]
+address = 0x8392FE40
+value = 0x80907843
+
+[[patch.be32]]
+address = 0x8392FE44
+value = 0x80907844
+
+[[patch.be32]]
+address = 0x8392FE48
+value = 0x80907845
+
+[[patch.be32]]
+address = 0x8392FE4C
+value = 0x80907846
+
+[[patch.be32]]
+address = 0x8392FE50
+value = 0x80907847
+
+[[patch.be32]]
+address = 0x8392FE54
+value = 0x80907848
+
+[[patch.be32]]
+address = 0x8392FE58
+value = 0x80907849
+
+[[patch.be32]]
+address = 0x8392FE5C
+value = 0x8090784A
+
+[[patch.be32]]
+address = 0x8392FE60
+value = 0x8090784B
+
+[[patch.be32]]
+address = 0x8392FE64
+value = 0x8090784C
+
+[[patch.be32]]
+address = 0x8392FE68
+value = 0x8090784D
+
+[[patch.be32]]
+address = 0x8392FE6C
+value = 0x8090784E
+
+[[patch.be32]]
+address = 0x8392FE70
+value = 0x8090784F
+
+[[patch.be32]]
+address = 0x8392FE74
+value = 0x80907850
+
+[[patch.be32]]
+address = 0x8392FE78
+value = 0x80907851
+
+[[patch.be32]]
+address = 0x8392FE7C
+value = 0x80907852
+
+[[patch.be32]]
+address = 0x8392FE80
+value = 0x80907853
+
+[[patch.be32]]
+address = 0x8392FE84
+value = 0x80907854
+
+[[patch.be32]]
+address = 0x8392FE88
+value = 0x80907855
+
+[[patch.be32]]
+address = 0x8392FE8C
+value = 0x80907856
+
+[[patch.be32]]
+address = 0x8392FE90
+value = 0x80907857
+
+[[patch.be32]]
+address = 0x8392FE94
+value = 0x80907858
+
+[[patch.be32]]
+address = 0x8392FE98
+value = 0x80907859
+
+[[patch.be32]]
+address = 0x8392FE9C
+value = 0x8090785A
+
+[[patch.be32]]
+address = 0x8392FEA0
+value = 0x8090785B
+
+[[patch.be32]]
+address = 0x8392FEA4
+value = 0x8090785C
+
+[[patch.be32]]
+address = 0x8392FEA8
+value = 0x8090785D
+
+[[patch.be32]]
+address = 0x8392FEAC
+value = 0x8090785E
+
+[[patch.be32]]
+address = 0x8392FEB0
+value = 0x8090785F
+
+[[patch.be32]]
+address = 0x8392FEB4
+value = 0x80907970
+
+[[patch.be32]]
+address = 0x8392FEB8
+value = 0x80907FBA
+
+[[patch.be32]]
+address = 0x8392FEBC
+value = 0x80907FBB
+
+[[patch.be32]]
+address = 0x8392FEC0
+value = 0x80900043
+
+[[patch.be32]]
+address = 0x8392FEC4
+value = 0x809000A3
+
+[[patch.be32]]
+address = 0x8392FEC8
+value = 0x809000B9
+
+[[patch.be32]]
+address = 0x8392FECC
+value = 0x809000BB
+
+[[patch.be32]]
+address = 0x8392FED0
+value = 0x809000CE
+
+[[patch.be32]]
+address = 0x8392FED4
+value = 0x809000DA
+
+[[patch.be32]]
+address = 0x8392FED8
+value = 0x809000E1
+
+[[patch.be32]]
+address = 0x8392FEDC
+value = 0x809002D0
+
+[[patch.be32]]
+address = 0x8392FEE0
+value = 0x809002EA
+
+[[patch.be32]]
+address = 0x8392FEE4
+value = 0x80900309
+
+[[patch.be32]]
+address = 0x8392FEE8
+value = 0x8090036C
+
+[[patch.be32]]
+address = 0x8392FEEC
+value = 0x8090044B
+
+[[patch.be32]]
+address = 0x8392FEF0
+value = 0x809010F7
+
+[[patch.be32]]
+address = 0x8392FEF4
+value = 0x80901365
+
+[[patch.be32]]
+address = 0x8392FEF8
+value = 0x80901368
+
+[[patch.be32]]
+address = 0x8392FEFC
+value = 0x80901369
+
+[[patch.be32]]
+address = 0x8392FF00
+value = 0x8090136A
+
+[[patch.be32]]
+address = 0x8392FF04
+value = 0x8090136C
+
+[[patch.be32]]
+address = 0x8392FF08
+value = 0x80905CE8
+
+[[patch.be32]]
+address = 0x8392FF0C
+value = 0x80905CE9
+
+[[patch.be32]]
+address = 0x8392FF10
+value = 0x8090040A
+
+[[patch.be32]]
+address = 0x8392FF14
+value = 0x80900BF9
+
+[[patch.be32]]
+address = 0x8392FF18
+value = 0x80900BFA
+
+[[patch]]
+name = "Use equipped art arrangement with native definition fallback"
+desc = "Respect GearCF equipment art index when nonnegative; retain authored definition fallback for absent art."
+author = "Local native schema and consumer trace"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82B5FAF4
+value = 0x48DD044C
+
+[[patch.be32]]
+address = 0x8392FF40
+value = 0xA89A0144
+
+[[patch.be32]]
+address = 0x8392FF44
+value = 0x2F040000
+
+[[patch.be32]]
+address = 0x8392FF48
+value = 0x40980008
+
+[[patch.be32]]
+address = 0x8392FF4C
+value = 0xA09F0018
+
+[[patch.be32]]
+address = 0x8392FF50
+value = 0x4B22FBA8
+
+
+[[patch]]
+name = "Enable native talent grid manifest loading"
+desc = "Isolated r570 experiment: enable the shared native load/unload flag at 83D024A4; retain loader loops, lifecycle and UI eligibility checks."
+author = "Local native trace and read-only r569 captures"
+is_enabled = true
+
+[[patch.be8]]
+address = 0x83D024A4
+value = 0x01
+
+
+[[patch]]
+name = "Retry item cinematic lookup with wildcard subtype"
+desc = "r571: on the existing second lookup only, store wildcard subtype into the query. The first lookup and ship descriptors remain native. Replaces unused r7 copy at 82EC60D4."
+author = "Local native trace and read-only r570 captures"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82EC60D4
+value = 0x93610068
+
+
+[[patch]]
+name = "Apply selected preview identity through native change setter"
+desc = "r572: use native 82EC27F8 cinematic ID setter, rebuilding replacement rows only when its dirty flag is set. Preserve the native request creation, loading and rendering lifecycle."
+author = "Native setter and r571 active scene capture"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x82EC7E78
+value = 0x48A68108
+
+[[patch.be32]]
+address = 0x8392FF80
+value = 0x7FE4FB78
+
+[[patch.be32]]
+address = 0x8392FF84
+value = 0x7F03C378
+
+[[patch.be32]]
+address = 0x8392FF88
+value = 0x4B592871
+
+[[patch.be32]]
+address = 0x8392FF8C
+value = 0x81780078
+
+[[patch.be32]]
+address = 0x8392FF90
+value = 0x716B1000
+
+[[patch.be32]]
+address = 0x8392FF94
+value = 0x40820008
+
+[[patch.be32]]
+address = 0x8392FF98
+value = 0x4B597EF8
+
+[[patch.be32]]
+address = 0x8392FF9C
+value = 0x7FE4FB78
+
+[[patch.be32]]
+address = 0x8392FFA0
+value = 0x7F03C378
+
+[[patch.be32]]
+address = 0x8392FFA4
+value = 0x4B597EDC
+
+[[patch]]
+name = "Preserve native Director activity and option"
+desc = "At the Director-only callback, read the packaged selection object activity at +0x70 and option at +0x72, then use the proven local Alpha startup path. Unsupported routes are rejected server-side instead of silently loading another world."
+author = "Local native Director recovery"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F2EC
+value = 0x7C0802A6
+
+[[patch.be32]]
+address = 0x8392F2F0
+value = 0x9421FF80
+
+[[patch.be32]]
+address = 0x8392F2F4
+value = 0x90010070
+
+[[patch.be32]]
+address = 0x8392F2F8
+value = 0x90610050
+
+[[patch.be32]]
+address = 0x8392F2FC
+value = 0x4BE9B78D
+
+[[patch.be32]]
+address = 0x8392F300
+value = 0x3D60E000
+
+[[patch.be32]]
+address = 0x8392F304
+value = 0x616B0001
+
+[[patch.be32]]
+address = 0x8392F308
+value = 0x7F035840
+
+[[patch.be32]]
+address = 0x8392F30C
+value = 0x419A0008
+
+[[patch.be32]]
+address = 0x8392F310
+value = 0x4800005C
+
+[[patch.be32]]
+address = 0x8392F314
+value = 0xA17E0070
+
+[[patch.be32]]
+address = 0x8392F318
+value = 0x2B0BFFFF
+
+[[patch.be32]]
+address = 0x8392F31C
+value = 0x419A0058
+
+[[patch.be32]]
+address = 0x8392F320
+value = 0xB1610060
+
+[[patch.be32]]
+address = 0x8392F324
+value = 0x897E0072
+
+[[patch.be32]]
+address = 0x8392F328
+value = 0x99610062
+
+[[patch.be32]]
+address = 0x8392F32C
+value = 0x38610060
+
+[[patch.be32]]
+address = 0x8392F330
+value = 0x4B020619
+
+[[patch.be32]]
+address = 0x8392F334
+value = 0x546B063E
+
+[[patch.be32]]
+address = 0x8392F338
+value = 0x2B0B0000
+
+[[patch.be32]]
+address = 0x8392F33C
+value = 0x419A0038
+
+[[patch.be32]]
+address = 0x8392F340
+value = 0x38600000
+
+[[patch.be32]]
+address = 0x8392F344
+value = 0x38800003
+
+[[patch.be32]]
+address = 0x8392F348
+value = 0x4B022751
+
+[[patch.be32]]
+address = 0x8392F34C
+value = 0x546B063E
+
+[[patch.be32]]
+address = 0x8392F350
+value = 0x2B0B0000
+
+[[patch.be32]]
+address = 0x8392F354
+value = 0x419A0020
+
+[[patch.be32]]
+address = 0x8392F358
+value = 0x38600000
+
+[[patch.be32]]
+address = 0x8392F35C
+value = 0x4B02D9ED
+
+[[patch.be32]]
+address = 0x8392F360
+value = 0x39600000
+
+[[patch.be32]]
+address = 0x8392F364
+value = 0xB1630808
+
+[[patch.be32]]
+address = 0x8392F368
+value = 0x4800000C
+
+[[patch.be32]]
+address = 0x8392F36C
+value = 0x80610050
+
+[[patch.be32]]
+address = 0x8392F370
+value = 0x4BE9BBE1
+
+[[patch.be32]]
+address = 0x8392F374
+value = 0x38600001
+
+[[patch.be32]]
+address = 0x8392F378
+value = 0x80010070
+
+[[patch.be32]]
+address = 0x8392F37C
+value = 0x38210080
+
+[[patch.be32]]
+address = 0x8392F380
+value = 0x7C0803A6
+
+[[patch.be32]]
+address = 0x8392F384
+value = 0x4E800020
+
+[[patch]]
+name = "Local Tower native launch predicates"
+desc = "Add local Tower activity 0 to the existing Venus predicates. Tower arrival and movement verified; complete interactions and return transitions remain unverified."
+author = "Local activity audit"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F390
+value = 0x2F040000
+
+[[patch.be32]]
+address = 0x8392F394
+value = 0x419AF4F4
+
+[[patch.be32]]
+address = 0x8392F398
+value = 0x4BFFF4E8
+
+[[patch.be32]]
+address = 0x8392F39C
+value = 0x2F040000
+
+[[patch.be32]]
+address = 0x8392F3A0
+value = 0x419AF528
+
+[[patch.be32]]
+address = 0x8392F3A4
+value = 0x4BFFF51C
+
+[[patch.be32]]
+address = 0x8392F3A8
+value = 0x2F1C0000
+
+[[patch.be32]]
+address = 0x8392F3AC
+value = 0x419AF55C
+
+[[patch.be32]]
+address = 0x8392F3B0
+value = 0x4BFFF550
+
+[[patch]]
+name = "Local native Venus strike launch predicates"
+desc = "Add recovered portal activity 4 to the local permission predicates. Native Nexus selection, rendered arrival and movement verified; full strike completion remains unverified."
+author = "Local activity audit"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F3B4
+value = 0x2F040004
+
+[[patch.be32]]
+address = 0x8392F3B8
+value = 0x419AF4D0
+
+[[patch.be32]]
+address = 0x8392F3BC
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F3C0
+value = 0x2F040004
+
+[[patch.be32]]
+address = 0x8392F3C4
+value = 0x419AF504
+
+[[patch.be32]]
+address = 0x8392F3C8
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F3CC
+value = 0x2F1C0004
+
+[[patch.be32]]
+address = 0x8392F3D0
+value = 0x419AF538
+
+[[patch.be32]]
+address = 0x8392F3D4
+value = 0x4BFFFFD4
+
+[[patch]]
+name = "Local native Venus patrol launch predicates"
+desc = "Add recovered bounty activity 3 to the local permission predicates. Native Patrol arrival, guardian spawn and movement verified; complete Patrol objectives and area transitions remain unverified."
+author = "Local activity audit"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F3D8
+value = 0x2F040003
+
+[[patch.be32]]
+address = 0x8392F3DC
+value = 0x419AF4AC
+
+[[patch.be32]]
+address = 0x8392F3E0
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F3E4
+value = 0x2F040003
+
+[[patch.be32]]
+address = 0x8392F3E8
+value = 0x419AF4E0
+
+[[patch.be32]]
+address = 0x8392F3EC
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F3F0
+value = 0x2F1C0003
+
+[[patch.be32]]
+address = 0x8392F3F4
+value = 0x419AF514
+
+[[patch.be32]]
+address = 0x8392F3F8
+value = 0x4BFFFFD4
+
+[[patch]]
+name = "Local native Combat Test launch predicates"
+desc = "Add recovered Combat Test activity 1 to local launch predicates; retain all other destination paths. Full activity acceptance pending."
+author = "Local activity audit"
+is_enabled = true
+
+[[patch.be32]]
+address = 0x8392F3FC
+value = 0x2F040001
+
+[[patch.be32]]
+address = 0x8392F400
+value = 0x419AF488
+
+[[patch.be32]]
+address = 0x8392F404
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F408
+value = 0x2F040001
+
+[[patch.be32]]
+address = 0x8392F40C
+value = 0x419AF4BC
+
+[[patch.be32]]
+address = 0x8392F410
+value = 0x4BFFFFD4
+
+[[patch.be32]]
+address = 0x8392F414
+value = 0x2F1C0001
+
+[[patch.be32]]
+address = 0x8392F418
+value = 0x419AF4F0
+
+[[patch.be32]]
+address = 0x8392F41C
+value = 0x4BFFFFD4

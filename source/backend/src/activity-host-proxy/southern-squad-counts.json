@@ -1,0 +1,515 @@
+[
+  {
+    "root": "4409_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 25,
+    "owner": 23,
+    "template": "80B08DA3",
+    "index": 3491,
+    "memberCount": 1
+  },
+  {
+    "root": "4410_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 26,
+    "owner": 23,
+    "template": "80B08DA4",
+    "index": 3492,
+    "memberCount": 2
+  },
+  {
+    "root": "4411_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 27,
+    "owner": 23,
+    "template": "80B08DA5",
+    "index": 3493,
+    "memberCount": 2
+  },
+  {
+    "root": "4412_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 28,
+    "owner": 23,
+    "template": "80B08DA6",
+    "index": 3494,
+    "memberCount": 2
+  },
+  {
+    "root": "4413_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 29,
+    "owner": 23,
+    "template": "80B08DA7",
+    "index": 3495,
+    "memberCount": 2
+  },
+  {
+    "root": "4414_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 30,
+    "owner": 23,
+    "template": "80B08DA8",
+    "index": 3496,
+    "memberCount": 2
+  },
+  {
+    "root": "4415_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 31,
+    "owner": 23,
+    "template": "80B08DA9",
+    "index": 3497,
+    "memberCount": 1
+  },
+  {
+    "root": "4416_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 32,
+    "owner": 23,
+    "template": "80B08DAA",
+    "index": 3498,
+    "memberCount": 2
+  },
+  {
+    "root": "4417_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 33,
+    "owner": 23,
+    "template": "80B08DAB",
+    "index": 3499,
+    "memberCount": 1
+  },
+  {
+    "root": "4418_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 34,
+    "owner": 23,
+    "template": "80B08DAC",
+    "index": 3500,
+    "memberCount": 2
+  },
+  {
+    "root": "4419_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 35,
+    "owner": 23,
+    "template": "80B08DAD",
+    "index": 3501,
+    "memberCount": 2
+  },
+  {
+    "root": "4420_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 36,
+    "owner": 23,
+    "template": "80B08DAE",
+    "index": 3502,
+    "memberCount": 2
+  },
+  {
+    "root": "4421_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 37,
+    "owner": 23,
+    "template": "80B08DAF",
+    "index": 3503,
+    "memberCount": 1
+  },
+  {
+    "root": "4422_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 38,
+    "owner": 23,
+    "template": "80B08DB0",
+    "index": 3504,
+    "memberCount": 2
+  },
+  {
+    "root": "4423_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 39,
+    "owner": 23,
+    "template": "80B08DB1",
+    "index": 3505,
+    "memberCount": 1
+  },
+  {
+    "root": "4424_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 41,
+    "owner": 23,
+    "template": "80B08DB2",
+    "index": 3506,
+    "memberCount": 1
+  },
+  {
+    "root": "4425_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 43,
+    "owner": 23,
+    "template": "80B08DB3",
+    "index": 3507,
+    "memberCount": 1
+  },
+  {
+    "root": "4426_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 44,
+    "owner": 23,
+    "template": "80B08DB4",
+    "index": 3508,
+    "memberCount": 1
+  },
+  {
+    "root": "4427_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 45,
+    "owner": 23,
+    "template": "80B08DB5",
+    "index": 3509,
+    "memberCount": 1
+  },
+  {
+    "root": "4428_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 46,
+    "owner": 23,
+    "template": "80B08DB6",
+    "index": 3510,
+    "memberCount": 1
+  },
+  {
+    "root": "4429_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 47,
+    "owner": 23,
+    "template": "80B08DB7",
+    "index": 3511,
+    "memberCount": 1
+  },
+  {
+    "root": "4431_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 69,
+    "owner": 23,
+    "template": "80B08DB8",
+    "index": 3512,
+    "memberCount": 1
+  },
+  {
+    "root": "4432_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 71,
+    "owner": 23,
+    "template": "80B08DB9",
+    "index": 3513,
+    "memberCount": 1
+  },
+  {
+    "root": "4433_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 73,
+    "owner": 23,
+    "template": "80B08DBA",
+    "index": 3514,
+    "memberCount": 1
+  },
+  {
+    "root": "4434_808004c5_t16_s0.bin",
+    "bundle": "517641F1",
+    "squad": 75,
+    "owner": 23,
+    "template": "80B08DBB",
+    "index": 3515,
+    "memberCount": 1
+  },
+  {
+    "root": "4435_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 1,
+    "owner": 23,
+    "template": "80B08DBC",
+    "index": 3516,
+    "memberCount": 1
+  },
+  {
+    "root": "4436_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 3,
+    "owner": 23,
+    "template": "80B08DBD",
+    "index": 3517,
+    "memberCount": 1
+  },
+  {
+    "root": "4437_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 4,
+    "owner": 23,
+    "template": "80B08DBE",
+    "index": 3518,
+    "memberCount": 1
+  },
+  {
+    "root": "4438_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 5,
+    "owner": 23,
+    "template": "80B08DBF",
+    "index": 3519,
+    "memberCount": 1
+  },
+  {
+    "root": "4439_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 6,
+    "owner": 23,
+    "template": "80B08DC0",
+    "index": 3520,
+    "memberCount": 2
+  },
+  {
+    "root": "4440_808004c5_t16_s0.bin",
+    "bundle": "0A6D9003",
+    "squad": 7,
+    "owner": 23,
+    "template": "80B08DC1",
+    "index": 3521,
+    "memberCount": 1
+  },
+  {
+    "root": "4817_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 18,
+    "owner": 23,
+    "template": "80B08F2E",
+    "index": 3886,
+    "memberCount": 1
+  },
+  {
+    "root": "4818_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 21,
+    "owner": 23,
+    "template": "80B08F2F",
+    "index": 3887,
+    "memberCount": 1
+  },
+  {
+    "root": "4819_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 23,
+    "owner": 23,
+    "template": "80B08F30",
+    "index": 3888,
+    "memberCount": 2
+  },
+  {
+    "root": "4820_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 25,
+    "owner": 23,
+    "template": "80B08F31",
+    "index": 3889,
+    "memberCount": 2
+  },
+  {
+    "root": "4821_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 27,
+    "owner": 23,
+    "template": "80B08F32",
+    "index": 3890,
+    "memberCount": 1
+  },
+  {
+    "root": "4822_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 29,
+    "owner": 23,
+    "template": "80B08F33",
+    "index": 3891,
+    "memberCount": 1
+  },
+  {
+    "root": "4823_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 31,
+    "owner": 23,
+    "template": "80B08F34",
+    "index": 3892,
+    "memberCount": 1
+  },
+  {
+    "root": "4824_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 33,
+    "owner": 23,
+    "template": "80B08F35",
+    "index": 3893,
+    "memberCount": 1
+  },
+  {
+    "root": "4825_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 34,
+    "owner": 23,
+    "template": "80B08F36",
+    "index": 3894,
+    "memberCount": 1
+  },
+  {
+    "root": "4826_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 37,
+    "owner": 23,
+    "template": "80B08F37",
+    "index": 3895,
+    "memberCount": 1
+  },
+  {
+    "root": "4827_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 38,
+    "owner": 23,
+    "template": "80B08F38",
+    "index": 3896,
+    "memberCount": 2
+  },
+  {
+    "root": "4828_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 41,
+    "owner": 23,
+    "template": "80B08F39",
+    "index": 3897,
+    "memberCount": 2
+  },
+  {
+    "root": "4829_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 42,
+    "owner": 23,
+    "template": "80B08F3A",
+    "index": 3898,
+    "memberCount": 1
+  },
+  {
+    "root": "4830_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 45,
+    "owner": 23,
+    "template": "80B08F3B",
+    "index": 3899,
+    "memberCount": 1
+  },
+  {
+    "root": "4831_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 46,
+    "owner": 23,
+    "template": "80B08F3C",
+    "index": 3900,
+    "memberCount": 2
+  },
+  {
+    "root": "4832_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 49,
+    "owner": 23,
+    "template": "80B08F3D",
+    "index": 3901,
+    "memberCount": 2
+  },
+  {
+    "root": "4833_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 50,
+    "owner": 23,
+    "template": "80B08F3E",
+    "index": 3902,
+    "memberCount": 1
+  },
+  {
+    "root": "4834_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 53,
+    "owner": 23,
+    "template": "80B08F3F",
+    "index": 3903,
+    "memberCount": 1
+  },
+  {
+    "root": "4835_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 55,
+    "owner": 23,
+    "template": "80B08F40",
+    "index": 3904,
+    "memberCount": 1
+  },
+  {
+    "root": "4836_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 57,
+    "owner": 23,
+    "template": "80B08F41",
+    "index": 3905,
+    "memberCount": 1
+  },
+  {
+    "root": "4837_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 59,
+    "owner": 23,
+    "template": "80B08F42",
+    "index": 3906,
+    "memberCount": 1
+  },
+  {
+    "root": "4838_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 60,
+    "owner": 23,
+    "template": "80B08F43",
+    "index": 3907,
+    "memberCount": 1
+  },
+  {
+    "root": "4839_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 61,
+    "owner": 23,
+    "template": "80B08F44",
+    "index": 3908,
+    "memberCount": 1
+  },
+  {
+    "root": "4840_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 63,
+    "owner": 23,
+    "template": "80B08F45",
+    "index": 3909,
+    "memberCount": 1
+  },
+  {
+    "root": "4841_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 65,
+    "owner": 23,
+    "template": "80B08F46",
+    "index": 3910,
+    "memberCount": 1
+  },
+  {
+    "root": "4842_808004c5_t16_s0.bin",
+    "bundle": "29585157",
+    "squad": 67,
+    "owner": 23,
+    "template": "80B08F47",
+    "index": 3911,
+    "memberCount": 1
+  }
+]

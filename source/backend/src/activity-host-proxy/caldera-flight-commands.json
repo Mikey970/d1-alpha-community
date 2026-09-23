@@ -1,0 +1,654 @@
+{
+  "source": "runtime\\analysis-venus-mission-20260905\\host\\179_808004c5_t16_s0.bin",
+  "sha256": "a6aa4e5a808bc56343267c22abc23facdca491f5f0e82ac54ed51e04a164c558",
+  "paths": [
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 275
+      },
+      "componentOffset": "0x823c0",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83c24",
+          "payloadHex": "b63afda3370001130000000001000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 275
+          },
+          "pointIndex": 0,
+          "flag": true
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83c40",
+          "payloadHex": "b63afda3370001130000000101000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 275
+          },
+          "pointIndex": 1,
+          "flag": true
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[0].cps_event_dropship_to_pt"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 299
+      },
+      "componentOffset": "0x8261c",
+      "commands": [
+        {
+          "type": 0,
+          "schema": "80800692",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83ef4",
+          "payloadHex": "b63afda33700012b00000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 299
+          },
+          "pointIndex": 0
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83f0c",
+          "payloadHex": "07ebf3544b6a2c60811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83f2c",
+          "payloadHex": "b63afda33700012b0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 299
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83f48",
+          "payloadHex": "b63afda33700012b0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 299
+          },
+          "pointIndex": 1,
+          "flag": false
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[0].cps_dropship_point_enter"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 298
+      },
+      "componentOffset": "0x82658",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83f9c",
+          "payloadHex": "b63afda33700012a0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 298
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83fb8",
+          "payloadHex": "b63afda33700012a0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 298
+          },
+          "pointIndex": 1,
+          "flag": false
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x83fd4",
+          "payloadHex": "07ebf3547d0d39a9811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[0].cps_dropship_point_exit"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 301
+      },
+      "componentOffset": "0x829a8",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84254",
+          "payloadHex": "b63afda33700012d0000000001000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 301
+          },
+          "pointIndex": 0,
+          "flag": true
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84270",
+          "payloadHex": "b63afda33700012d0000000101000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 301
+          },
+          "pointIndex": 1,
+          "flag": true
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[1].cps_event_dropship_to_pt"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 330
+      },
+      "componentOffset": "0x82c04",
+      "commands": [
+        {
+          "type": 0,
+          "schema": "80800692",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x846b4",
+          "payloadHex": "b63afda33700014a00000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 330
+          },
+          "pointIndex": 0
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x846cc",
+          "payloadHex": "07ebf3544b6a2c60811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x846ec",
+          "payloadHex": "b63afda33700014a0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 330
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84708",
+          "payloadHex": "b63afda33700014a0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 330
+          },
+          "pointIndex": 1,
+          "flag": false
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[1].cps_dropship_point_enter"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 329
+      },
+      "componentOffset": "0x82c40",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x8475c",
+          "payloadHex": "b63afda3370001490000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 329
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84778",
+          "payloadHex": "b63afda3370001490000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 329
+          },
+          "pointIndex": 1,
+          "flag": false
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84794",
+          "payloadHex": "07ebf3547d0d39a9811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[1].cps_dropship_point_exit"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 332
+      },
+      "componentOffset": "0x82f90",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84a24",
+          "payloadHex": "b63afda33700014c0000000001000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 332
+          },
+          "pointIndex": 0,
+          "flag": true
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84a40",
+          "payloadHex": "b63afda33700014c0000000101000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 332
+          },
+          "pointIndex": 1,
+          "flag": true
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[2].cps_event_dropship_to_pt"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 363
+      },
+      "componentOffset": "0x831ec",
+      "commands": [
+        {
+          "type": 0,
+          "schema": "80800692",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84f24",
+          "payloadHex": "b63afda33700016b00000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 363
+          },
+          "pointIndex": 0
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84f3c",
+          "payloadHex": "07ebf3544b6a2c60811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84f5c",
+          "payloadHex": "b63afda33700016b0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 363
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84f78",
+          "payloadHex": "b63afda33700016b0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 363
+          },
+          "pointIndex": 1,
+          "flag": false
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[2].cps_dropship_point_enter"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 362
+      },
+      "componentOffset": "0x83228",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84fcc",
+          "payloadHex": "b63afda33700016a0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 362
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x84fe8",
+          "payloadHex": "b63afda33700016a0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 362
+          },
+          "pointIndex": 1,
+          "flag": false
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x85004",
+          "payloadHex": "07ebf3547d0d39a9811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[2].cps_dropship_point_exit"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 365
+      },
+      "componentOffset": "0x83578",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x85294",
+          "payloadHex": "b63afda33700016d0000000001000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 365
+          },
+          "pointIndex": 0,
+          "flag": true
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x852b0",
+          "payloadHex": "b63afda33700016d0000000101000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 365
+          },
+          "pointIndex": 1,
+          "flag": true
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[3].cps_event_dropship_to_pt"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 396
+      },
+      "componentOffset": "0x837d4",
+      "commands": [
+        {
+          "type": 0,
+          "schema": "80800692",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x85794",
+          "payloadHex": "b63afda33700018c00000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 396
+          },
+          "pointIndex": 0
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x857ac",
+          "payloadHex": "07ebf3544b6a2c60811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x857cc",
+          "payloadHex": "b63afda33700018c0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 396
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x857e8",
+          "payloadHex": "b63afda33700018c0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 396
+          },
+          "pointIndex": 1,
+          "flag": false
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[3].cps_dropship_point_enter"
+    },
+    {
+      "reference": {
+        "bundle": "B63AFDA3",
+        "type": 55,
+        "index": 395
+      },
+      "componentOffset": "0x83810",
+      "commands": [
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x8583c",
+          "payloadHex": "b63afda33700018b0000000000000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 395
+          },
+          "pointIndex": 0,
+          "flag": false
+        },
+        {
+          "type": 3,
+          "schema": "80800697",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x85858",
+          "payloadHex": "b63afda33700018b0000000100000000",
+          "modePayloadHex": "",
+          "reference": {
+            "bundle": "B63AFDA3",
+            "type": 55,
+            "index": 395
+          },
+          "pointIndex": 1,
+          "flag": false
+        },
+        {
+          "type": 9,
+          "schema": "8080069B",
+          "mode": 0,
+          "modeSchema": "80800686",
+          "payloadOffset": "0x85874",
+          "payloadHex": "07ebf3547d0d39a9811c9dc5ff00ffffff000000",
+          "modePayloadHex": ""
+        }
+      ],
+      "name": "pf_event_dropship_multipoint_fallen_temp[0].pf_event_dropship_point[3].cps_dropship_point_exit"
+    }
+  ]
+}

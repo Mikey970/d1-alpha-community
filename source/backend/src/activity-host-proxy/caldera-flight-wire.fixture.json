@@ -1,0 +1,74 @@
+[
+  {
+    "path": 275,
+    "cookie": 1,
+    "bitCount": 194,
+    "hex": "264000000080151b63afda3e2044c0346d8ebf68f881130180"
+  },
+  {
+    "path": 299,
+    "cookie": 1,
+    "bitCount": 399,
+    "hex": "264000000080245b63afda3e204ac03483f5f9aa25b51630408e4ee280fffe2028db1d7ed1f1025600a36c75fb47c4095808"
+  },
+  {
+    "path": 298,
+    "cookie": 1,
+    "bitCount": 330,
+    "hex": "2640000000801d1b63afda3e204a80146d8ebf68f8812a016907ebf3547d0d39a9811c9dc501fffc4000"
+  },
+  {
+    "path": 301,
+    "cookie": 1,
+    "bitCount": 194,
+    "hex": "264000000080151b63afda3e204b40346d8ebf68f8812d0180"
+  },
+  {
+    "path": 330,
+    "cookie": 1,
+    "bitCount": 399,
+    "hex": "264000000080245b63afda3e2052803483f5f9aa25b51630408e4ee280fffe2028db1d7ed1f1029400a36c75fb47c40a5008"
+  },
+  {
+    "path": 329,
+    "cookie": 1,
+    "bitCount": 330,
+    "hex": "2640000000801d1b63afda3e205240146d8ebf68f88149016907ebf3547d0d39a9811c9dc501fffc4000"
+  },
+  {
+    "path": 332,
+    "cookie": 1,
+    "bitCount": 194,
+    "hex": "264000000080151b63afda3e205300346d8ebf68f8814c0180"
+  },
+  {
+    "path": 363,
+    "cookie": 1,
+    "bitCount": 399,
+    "hex": "264000000080245b63afda3e205ac03483f5f9aa25b51630408e4ee280fffe2028db1d7ed1f102d600a36c75fb47c40b5808"
+  },
+  {
+    "path": 362,
+    "cookie": 1,
+    "bitCount": 330,
+    "hex": "2640000000801d1b63afda3e205a80146d8ebf68f8816a016907ebf3547d0d39a9811c9dc501fffc4000"
+  },
+  {
+    "path": 365,
+    "cookie": 1,
+    "bitCount": 194,
+    "hex": "264000000080151b63afda3e205b40346d8ebf68f8816d0180"
+  },
+  {
+    "path": 396,
+    "cookie": 1,
+    "bitCount": 399,
+    "hex": "264000000080245b63afda3e2063003483f5f9aa25b51630408e4ee280fffe2028db1d7ed1f1031800a36c75fb47c40c6008"
+  },
+  {
+    "path": 395,
+    "cookie": 1,
+    "bitCount": 330,
+    "hex": "2640000000801d1b63afda3e2062c0146d8ebf68f8818b016907ebf3547d0d39a9811c9dc501fffc4000"
+  }
+]

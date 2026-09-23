@@ -1,0 +1,31 @@
+import {afterEach,expect,it,vi} from 'vitest';
+import {BitReader} from '@blamnetwork/rsat';
+import {readFileSync} from 'node:fs';
+import {RaidPreview} from './raid-preview';
+import {parseClientAuth} from './client-auth';
+import {buildRaidEntranceEntries,buildRaidEntranceObject} from './rsat/mocks/sensor-auth';
+import {SquadAuth} from './rsat/schemas/sensor';
+afterEach(()=>vi.unstubAllEnvs());
+it('requires opt-in and exact native insertion acknowledgment',()=>{
+  vi.stubEnv('D1A_OUTRO_PREVIEW','');expect(new RaidPreview().begin('city_tower_default1',3)).toBe(false);
+  vi.stubEnv('D1A_OUTRO_PREVIEW','1');const r=new RaidPreview();
+  expect(r.begin('venus_portal_1',3)).toBe(false);
+  expect(r.begin('city_tower_default1',29)).toBe(false);
+  expect(r.begin('city_tower_default1',3)).toBe(true);
+  expect(r.assignedBubble).toBe(1);
+  expect(r.observeTeleport({state:3,request:{a:7,b:8,c:0,d:0}})).toBe(false);
+  expect(r.observeTeleport({state:3,request:{a:7,b:8,c:0x2ea8fb98,d:0}})).toBe(true);
+  expect(r.membershipRequest()?.completed).toBe(true);
+  r.observeOccupied(17);expect(r.assignedBubble).toBe(1);
+  r.observeOccupied(1);expect(r.assignedBubble).toBeUndefined();
+  expect(r.begin('city_tower_default1',3)).toBe(false);
+});
+it('adopts the native outro request token instead of retaining the initial token',()=>{
+  vi.stubEnv('D1A_OUTRO_PREVIEW','1');const r=new RaidPreview();
+  const raw=Buffer.from('b7fffffff7fffffff400010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0000004400000042000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004baa3ee62070700','hex');
+  const native=parseClientAuth(raw)!;
+  expect(r.requestedBubble(native.transition)).toBeUndefined();
+  r.begin('city_tower_default1',3);
+  expect(native.transition?.kind).toBe(3);
+  expect(r.requestedBubble(native.transition)).toBe(1);
+});

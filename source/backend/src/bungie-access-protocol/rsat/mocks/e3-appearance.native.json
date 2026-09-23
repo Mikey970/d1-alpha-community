@@ -1,0 +1,634 @@
+[
+  {
+    "index": 18,
+    "class": 3,
+    "gender": 0,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 721,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 722,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 723,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 724,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 19,
+    "class": 3,
+    "gender": 0,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 721,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 722,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 723,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 724,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1670
+          },
+          {
+            "channel": 1,
+            "index": 1680
+          },
+          {
+            "channel": 2,
+            "index": 1690
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "class": 2,
+    "gender": 1,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 725,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 726,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 727,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 728,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 21,
+    "class": 1,
+    "gender": 0,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 729,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 730,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 731,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 732,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1672
+          },
+          {
+            "channel": 1,
+            "index": 1682
+          },
+          {
+            "channel": 2,
+            "index": 1692
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "class": 3,
+    "gender": 0,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 721,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1673
+          },
+          {
+            "channel": 1,
+            "index": 1683
+          },
+          {
+            "channel": 2,
+            "index": 1693
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 722,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1673
+          },
+          {
+            "channel": 1,
+            "index": 1683
+          },
+          {
+            "channel": 2,
+            "index": 1693
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 723,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1673
+          },
+          {
+            "channel": 1,
+            "index": 1683
+          },
+          {
+            "channel": 2,
+            "index": 1693
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 724,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1673
+          },
+          {
+            "channel": 1,
+            "index": 1683
+          },
+          {
+            "channel": 2,
+            "index": 1693
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "class": 3,
+    "gender": 1,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 733,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1674
+          },
+          {
+            "channel": 1,
+            "index": 1684
+          },
+          {
+            "channel": 2,
+            "index": 1694
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 734,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1674
+          },
+          {
+            "channel": 1,
+            "index": 1684
+          },
+          {
+            "channel": 2,
+            "index": 1694
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 735,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1674
+          },
+          {
+            "channel": 1,
+            "index": 1684
+          },
+          {
+            "channel": 2,
+            "index": 1694
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 736,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1674
+          },
+          {
+            "channel": 1,
+            "index": 1684
+          },
+          {
+            "channel": 2,
+            "index": 1694
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "class": 1,
+    "gender": 1,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 737,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1675
+          },
+          {
+            "channel": 1,
+            "index": 1685
+          },
+          {
+            "channel": 2,
+            "index": 1695
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 738,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1675
+          },
+          {
+            "channel": 1,
+            "index": 1685
+          },
+          {
+            "channel": 2,
+            "index": 1695
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 739,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1675
+          },
+          {
+            "channel": 1,
+            "index": 1685
+          },
+          {
+            "channel": 2,
+            "index": 1695
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 740,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1675
+          },
+          {
+            "channel": 1,
+            "index": 1685
+          },
+          {
+            "channel": 2,
+            "index": 1695
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "class": 2,
+    "gender": 0,
+    "armor": [
+      {
+        "slot": 2,
+        "art": 741,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1676
+          },
+          {
+            "channel": 1,
+            "index": 1686
+          },
+          {
+            "channel": 2,
+            "index": 1696
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "art": 742,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1676
+          },
+          {
+            "channel": 1,
+            "index": 1686
+          },
+          {
+            "channel": 2,
+            "index": 1696
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "art": 743,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1676
+          },
+          {
+            "channel": 1,
+            "index": 1686
+          },
+          {
+            "channel": 2,
+            "index": 1696
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "art": 744,
+        "dyes": [
+          {
+            "channel": 0,
+            "index": 1676
+          },
+          {
+            "channel": 1,
+            "index": 1686
+          },
+          {
+            "channel": 2,
+            "index": 1696
+          }
+        ]
+      }
+    ]
+  }
+]

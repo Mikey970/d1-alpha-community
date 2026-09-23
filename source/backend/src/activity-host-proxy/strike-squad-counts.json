@@ -1,0 +1,474 @@
+[
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 1,
+    "memberCount": 1,
+    "template": "80B08E04",
+    "clientResource": "4485_808004c5_t16_s0.bin",
+    "templateResource": "3588_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 2,
+    "memberCount": 1,
+    "template": "80B08E05",
+    "clientResource": "4486_808004c5_t16_s0.bin",
+    "templateResource": "3589_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 3,
+    "memberCount": 1,
+    "template": "80B08E06",
+    "clientResource": "4487_808004c5_t16_s0.bin",
+    "templateResource": "3590_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 4,
+    "memberCount": 1,
+    "template": "80B08E07",
+    "clientResource": "4488_808004c5_t16_s0.bin",
+    "templateResource": "3591_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 5,
+    "memberCount": 1,
+    "template": "80B08E08",
+    "clientResource": "4489_808004c5_t16_s0.bin",
+    "templateResource": "3592_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 6,
+    "memberCount": 1,
+    "template": "80B08E09",
+    "clientResource": "4490_808004c5_t16_s0.bin",
+    "templateResource": "3593_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 7,
+    "memberCount": 1,
+    "template": "80B08E0A",
+    "clientResource": "4491_808004c5_t16_s0.bin",
+    "templateResource": "3594_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 8,
+    "memberCount": 1,
+    "template": "80B08E0B",
+    "clientResource": "4492_808004c5_t16_s0.bin",
+    "templateResource": "3595_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 9,
+    "memberCount": 1,
+    "template": "80B08E0C",
+    "clientResource": "4493_808004c5_t16_s0.bin",
+    "templateResource": "3596_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 10,
+    "memberCount": 2,
+    "template": "80B08E0D",
+    "clientResource": "4494_808004c5_t16_s0.bin",
+    "templateResource": "3597_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 11,
+    "memberCount": 1,
+    "template": "80B08E0E",
+    "clientResource": "4495_808004c5_t16_s0.bin",
+    "templateResource": "3598_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "5DE7D8E2",
+    "squad": 12,
+    "memberCount": 1,
+    "template": "80B08E0F",
+    "clientResource": "4496_808004c5_t16_s0.bin",
+    "templateResource": "3599_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 2,
+    "memberCount": 2,
+    "template": "80B08E10",
+    "clientResource": "4506_808004c5_t16_s0.bin",
+    "templateResource": "3600_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 3,
+    "memberCount": 2,
+    "template": "80B08E11",
+    "clientResource": "4507_808004c5_t16_s0.bin",
+    "templateResource": "3601_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 4,
+    "memberCount": 3,
+    "template": "80B08E12",
+    "clientResource": "4508_808004c5_t16_s0.bin",
+    "templateResource": "3602_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 5,
+    "memberCount": 4,
+    "template": "80B08E13",
+    "clientResource": "4509_808004c5_t16_s0.bin",
+    "templateResource": "3603_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 6,
+    "memberCount": 4,
+    "template": "80B08E14",
+    "clientResource": "4510_808004c5_t16_s0.bin",
+    "templateResource": "3604_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 7,
+    "memberCount": 4,
+    "template": "80B08E15",
+    "clientResource": "4511_808004c5_t16_s0.bin",
+    "templateResource": "3605_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 8,
+    "memberCount": 3,
+    "template": "80B08E16",
+    "clientResource": "4512_808004c5_t16_s0.bin",
+    "templateResource": "3606_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 9,
+    "memberCount": 2,
+    "template": "80B08E17",
+    "clientResource": "4513_808004c5_t16_s0.bin",
+    "templateResource": "3607_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 10,
+    "memberCount": 3,
+    "template": "80B08E18",
+    "clientResource": "4514_808004c5_t16_s0.bin",
+    "templateResource": "3608_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 11,
+    "memberCount": 2,
+    "template": "80B08E19",
+    "clientResource": "4515_808004c5_t16_s0.bin",
+    "templateResource": "3609_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 12,
+    "memberCount": 2,
+    "template": "80B08E1A",
+    "clientResource": "4516_808004c5_t16_s0.bin",
+    "templateResource": "3610_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 13,
+    "memberCount": 1,
+    "template": "80B08E1B",
+    "clientResource": "4517_808004c5_t16_s0.bin",
+    "templateResource": "3611_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 14,
+    "memberCount": 1,
+    "template": "80B08E1C",
+    "clientResource": "4518_808004c5_t16_s0.bin",
+    "templateResource": "3612_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 15,
+    "memberCount": 1,
+    "template": "80B08E1D",
+    "clientResource": "4519_808004c5_t16_s0.bin",
+    "templateResource": "3613_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 16,
+    "memberCount": 1,
+    "template": "80B08E1E",
+    "clientResource": "4520_808004c5_t16_s0.bin",
+    "templateResource": "3614_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 17,
+    "memberCount": 1,
+    "template": "80B08E1F",
+    "clientResource": "4521_808004c5_t16_s0.bin",
+    "templateResource": "3615_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 18,
+    "memberCount": 1,
+    "template": "80B08E20",
+    "clientResource": "4522_808004c5_t16_s0.bin",
+    "templateResource": "3616_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 19,
+    "memberCount": 1,
+    "template": "80B08E21",
+    "clientResource": "4523_808004c5_t16_s0.bin",
+    "templateResource": "3617_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 20,
+    "memberCount": 1,
+    "template": "80B08E22",
+    "clientResource": "4524_808004c5_t16_s0.bin",
+    "templateResource": "3618_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 1,
+    "memberCount": 1,
+    "template": "80B08E23",
+    "clientResource": "4525_808004c5_t16_s0.bin",
+    "templateResource": "3619_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 2,
+    "memberCount": 1,
+    "template": "80B08E24",
+    "clientResource": "4526_808004c5_t16_s0.bin",
+    "templateResource": "3620_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 3,
+    "memberCount": 1,
+    "template": "80B08E25",
+    "clientResource": "4527_808004c5_t16_s0.bin",
+    "templateResource": "3621_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "97438D09",
+    "squad": 4,
+    "memberCount": 1,
+    "template": "80B08E26",
+    "clientResource": "4528_808004c5_t16_s0.bin",
+    "templateResource": "3622_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 39,
+    "memberCount": 1,
+    "template": "80B08E27",
+    "clientResource": "4541_808004c5_t16_s0.bin",
+    "templateResource": "3623_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 41,
+    "memberCount": 1,
+    "template": "80B08E28",
+    "clientResource": "4542_808004c5_t16_s0.bin",
+    "templateResource": "3624_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 43,
+    "memberCount": 1,
+    "template": "80B08E29",
+    "clientResource": "4543_808004c5_t16_s0.bin",
+    "templateResource": "3625_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 45,
+    "memberCount": 1,
+    "template": "80B08E2A",
+    "clientResource": "4544_808004c5_t16_s0.bin",
+    "templateResource": "3626_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 47,
+    "memberCount": 1,
+    "template": "80B08E2B",
+    "clientResource": "4577_808004c5_t16_s0.bin",
+    "templateResource": "3627_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 48,
+    "memberCount": 1,
+    "template": "80B08E2C",
+    "clientResource": "4578_808004c5_t16_s0.bin",
+    "templateResource": "3628_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 49,
+    "memberCount": 1,
+    "template": "80B08E2D",
+    "clientResource": "4579_808004c5_t16_s0.bin",
+    "templateResource": "3629_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 50,
+    "memberCount": 1,
+    "template": "80B08E2E",
+    "clientResource": "4580_808004c5_t16_s0.bin",
+    "templateResource": "3630_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 51,
+    "memberCount": 1,
+    "template": "80B08E2F",
+    "clientResource": "4581_808004c5_t16_s0.bin",
+    "templateResource": "3631_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 52,
+    "memberCount": 1,
+    "template": "80B08E30",
+    "clientResource": "4582_808004c5_t16_s0.bin",
+    "templateResource": "3632_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 53,
+    "memberCount": 3,
+    "template": "80B08E31",
+    "clientResource": "4583_808004c5_t16_s0.bin",
+    "templateResource": "3633_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 54,
+    "memberCount": 1,
+    "template": "80B08E32",
+    "clientResource": "4584_808004c5_t16_s0.bin",
+    "templateResource": "3634_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 55,
+    "memberCount": 1,
+    "template": "80B08E33",
+    "clientResource": "4585_808004c5_t16_s0.bin",
+    "templateResource": "3635_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 56,
+    "memberCount": 1,
+    "template": "80B08E34",
+    "clientResource": "4586_808004c5_t16_s0.bin",
+    "templateResource": "3636_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 57,
+    "memberCount": 1,
+    "template": "80B08E35",
+    "clientResource": "4587_808004c5_t16_s0.bin",
+    "templateResource": "3637_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 58,
+    "memberCount": 1,
+    "template": "80B08E36",
+    "clientResource": "4588_808004c5_t16_s0.bin",
+    "templateResource": "3638_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 59,
+    "memberCount": 1,
+    "template": "80B08E37",
+    "clientResource": "4589_808004c5_t16_s0.bin",
+    "templateResource": "3639_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 60,
+    "memberCount": 1,
+    "template": "80B08E38",
+    "clientResource": "4590_808004c5_t16_s0.bin",
+    "templateResource": "3640_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 61,
+    "memberCount": 1,
+    "template": "80B08E39",
+    "clientResource": "4591_808004c5_t16_s0.bin",
+    "templateResource": "3641_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "0A302429",
+    "squad": 62,
+    "memberCount": 1,
+    "template": "80B08E3A",
+    "clientResource": "4592_808004c5_t16_s0.bin",
+    "templateResource": "3642_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 1,
+    "memberCount": 1,
+    "template": "80B08E3B",
+    "clientResource": "4593_808004c5_t16_s0.bin",
+    "templateResource": "3643_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 2,
+    "memberCount": 1,
+    "template": "80B08E3C",
+    "clientResource": "4594_808004c5_t16_s0.bin",
+    "templateResource": "3644_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 3,
+    "memberCount": 1,
+    "template": "80B08E3D",
+    "clientResource": "4595_808004c5_t16_s0.bin",
+    "templateResource": "3645_80801603_t16_s0.bin"
+  },
+  {
+    "bundle": "9CF47AD5",
+    "squad": 4,
+    "memberCount": 1,
+    "template": "80B08E3E",
+    "clientResource": "4596_808004c5_t16_s0.bin",
+    "templateResource": "3646_80801603_t16_s0.bin"
+  }
+]

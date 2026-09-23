@@ -8,10 +8,10 @@ everything is included except the base game download. no extra emulator, server 
 
 setup handles extracting the game, applying the included patches, emulator changes, server setup and character profiles. leave the base download unchanged. you don't need to rename files or edit configs.
 
-first boot: create your own local profile when Xenia asks. choose destinations in the in-game Director. use Settings in the launcher to change graphics, sound and keyboard controls. an Xbox controller is the easiest option.
+first boot: create your own local profile when Xenia asks. if the game reports Signed Out during first load, use Stop game and Play again. choose destinations in the in-game Director. use Settings in the launcher to change graphics, sound and keyboard controls. an Xbox controller is the easiest option.
 
 keyboard: WASD to move, arrows to look, ; to confirm, ' to go back, E to fire, Q to aim, L to reload, P to switch weapons, X for the menu and Z for Ghost. hold P with Ghost open to return to Orbit.
 
 needs Windows 10/11 x64, an AVX-capable CPU, a DirectX 12 GPU and around 25 GB free. setup checks the basics. keep your graphics driver up to date.
 
-still a test build. the fresh candidate 32 install reached character selection but stayed on its loading spinner in the bounded gameplay check. movement and combat were not confirmed in that install. if this happens, use Stop game in the launcher. full activities, dialogue and match completion also remain unverified. saves stay in the install folder; keep your old install when updating.
+still a test build. the fresh candidate 32 install passed a bounded native Hunter login, Orbit, Venus Patrol, movement, firing and reload check. that run used a local Xenia profile and a temporary lower free-space reserve on the QA copy because the test PC had under 20 GB free; the published ZIP was unchanged. full activities, dialogue and match completion remain unverified. saves stay in the install folder; keep your old install when updating.

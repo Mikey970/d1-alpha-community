@@ -16,11 +16,20 @@ VSync and a D-pad binding remained after rechecking. A local profile account and
 savegame kept their hashes after the post-run check. Seven focused package tests
 passed, including corruption rejection in a disposable fixture.
 
-One bounded native run opened Xenia and connected to the local server. The 60-minute
-setting reached the launch receipt. A new local profile displayed the Hunter on the
-character screen, but a spinner persisted and the run did not reach movement or
-combat. Stop removed the exact owned game, API and backend processes. This fresh
-install is therefore **not gameplay-verified**. Earlier selected-destination gameplay
-tests on the accepted runtime do not establish this package's gameplay acceptance.
-Full missions, dialogue, PvP matches, multiplayer, every destination and a second
-PC installation remain unverified.
+The first bounded native run opened Xenia and connected to the local server. The
+60-minute setting reached the launch receipt. It stopped at the Hunter roster
+because the white ring, which is the native selection cursor, had not been moved
+onto a card. A later run selected Hunter with the shipped keyboard mapping,
+reached Orbit, selected Venus Patrol in the native Director, and rendered a
+first-person scene. Movement changed the view, firing reduced visible ammo from
+24 to 21, and reload restored it to 24. The launcher stopped its exact owned
+game, API and backend processes. A post-run `--check-installed` passed.
+
+For this gameplay run, a new local Xenia profile was loaded at boot. The PC had
+18.4 GiB free, below the launcher's 20 GiB reserve, so the extracted QA copy's
+launch script used an 18 GiB reserve for this one run. The local script and Xenia
+config were restored afterward. The ZIP, game, emulator and backend bytes were
+unchanged. This verifies the tested native gameplay path with local QA settings;
+the normal free-space gate could not pass on this PC at that time. Full missions,
+dialogue, PvP matches, multiplayer, every destination and a second PC installation
+remain unverified.

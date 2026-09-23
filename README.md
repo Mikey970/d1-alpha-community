@@ -14,4 +14,4 @@ keyboard: WASD to move, arrows to look, ; to confirm, ' to go back, E to fire, Q
 
 needs Windows 10/11 x64, an AVX-capable CPU, a DirectX 12 GPU and around 25 GB free. setup checks the basics. keep your graphics driver up to date.
 
-still a test build. the fresh candidate 32 install passed a bounded native Hunter login, Orbit, Venus Patrol, movement, firing and reload check. that run used a local Xenia profile and a temporary lower free-space reserve on the QA copy because the test PC had under 20 GB free; the published ZIP was unchanged. full activities, dialogue and match completion remain unverified. saves stay in the install folder; keep your old install when updating.
+still a test build. the fresh candidate 32 install passed a bounded native Hunter login, Orbit, Venus Patrol, movement, firing and reload check with the packaged 20 GiB free-space reserve. the run used a new local Xenia profile loaded at boot; the published ZIP was unchanged. full activities, dialogue and match completion remain unverified. saves stay in the install folder; keep your old install when updating.

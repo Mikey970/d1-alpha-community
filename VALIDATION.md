@@ -22,14 +22,14 @@ because the white ring, which is the native selection cursor, had not been moved
 onto a card. A later run selected Hunter with the shipped keyboard mapping,
 reached Orbit, selected Venus Patrol in the native Director, and rendered a
 first-person scene. Movement changed the view, firing reduced visible ammo from
-24 to 21, and reload restored it to 24. The launcher stopped its exact owned
+24 to 15, and reload restored it to 24. The launcher stopped its exact owned
 game, API and backend processes. A post-run `--check-installed` passed.
 
-For this gameplay run, a new local Xenia profile was loaded at boot. The PC had
-18.4 GiB free, below the launcher's 20 GiB reserve, so the extracted QA copy's
-launch script used an 18 GiB reserve for this one run. The local script and Xenia
-config were restored afterward. The ZIP, game, emulator and backend bytes were
-unchanged. This verifies the tested native gameplay path with local QA settings;
-the normal free-space gate could not pass on this PC at that time. Full missions,
-dialogue, PvP matches, multiplayer, every destination and a second PC installation
-remain unverified.
+The first gameplay run used a new local Xenia profile loaded at boot. Because the
+PC initially had 18.4 GiB free, that diagnostic run used an 18 GiB reserve in
+the extracted QA script. After reversible compression of a disposable earlier
+QA copy recovered space, a second run passed the packaged 20 GiB reserve and
+repeated Hunter login, Orbit, Venus Patrol, movement, firing and reload. The
+local Xenia config was restored after stopping. The ZIP, game, emulator and
+backend bytes were unchanged. Full missions, dialogue, PvP matches, multiplayer,
+every destination and a second PC installation remain unverified.
